@@ -9,6 +9,7 @@ import { useI18n } from "@/i18n/I18nProvider";
 import { useStore } from "@/lib/store";
 import { SecretMeter } from "@/components/SecretMeter";
 import { WeatherWidget } from "@/components/WeatherWidget";
+import { ShareCardButton } from "@/components/ShareCardButton";
 import type { DictKey } from "@/i18n/dictionaries";
 
 export function PlaceDetail({ id }: { id: string }) {
@@ -162,6 +163,8 @@ export function PlaceDetail({ id }: { id: string }) {
               ✕
             </button>
           </div>
+
+          <ShareCardButton d={d} secret={secret} />
 
           <WeatherWidget lat={d.lat} lng={d.lng} />
 

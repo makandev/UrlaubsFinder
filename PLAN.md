@@ -11,7 +11,7 @@ Legende: ⬜ offen · 🔄 in Arbeit · ✅ fertig
 - ✅ **M4** — Implizites Lernen: Speichern zieht Profil hin, „Nichts für mich" weg; Panel zieht nach (Explore-Quote folgt in M5)
 - ✅ **M5** — „Nie leer"-Motor: Perspektiven-Engine (7 Blickwinkel aus Daten) + „Überrasch mich" (Explore) · browsergetestet
 - ✅ **M6** — Europa-Karte (projizierte Pins, Größe = Geheimtipp-Grad) + Vergleichstabelle in der Merkliste · browsergetestet
-- ⬜ **M7** — Teilbare Bildkarten (Design-Vorlagen → PNG-Download, Akzentfarbe aus Motiv)
+- ✅ **M7** — Teilbare Bildkarte (Canvas 1080×1350 → PNG-Download, Vorschau-Modal) · browsergetestet, Profi-Optik
 - ⬜ **M8** — Lebender Plan (light) + Coach-Anstöße + Onboarding
 - ⬜ **M9** — SEO-Ortsseiten (datenverankert) + Sitemap/Metadaten/robots
 - ⬜ **M10** — Insider-Chat: UI + regelbasierte Engine, KI-bereit (Schlüssel per env)
