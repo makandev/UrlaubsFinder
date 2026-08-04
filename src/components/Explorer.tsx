@@ -1,6 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import { useRouter } from "next/navigation";
 import { destinations } from "@/data/destinations";
 import { computeSecretScore, computeMatch } from "@/lib/scoring";
 import type { Climate, RegionKey } from "@/lib/types";
@@ -26,6 +27,7 @@ const CLIMATES: Climate[] = ["warm", "mild", "kuehl"];
 export function Explorer() {
   const { t } = useI18n();
   const store = useStore();
+  const router = useRouter();
 
   const [tab, setTab] = useState<Tab>("discover");
   const [sort, setSort] = useState<SortKey>("secret");
@@ -70,6 +72,13 @@ export function Explorer() {
     setSort(TABS.find((x) => x.key === nt)!.sort);
   };
 
+  const surprise = () => {
+    const pool = destinations.filter((d) => !store.isHidden(d.id));
+    if (pool.length === 0) return;
+    const pick = pool[Math.floor(Math.random() * pool.length)];
+    router.push(`/place/${pick.id}`);
+  };
+
   const topPick = useMemo(
     () => [...scored].sort((a, b) => b.secret - a.secret).find(({ d }) => !store.isHidden(d.id)),
     [scored, store],
@@ -90,7 +99,7 @@ export function Explorer() {
       )}
 
       {/* Tabs */}
-      <div className="flex flex-wrap gap-1.5">
+      <div className="flex flex-wrap items-center gap-1.5">
         {TABS.map((x) => (
           <button
             key={x.key}
@@ -104,6 +113,12 @@ export function Explorer() {
             {t(x.label)}
           </button>
         ))}
+        <button
+          onClick={surprise}
+          className="ml-auto rounded-full border border-dashed border-line px-4 py-2 text-sm font-semibold text-amber transition-colors hover:bg-surface2"
+        >
+          {t("explore.surprise")}
+        </button>
       </div>
 
       <PrefsPanel onApply={() => setSort("match")} />

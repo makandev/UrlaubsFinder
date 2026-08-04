@@ -9,7 +9,7 @@ Legende: ⬜ offen · 🔄 in Arbeit · ✅ fertig
 - ✅ **M2** — Live-Wetter (Open-Meteo, client-seitig, ohne Schlüssel) auf Ortsseiten, mit Fallback
 - ✅ **M3** — Zwei Modi: Ruhig ↔ Profi (Score-Breakdown auf Karten), im Header umschaltbar · browsergetestet
 - ✅ **M4** — Implizites Lernen: Speichern zieht Profil hin, „Nichts für mich" weg; Panel zieht nach (Explore-Quote folgt in M5)
-- ⬜ **M5** — „Nie leer"-Motor: „Zeig mir mehr" mit Perspektiven-Engine
+- ✅ **M5** — „Nie leer"-Motor: Perspektiven-Engine (7 Blickwinkel aus Daten) + „Überrasch mich" (Explore) · browsergetestet
 - ⬜ **M6** — Vergleich mehrerer Orte + einfache Europa-Karte mit Pins
 - ⬜ **M7** — Teilbare Bildkarten (Design-Vorlagen → PNG-Download, Akzentfarbe aus Motiv)
 - ⬜ **M8** — Lebender Plan (light) + Coach-Anstöße + Onboarding

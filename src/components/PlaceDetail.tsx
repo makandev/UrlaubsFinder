@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useMemo, useState } from "react";
 import { destinations } from "@/data/destinations";
 import { computeSecretScore, computeMatch } from "@/lib/scoring";
+import { getPerspectives } from "@/lib/perspectives";
 import { useI18n } from "@/i18n/I18nProvider";
 import { useStore } from "@/lib/store";
 import { SecretMeter } from "@/components/SecretMeter";
@@ -13,11 +14,15 @@ import type { DictKey } from "@/i18n/dictionaries";
 export function PlaceDetail({ id }: { id: string }) {
   const { t, locale } = useI18n();
   const store = useStore();
-  const [deep, setDeep] = useState(false);
+  const [revealed, setRevealed] = useState(1);
 
   const d = useMemo(() => destinations.find((x) => x.id === id), [id]);
   const secret = useMemo(() => (d ? computeSecretScore(d, destinations) : 0), [d]);
   const match = useMemo(() => (d ? computeMatch(d, store.prefs) : 0), [d, store.prefs]);
+  const perspectives = useMemo(
+    () => (d ? getPerspectives(d, destinations, secret, locale) : []),
+    [d, secret, locale],
+  );
 
   if (!d) return null;
 
@@ -96,25 +101,31 @@ export function PlaceDetail({ id }: { id: string }) {
                 </div>
               ))}
             </div>
-            {!deep && (
+            <div className="mt-3 flex flex-col gap-2">
+              {perspectives.slice(0, revealed).map((p) => (
+                <div key={p.title} className="rise rounded-xl border border-line bg-surface p-3">
+                  <p className="mb-0.5 text-sm font-bold">
+                    <span aria-hidden className="mr-1.5">{p.icon}</span>
+                    {p.title}
+                  </p>
+                  <p className="text-sm text-inksoft">{p.text}</p>
+                </div>
+              ))}
+            </div>
+
+            {revealed < perspectives.length ? (
               <button
-                onClick={() => setDeep(true)}
+                onClick={() => setRevealed((r) => r + 1)}
                 className="mt-3 rounded-lg border border-line px-4 py-2 text-sm font-semibold text-teal hover:bg-surface2"
               >
                 + {locale === "de" ? "Zeig mir mehr" : "Show me more"}
               </button>
-            )}
-            {deep && (
-              <div className="mt-3 flex flex-wrap gap-1.5">
-                {d.tags.map((tag) => (
-                  <span
-                    key={tag}
-                    className="rounded-full bg-surface2 px-3 py-1 text-xs font-medium text-inksoft"
-                  >
-                    #{tag}
-                  </span>
-                ))}
-              </div>
+            ) : (
+              <p className="mt-3 text-xs text-inkfaint">
+                {locale === "de"
+                  ? "Noch mehr? Frag den Insider-Profi rechts."
+                  : "Want even more? Ask the insider on the right."}
+              </p>
             )}
           </div>
         </div>
