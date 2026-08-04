@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-sans: "Segoe UI", system-ui, -apple-system, Roboto, sans-serif;
+
+  --ground: 244 246 245;
+  --surface: 255 255 255;
+  --surface-2: 237 241 240;
+  --ink: 22 41 43;
+  --ink-soft: 76 93 95;
+  --ink-faint: 124 140 141;
+  --line: 215 223 221;
+  --teal: 22 115 111;
+  --teal-soft: 225 239 238;
+  --amber: 185 112 31;
+  --good: 46 122 87;
+}
+
+.dark {
+  --ground: 12 23 25;
+  --surface: 18 35 38;
+  --surface-2: 22 44 47;
+  --ink: 233 239 237;
+  --ink-soft: 163 180 178;
+  --ink-faint: 117 135 133;
+  --line: 33 59 58;
+  --teal: 72 178 171;
+  --teal-soft: 21 50 48;
+  --amber: 224 165 82;
+  --good: 84 179 137;
+}
+
+html {
+  font-family: var(--font-sans);
+}
+
+body {
+  background: rgb(var(--ground));
+  color: rgb(var(--ink));
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Range slider styling */
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 6px;
+  border-radius: 999px;
+  background: rgb(var(--surface-2));
+  outline: none;
+}
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: rgb(var(--teal));
+  cursor: pointer;
+  border: 2px solid rgb(var(--surface));
+}
+input[type="range"]::-moz-range-thumb {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: rgb(var(--teal));
+  cursor: pointer;
+  border: 2px solid rgb(var(--surface));
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .rise {
+    animation: rise 0.4s cubic-bezier(0.2, 0.7, 0.3, 1) both;
+  }
+  @keyframes rise {
+    from { opacity: 0; transform: translateY(8px); }
+    to { opacity: 1; transform: none; }
+  }
+}
