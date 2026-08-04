@@ -5,6 +5,7 @@ import { destinations } from "@/data/destinations";
 import { computeSecretScore } from "@/lib/scoring";
 import { useI18n } from "@/i18n/I18nProvider";
 import { useStore } from "@/lib/store";
+import { DataControls } from "@/components/DataControls";
 import type { PlaceStatus } from "@/lib/types";
 
 const byId = new Map(destinations.map((d) => [d.id, d]));
@@ -145,6 +146,8 @@ export default function DashboardPage() {
           </div>
         )}
       </div>
+
+      <DataControls />
     </div>
   );
 }

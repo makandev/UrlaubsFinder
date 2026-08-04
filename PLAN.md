@@ -16,7 +16,7 @@ Legende: ⬜ offen · 🔄 in Arbeit · ✅ fertig
 - ✅ **M9** — SEO: sitemap.xml, robots.txt, Open-Graph + JSON-LD (TouristDestination), server-gerenderter Inhalt · verifiziert
 - ✅ **M10** — Insider-Chat: interaktive Oberfläche + regelbasierte Engine (gegroundet auf Ortsdaten), `askInsider()` KI-bereit · browsergetestet
 - ✅ **M11** — /rechtliches: Impressum (Platzhalter), Datenschutz (lokal-first), Quellen-Attribution (Open-Meteo/OSM/Wikidata), Affiliate-Hinweis + Footer-Links
-- ⬜ **M12** — Konto: lokal-first bleibt; Export/Import + saubere Abstraktion für späteres Backend
+- ✅ **M12** — Konto lokal-first: Daten-Export (JSON), Import & „Alles zurücksetzen" in der Merkliste · browsergetestet
 - ⬜ **M13** — Politur, Barrierefreiheit, Tests, Build-Check
 
 ## Fortschritts-Log
