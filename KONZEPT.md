@@ -1,6 +1,6 @@
 # UrlaubsCoach — Konzept
 
-**Stand:** 4. August 2026 · Entwurf v0.2
+**Stand:** 4. August 2026 · Entwurf v0.3
 **Was das ist:** Der A-bis-Z-Plan für deinen persönlichen Reise-Coach. Kein fertiger Plan — ein Entwurf zum Draufreagieren. Für jeden Block gibt es einen Vorschlag; du sagst nur „passt" oder „ändern".
 
 ---
@@ -9,9 +9,11 @@
 
 Ein **persönlicher Reise-Coach als Web-App**, der dich Schritt für Schritt zu deinem perfekten Urlaubsort führt, aus jeder deiner Reaktionen lernt, beliebig tief ins Detail geht, fertige Vorschläge im Dashboard speichert — und mit der Zeit zu einem „Reise-Wikipedia" für jedes Land und jede Stadt wächst.
 
-## Der rote Faden: alles flexibel
+## Zwei Leitprinzipien
 
-Dein wichtigster Wunsch, der sich durch das ganze Konzept zieht: **nichts ist in Stein gemeißelt.** Ton, Funktionen, Detailtiefe, wie oft der Coach sich meldet — überall drehst du an Reglern und schaltest um, statt dich einmal festzulegen.
+**1. Alles flexibel.** Dein wichtigster Wunsch, der sich durch das ganze Konzept zieht: **nichts ist in Stein gemeißelt.** Ton, Funktionen, Detailtiefe, wie oft der Coach sich meldet — überall drehst du an Reglern und schaltest um, statt dich einmal festzulegen.
+
+**2. Alles auf Profi-Niveau.** Die App wird durchgehend auf professionellem Niveau gedacht — keine halben Sachen. Das heißt konkret: sauberes, hochwertiges Design; Inhalte sorgfältig sortiert und perfekt ansehbar; jede Zusammenfassung sieht aus wie von einem Profi gestaltet; teilbare Ansichten in Präsentationsqualität. Dieser Anspruch gilt für jeden einzelnen Baustein unten.
 
 ---
 
@@ -71,6 +73,8 @@ Blickwinkel, aus denen „mehr" immer schöpfen kann: Wetter & Klima · Kosten i
 
 ⇄ *Umschaltbar — Schalter „knapp ↔ ausführlich" regelt, wie viel sofort erscheint.*
 
+**Ort-Chat:** Zu jedem Ort öffnest du einen eigenen Chat und fragst *alles* — „Wie ist der November dort?", „Familienfreundlich?", „Wo esse ich am besten?", „Zeig mir das ruhigste Viertel." Der Coach kennt in diesem Chat den kompletten Kontext genau dieses Ortes und antwortet gezielt. So verbindet sich das „aktiv chatten" mit dem „alles wissen".
+
 ### E · Echte Daten — woher das Wissen kommt
 **Vorschlag:** Eine Mischung. **Live-Daten** für Wetter und Attraktionen/Karten (offene Datendienste); **KI-Recherche** für Geheimtipps, Stimmung und die „warum passt das zu dir"-Texte. Jeder Fakt wird gekennzeichnet, damit du siehst, wie sicher er ist.
 - **Wetter:** aktuelle Werte & beste Reisezeit
@@ -86,10 +90,24 @@ Blickwinkel, aus denen „mehr" immer schöpfen kann: Wetter & Klima · Kosten i
 - **Notizen & Tags:** eigene Gedanken zu jedem Ort
 - **Karte:** alle Favoriten als Pins auf der Weltkarte
 
+**Sorgfältig sortiert & perfekt angezeigt** (dein Wunsch, Profi-Niveau): Alles ist geordnet und sofort auffindbar — sortieren und filtern nach Land, Region, Klima, Budget, Status, Datum, eigenen Tags. Jeder Ort wird als sauber gestaltete Karte dargestellt, mit Bild, Kernfakten und klarer Struktur — nichts wirkt zusammengewürfelt.
+
 ⇄ *Umschaltbar — Kacheln je nach Laune tauschen und neu anordnen (dein Wunsch).*
 
 ### G · Reise-Wiki & Community — wie ein Wikipedia für jeden Ort
 **Vorschlag:** Jeder recherchierte Ort bekommt eine **eigene, dauerhafte Seite**. So wächst das Wiki mit deiner Nutzung. Community-Funktionen (Bewertungen, andere Reisende) kommen als eigene, spätere Etappe — passt gut, weil ohnehin für mehrere Nutzer geplant.
+
+### H · Teilen — Zusammenfassungen als perfekte Bildansicht
+**Dein Wunsch:** Die Zusammenfassungen, die du später hast und vielleicht teilen willst, sollen als **perfekt gestaltete Bildkarte** aussehen — alles sauber abgebildet, auf Profi-Niveau.
+
+**Vorschlag:** Aus jedem gespeicherten Ort (oder einer ganzen Reise-Auswahl) erzeugst du mit einem Klick eine **schöne Bild-Zusammenfassung** — ein hochwertiges, fertig gestaltetes Bild mit Titelfoto, Ort, den wichtigsten Fakten (Wetter, beste Zeit, Highlights) und ansprechendem Layout. Das kannst du:
+- **ansehen** wie eine kleine Reise-Karte / Steckbrief,
+- **speichern** als Bilddatei,
+- **teilen** (z. B. mit Freunden oder in sozialen Medien) — überall gleich professionell.
+
+Mehrere **Design-Vorlagen** zur Auswahl, damit die Karten zu dir passen. Optional auch als **PDF-Reise-Dossier**, wenn du mehrere Orte zu einer Reise bündelst.
+
+⇄ *Umschaltbar — Vorlage, Farben und welche Infos auf der Karte erscheinen, bestimmst du.*
 
 ---
 
@@ -98,10 +116,10 @@ Blickwinkel, aus denen „mehr" immer schöpfen kann: Wetter & Klima · Kosten i
 Wir bauen in Etappen, jede für sich schon nutzbar.
 
 **Etappe 1 · Das Fundament**
-Konten & Login, DE/EN-Umschaltung, Chat-Coach mit einstellbarem Ton (B), lernendes Vorlieben-Profil (C), Vorschläge mit Tiefen-Ebenen & „noch mehr" (D), Speichern im modularen Dashboard (F).
+Konten & Login, DE/EN-Umschaltung, Chat-Coach mit einstellbarem Ton (B), lernendes Vorlieben-Profil (C), Vorschläge mit Tiefen-Ebenen & „noch mehr" plus **Ort-Chat** (D), Speichern & perfekt sortiertes, modulares Dashboard (F).
 
 **Etappe 2 · Es wird echt**
-Live-Wetter, echte Attraktionen & Karten, KI-recherchierte Geheimtipps (E).
+Live-Wetter, echte Attraktionen & Karten, KI-recherchierte Geheimtipps (E), sowie **teilbare Bild-Zusammenfassungen auf Profi-Niveau** (H).
 
 **Etappe 3 · Das große Ganze**
 Dauerhafte Länder-/Städteseiten, die mitwachsen (G), plus Community-Ebene mit Stimmen anderer Reisender.
