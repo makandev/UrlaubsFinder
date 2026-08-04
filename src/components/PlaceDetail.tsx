@@ -10,6 +10,7 @@ import { useStore } from "@/lib/store";
 import { SecretMeter } from "@/components/SecretMeter";
 import { WeatherWidget } from "@/components/WeatherWidget";
 import { ShareCardButton } from "@/components/ShareCardButton";
+import { ChatPanel } from "@/components/ChatPanel";
 import type { DictKey } from "@/i18n/dictionaries";
 
 export function PlaceDetail({ id }: { id: string }) {
@@ -30,21 +31,6 @@ export function PlaceDetail({ id }: { id: string }) {
   const monthNames = t("months").split(",");
   const best = d.bestMonths.map((m) => monthNames[m - 1]).join(" · ");
   const saved = store.isSaved(d.id);
-
-  const questions =
-    locale === "de"
-      ? [
-          `Wie ist das Wetter in ${d.name} im Oktober?`,
-          `Wo esse ich in ${d.name} am besten?`,
-          `Ist ${d.name} auch mit wenig Budget machbar?`,
-          `Was ist der schönste versteckte Ort in ${d.name}?`,
-        ]
-      : [
-          `What's the weather like in ${d.name} in October?`,
-          `Where should I eat in ${d.name}?`,
-          `Is ${d.name} doable on a small budget?`,
-          `What's the most beautiful hidden spot in ${d.name}?`,
-        ];
 
   const facts: [string, string][] = [
     [t("filter.region"), t(`region.${d.region}` as DictKey)],
@@ -168,22 +154,7 @@ export function PlaceDetail({ id }: { id: string }) {
 
           <WeatherWidget lat={d.lat} lng={d.lng} />
 
-          <div className="rounded-2xl border border-line bg-surface p-4">
-            <h2 className="flex items-center gap-2 font-bold">
-              <span aria-hidden>🧠</span> {t("detail.chat")}
-            </h2>
-            <p className="mt-1 text-xs text-inksoft">{t("detail.chatHint")}</p>
-            <div className="mt-3 flex flex-col gap-2">
-              {questions.map((q) => (
-                <div
-                  key={q}
-                  className="rounded-lg border border-dashed border-line px-3 py-2 text-sm text-inksoft"
-                >
-                  {q}
-                </div>
-              ))}
-            </div>
-          </div>
+          <ChatPanel d={d} secret={secret} />
         </div>
       </div>
     </div>

@@ -14,7 +14,7 @@ Legende: ⬜ offen · 🔄 in Arbeit · ✅ fertig
 - ✅ **M7** — Teilbare Bildkarte (Canvas 1080×1350 → PNG-Download, Vorschau-Modal) · browsergetestet, Profi-Optik
 - ✅ **M8** — Onboarding (3 Fragen → Vorlieben) + Coach-Panel „Weg zum Urlaub" (Stepper + nächster Schritt) · browsergetestet
 - ✅ **M9** — SEO: sitemap.xml, robots.txt, Open-Graph + JSON-LD (TouristDestination), server-gerenderter Inhalt · verifiziert
-- ⬜ **M10** — Insider-Chat: UI + regelbasierte Engine, KI-bereit (Schlüssel per env)
+- ✅ **M10** — Insider-Chat: interaktive Oberfläche + regelbasierte Engine (gegroundet auf Ortsdaten), `askInsider()` KI-bereit · browsergetestet
 - ⬜ **M11** — Recht-Minimum: Impressum/Datenschutz/Attribution/Affiliate-Hinweis (Platzhalter)
 - ⬜ **M12** — Konto: lokal-first bleibt; Export/Import + saubere Abstraktion für späteres Backend
 - ⬜ **M13** — Politur, Barrierefreiheit, Tests, Build-Check
