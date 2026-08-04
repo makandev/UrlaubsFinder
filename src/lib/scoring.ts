@@ -67,6 +67,28 @@ export function computeMatch(d: Destination, p: Prefs): number {
   return Math.round((score / weight) * 100);
 }
 
+/** Implizites Lernen: Profil sanft zu (dir=+1) oder weg von (dir=-1) einem Ort schieben. */
+export function nudgePrefs(p: Prefs, d: Destination, dir: 1 | -1): Prefs {
+  const factor = 0.16;
+  const targets = {
+    budget: ((d.priceLevel - 1) / 2) * 100,
+    warmth: d.climate === "warm" ? 100 : d.climate === "mild" ? 50 : 0,
+    cityNature:
+      hasTag(d, "natur") || hasTag(d, "kueste") ? 100 : hasTag(d, "stadt") ? 0 : 50,
+    actionCalm: hasTag(d, "ruhe") ? 100 : hasTag(d, "nachtleben") || hasTag(d, "aktiv") ? 0 : 50,
+  };
+  const step = (cur: number, target: number) => {
+    const moved = dir === 1 ? cur + (target - cur) * factor : cur - (target - cur) * factor;
+    return Math.round(Math.max(0, Math.min(100, moved)));
+  };
+  return {
+    budget: step(p.budget, targets.budget),
+    warmth: step(p.warmth, targets.warmth),
+    cityNature: step(p.cityNature, targets.cityNature),
+    actionCalm: step(p.actionCalm, targets.actionCalm),
+  };
+}
+
 function hasTag(d: Destination, t: TagKey): boolean {
   return d.tags.includes(t);
 }

@@ -80,7 +80,10 @@ export function DestinationCard({
 
         <div className="mt-auto flex items-center gap-1.5 pt-1">
           <button
-            onClick={() => store.save(d.id)}
+            onClick={() => {
+              store.save(d.id);
+              if (!saved) store.learn(d, 1);
+            }}
             className={`flex-1 rounded-lg px-2 py-2 text-xs font-semibold transition-colors ${
               saved
                 ? "bg-teal text-white"
@@ -97,7 +100,10 @@ export function DestinationCard({
             ⏭
           </button>
           <button
-            onClick={() => store.hide(d.id)}
+            onClick={() => {
+              store.hide(d.id);
+              store.learn(d, -1);
+            }}
             title={t("card.hide")}
             className="rounded-lg border border-line px-2.5 py-2 text-xs text-inksoft transition-colors hover:bg-surface2"
           >

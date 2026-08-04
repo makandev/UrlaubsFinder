@@ -123,7 +123,10 @@ export function PlaceDetail({ id }: { id: string }) {
         <div className="flex flex-col gap-4">
           <div className="flex gap-1.5">
             <button
-              onClick={() => store.save(d.id)}
+              onClick={() => {
+                store.save(d.id);
+                if (!saved) store.learn(d, 1);
+              }}
               className={`flex-1 rounded-lg px-3 py-2.5 text-sm font-semibold transition-colors ${
                 saved ? "bg-teal text-white" : "bg-tealsoft text-teal hover:bg-teal hover:text-white"
               }`}
@@ -138,7 +141,10 @@ export function PlaceDetail({ id }: { id: string }) {
               ⏭
             </button>
             <button
-              onClick={() => store.hide(d.id)}
+              onClick={() => {
+                store.hide(d.id);
+                store.learn(d, -1);
+              }}
               title={t("card.hide")}
               className="rounded-lg border border-line px-3 py-2.5 text-sm text-inksoft hover:bg-surface2"
             >

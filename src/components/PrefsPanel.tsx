@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useI18n } from "@/i18n/I18nProvider";
 import { useStore } from "@/lib/store";
 import type { Prefs } from "@/lib/scoring";
@@ -11,6 +11,11 @@ export function PrefsPanel({ onApply }: { onApply: () => void }) {
   const store = useStore();
   const [open, setOpen] = useState(false);
   const [local, setLocal] = useState<Prefs>(store.prefs);
+
+  // Profil kann sich durch Lernen ändern → lokalen Stand nachziehen
+  useEffect(() => {
+    setLocal(store.prefs);
+  }, [store.prefs]);
 
   const sliders: { key: keyof Prefs; label: DictKey }[] = [
     { key: "budget", label: "prefs.budget" },
@@ -32,7 +37,8 @@ export function PrefsPanel({ onApply }: { onApply: () => void }) {
 
       {open && (
         <div className="border-t border-line px-4 pb-4 pt-3">
-          <p className="mb-3 text-sm text-inksoft">{t("prefs.hint")}</p>
+          <p className="mb-1 text-sm text-inksoft">{t("prefs.hint")}</p>
+          <p className="mb-3 text-xs text-amber">{t("prefs.learns")}</p>
           <div className="grid gap-3 sm:grid-cols-2">
             {sliders.map(({ key, label }) => (
               <label key={key} className="block">

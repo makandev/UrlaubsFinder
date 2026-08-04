@@ -1,8 +1,8 @@
 "use client";
 
 import { createContext, useContext, useEffect, useState, useCallback } from "react";
-import type { PlaceStatus } from "@/lib/types";
-import { defaultPrefs, type Prefs } from "@/lib/scoring";
+import type { Destination, PlaceStatus } from "@/lib/types";
+import { defaultPrefs, nudgePrefs, type Prefs } from "@/lib/scoring";
 
 export type Mode = "ruhig" | "profi";
 
@@ -30,6 +30,7 @@ interface StoreValue {
   remove: (id: string) => void;
   setStatus: (id: string, status: PlaceStatus) => void;
   setPrefs: (p: Prefs) => void;
+  learn: (d: Destination, dir: 1 | -1) => void;
   ready: boolean;
 }
 
@@ -120,13 +121,17 @@ export function StoreProvider({ children }: { children: React.ReactNode }) {
 
   const setPrefs = useCallback((p: Prefs) => setPrefsState(p), []);
   const setMode = useCallback((m: Mode) => setModeState(m), []);
+  const learn = useCallback(
+    (d: Destination, dir: 1 | -1) => setPrefsState((p) => nudgePrefs(p, d, dir)),
+    [],
+  );
 
   return (
     <StoreContext.Provider
       value={{
         saved, skipped, hidden, prefs, mode, setMode,
         isSaved, isSkipped, isHidden,
-        save, skip, hide, unhide, unskip, remove, setStatus, setPrefs, ready,
+        save, skip, hide, unhide, unskip, remove, setStatus, setPrefs, learn, ready,
       }}
     >
       {children}
