@@ -82,6 +82,45 @@ export default function DashboardPage() {
         </div>
       )}
 
+      {/* Compare */}
+      {savedDests.length >= 2 && (
+        <div>
+          <h2 className="mb-2 text-sm font-mono uppercase tracking-wider text-inkfaint">
+            {t("compare.title")}
+          </h2>
+          <div className="overflow-x-auto rounded-2xl border border-line bg-surface">
+            <table className="w-full text-sm">
+              <thead>
+                <tr className="border-b border-line">
+                  <th className="p-3 text-left font-medium text-inkfaint"> </th>
+                  {savedDests.map(({ d }) => (
+                    <th key={d.id} className="p-3 text-left font-bold">
+                      {d.countryEmoji} {d.name}
+                    </th>
+                  ))}
+                </tr>
+              </thead>
+              <tbody>
+                {([
+                  [t("card.secret"), (d: typeof savedDests[number]["d"]) => String(computeSecretScore(d, destinations))],
+                  [t("filter.climate"), (d) => t(`climate.${d.climate}` as never)],
+                  ["Preis", (d) => "€".repeat(d.priceLevel)],
+                  ["€/Tag", (d) => `~${d.costIndex} €`],
+                  [t("card.bestTime"), (d) => d.bestMonths.map((m) => t("months").split(",")[m - 1]).join(" · ")],
+                ] as [string, (d: typeof savedDests[number]["d"]) => string][]).map(([label, render]) => (
+                  <tr key={label} className="border-b border-line last:border-0">
+                    <td className="p-3 font-medium text-inksoft">{label}</td>
+                    {savedDests.map(({ d }) => (
+                      <td key={d.id} className="p-3 tabular-nums">{render(d)}</td>
+                    ))}
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      )}
+
       {/* Skipped pile */}
       <div>
         <h2 className="mb-2 text-sm font-mono uppercase tracking-wider text-inkfaint">

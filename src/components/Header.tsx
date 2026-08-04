@@ -11,6 +11,12 @@ export function Header() {
   const { mode, setMode } = useStore();
   const pathname = usePathname();
   const isDash = pathname.startsWith("/dashboard");
+  const isMap = pathname.startsWith("/karte");
+  const isDiscover = !isDash && !isMap;
+  const linkCls = (active: boolean) =>
+    `rounded-full px-3 py-1.5 transition-colors ${
+      active ? "bg-tealsoft text-teal font-semibold" : "text-inksoft hover:text-ink"
+    }`;
 
   return (
     <header className="sticky top-0 z-30 border-b border-line bg-ground/85 backdrop-blur">
@@ -21,22 +27,9 @@ export function Header() {
         </Link>
 
         <nav className="ml-4 flex items-center gap-1 text-sm">
-          <Link
-            href="/"
-            className={`rounded-full px-3 py-1.5 transition-colors ${
-              !isDash ? "bg-tealsoft text-teal font-semibold" : "text-inksoft hover:text-ink"
-            }`}
-          >
-            {t("nav.discover")}
-          </Link>
-          <Link
-            href="/dashboard"
-            className={`rounded-full px-3 py-1.5 transition-colors ${
-              isDash ? "bg-tealsoft text-teal font-semibold" : "text-inksoft hover:text-ink"
-            }`}
-          >
-            {t("nav.dashboard")}
-          </Link>
+          <Link href="/" className={linkCls(isDiscover)}>{t("nav.discover")}</Link>
+          <Link href="/karte" className={linkCls(isMap)}>{t("nav.map")}</Link>
+          <Link href="/dashboard" className={linkCls(isDash)}>{t("nav.dashboard")}</Link>
         </nav>
 
         <div className="ml-auto flex items-center gap-2">
