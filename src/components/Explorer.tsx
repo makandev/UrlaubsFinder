@@ -9,6 +9,7 @@ import { useI18n } from "@/i18n/I18nProvider";
 import { useStore } from "@/lib/store";
 import { DestinationCard } from "@/components/DestinationCard";
 import { PrefsPanel } from "@/components/PrefsPanel";
+import { CoachPanel } from "@/components/CoachPanel";
 import type { DictKey } from "@/i18n/dictionaries";
 
 type Tab = "discover" | "popular" | "bargains" | "secret";
@@ -79,24 +80,9 @@ export function Explorer() {
     router.push(`/place/${pick.id}`);
   };
 
-  const topPick = useMemo(
-    () => [...scored].sort((a, b) => b.secret - a.secret).find(({ d }) => !store.isHidden(d.id)),
-    [scored, store],
-  );
-
   return (
     <div className="flex flex-col gap-5">
-      {/* Coach banner — „ein nächster Schritt“ */}
-      {topPick && (
-        <div className="rise flex items-center gap-3 rounded-2xl border border-line bg-surface p-3 text-sm">
-          <span aria-hidden className="text-xl">🧭</span>
-          <p className="text-inksoft">
-            <span className="font-semibold text-ink">{topPick.d.name}</span> ({topPick.d.countryEmoji}{" "}
-            {topPick.d.country}) — {t("card.secret")}{" "}
-            <span className="font-semibold text-teal">{topPick.secret}</span>.
-          </p>
-        </div>
-      )}
+      <CoachPanel />
 
       {/* Tabs */}
       <div className="flex flex-wrap items-center gap-1.5">
