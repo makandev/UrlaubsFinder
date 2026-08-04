@@ -1,19 +1,42 @@
 # UrlaubsCoach — Konzept
 
-**Stand:** 4. August 2026 · Entwurf v0.3
-**Was das ist:** Der A-bis-Z-Plan für deinen persönlichen Reise-Coach. Kein fertiger Plan — ein Entwurf zum Draufreagieren. Für jeden Block gibt es einen Vorschlag; du sagst nur „passt" oder „ändern".
+**Stand:** 4. August 2026 · Entwurf v0.4 (mit Profi-Review)
+**Was das ist:** Der A-bis-Z-Plan für deinen persönlichen Reise-Coach. Diese Version wurde von vier Fach-Perspektiven (Produkt, UX, KI-Personalisierung, Reise-Daten) eine Stufe höher gehoben.
 
 ---
 
 ## Die Idee in einem Satz
 
-Ein **persönlicher Reise-Coach als Web-App**, der dich Schritt für Schritt zu deinem perfekten Urlaubsort führt, aus jeder deiner Reaktionen lernt, beliebig tief ins Detail geht, fertige Vorschläge im Dashboard speichert — und mit der Zeit zu einem „Reise-Wikipedia" für jedes Land und jede Stadt wächst.
+Ein **persönlicher KI-Reise-Coach als Web-App**, der nicht darauf wartet, dass du suchst — sondern *mitdenkt*, aus jeder Reaktion lernt, beliebig tief ins Detail geht, dir immer den einen nächsten Schritt zeigt und dich so ohne Brainfog zu deinem perfekten Urlaubsort führt.
 
-## Zwei Leitprinzipien
+---
 
-**1. Alles flexibel.** Dein wichtigster Wunsch, der sich durch das ganze Konzept zieht: **nichts ist in Stein gemeißelt.** Ton, Funktionen, Detailtiefe, wie oft der Coach sich meldet — überall drehst du an Reglern und schaltest um, statt dich einmal festzulegen.
+## Drei Leitprinzipien
 
-**2. Alles auf Profi-Niveau.** Die App wird durchgehend auf professionellem Niveau gedacht — keine halben Sachen. Das heißt konkret: sauberes, hochwertiges Design; Inhalte sorgfältig sortiert und perfekt ansehbar; jede Zusammenfassung sieht aus wie von einem Profi gestaltet; teilbare Ansichten in Präsentationsqualität. Dieser Anspruch gilt für jeden einzelnen Baustein unten.
+**1. Alles flexibel.** Nichts ist in Stein gemeißelt — Ton, Funktionen, Detailtiefe: überall drehst du an Reglern, statt dich einmal festzulegen.
+
+**2. Alles auf Profi-Niveau.** Durchgehend hochwertig gedacht: sauberes Design, Inhalte perfekt sortiert und ansehbar, teilbare Ansichten in Präsentationsqualität.
+
+**3. Von Anfang an skalierbar.** So gebaut, dass es von 1 auf viele Nutzer und von wenigen auf tausende Orte wächst, ohne Umbau — durch Konten/Mehrnutzer, nächtlich vorberechnete Daten und modularen Aufbau.
+
+> **Die wichtigste Erkenntnis aus dem Profi-Review — wie „flexibel" und „kein Brainfog" zusammenpassen:**
+> Flexibilität bleibt vollständig da, ist aber **hinter dem Coach versteckt**. Der Coach setzt überall sinnvolle Vorgaben; du *musst* nie eine Einstellung anfassen, um voranzukommen. Die Regler sind Notausgänge, keine Eingangstür.
+
+---
+
+## Die zwei Modi — deine „erweiterte Version"
+
+Damit „alles flexibel" nie zu Überforderung wird, ist die ganze App in zwei umschaltbaren Modi gedacht:
+
+| | 🌙 Ruhig-Modus (Standard) | 🚀 Profi-Modus (erweitert) |
+|---|---|---|
+| **Haltung** | Der Coach führt | Du übernimmst das Steuer |
+| **Oberfläche** | ein nächster Schritt, aufgeräumt | volles Cockpit |
+| **Extra** | — | alle Filter/Sortierungen sichtbar, Vergleichs-Matrix, die Daten hinter den Scores (z. B. Geheimtipp-Grad aufgeschlüsselt), Karten-Werkzeuge, mehrere Reisen parallel, Massen-Aktionen |
+| **Für wann** | Brainfog-Tage, schnell | tatkräftige Tage, alles selbst durchwühlen |
+
+- Ein Schalter, jederzeit umschaltbar (dein „Funktionen je nach Laune tauschen").
+- Der Coach darf von selbst anbieten umzuschalten („Du wirkst heute tatkräftig — Profi-Modus an?").
 
 ---
 
@@ -22,114 +45,132 @@ Ein **persönlicher Reise-Coach als Web-App**, der dich Schritt für Schritt zu 
 | Thema | Entscheidung |
 |---|---|
 | **Grundform** | Web-App (Browser, PC + Handy, später installierbar) |
-| **Coach-Ton** | Jederzeit flexibel einstellbar |
-| **Initiative** | Funktionen je nach Laune tauschbar |
-| **Konto / Login** | ✅ Ja — Orte & Vorlieben auf jedem Gerät verfügbar |
-| **Nutzer** | ✅ Von Anfang an für mehrere Nutzer geplant |
+| **Coach-Ton** | Jederzeit flexibel — steuert auch, wie oft er sich meldet |
+| **Konto / Login** | ✅ Ja — Orte & Vorlieben auf jedem Gerät |
+| **Nutzer** | ✅ Von Anfang an für mehrere geplant |
 | **Sprache** | ✅ Deutsch + Englisch (umschaltbar) |
-
-> Weil es **von Anfang an für mehrere Nutzer** gebaut wird und **Login** dazugehört, plane ich Konten, Datenschutz und Mehrsprachigkeit von der ersten Etappe an mit ein — das ist später kaum noch nachrüstbar, deshalb machen wir es gleich richtig.
+| **Skalierbarkeit** | ✅ Von Anfang an eingebaut |
+| **Modi** | ✅ Ruhig-Modus + erweiterter Profi-Modus |
 
 ---
 
-## Die Route — 7 Bausteine (A–G)
+## ⭐ Das Herzstück: Der lebende Reiseplan
 
-### A · Die Grundform — wo dein Coach lebt
-**Vorschlag:** Web-App im Browser, am PC *und* am Handy, ohne Installation. Später als „installierbare" App (Icon am Homescreen) erweiterbar, ohne alles neu zu bauen.
-✓ *So gewählt.*
+Der Sprung von „gute Such-App" zu „herausragend" ist ein Rollentausch: **Nicht du arbeitest dich durch die App — der Coach arbeitet, während du weg bist.**
 
-### B · Der Coach-Charakter — wie er mit dir redet
-**Vorschlag:** Ein **Ton-Regler** von *ruhig-beratend* bis *anfeuernd-motivierend*, jederzeit verschiebbar. Dazu kleine Voreinstellungen: „Sanft", „Kumpel", „Trainer".
-- **Ruhig:** erklärt geduldig, drängt nie.
-- **Anfeuernd:** hält dich bei der Stange, gibt Antrieb.
-- **Kurz-Modus:** für Tage, an denen du nur schnell etwas sehen willst.
+Im Hintergrund wächst *ein* Plan (z. B. „Dein Herbst 2026"), der sich selbst aktualisiert: Preis fällt, Wetter dreht, neuer Geheimtipp taucht auf. Öffnest du die App, begrüßt dich **kein leeres Suchfeld**, sondern ein Satz:
 
-⇄ *Umschaltbar — Ton in einer Sekunde geändert.*
+> *„Ich hab weitergedacht — Lissabon ist gerade 40 € günstiger. Weitermachen, wo wir waren?"*
 
-### C · Dein Profil & das Lernen — was er sich über dich merkt
-**Vorschlag:** Ein **Vorlieben-Profil**, das sich auf zwei Wegen füllt: (1) durch deine **👍/👎-Reaktionen** auf Vorschläge, (2) durch direktes Einstellen. Immer sichtbar, immer überschreibbar.
+Das ist die eigentliche Brainfog-Kur: Die Last des „Wo war ich nochmal?" liegt bei der App, nicht in deinem Kopf.
 
-Woran er dich erkennt:
-- **Budget** — Sparfuchs bis Luxus
-- **Klima** — Sonne, Schnee, mild, egal
-- **Stadt ↔ Natur** und **Action ↔ Ruhe**
-- **Kultur, Essen, Nachtleben, Sport**
-- **Anreise & Entfernung** — Nähe, Flug, Roadtrip
-- **Menschenmengen** — Trubel oder Geheimtipp
-- **Reisezeit & Dauer** — Wochenende bis Langzeit
+---
 
-⇄ *Umschaltbar — Profil auch mal ignorieren („überrasch mich").*
+## Die Bausteine (A–H)
 
-### D · Vorschläge & Tiefe — immer geht noch mehr
-**Dein stärkster Wunsch:** so viele Details wie möglich — und wenn es schon viele gibt, noch mehr. Gelöst über **Tiefen-Ebenen** und einen Knopf, der nie „leer" wird:
+### A · Grundform
+Web-App im Browser, PC + Handy, ohne Installation, später als Icon am Homescreen installierbar. Technisch von Anfang an skalierbar aufgebaut (Konten, vorberechnete Daten, Module).
 
-1. **Ebene 1 — Überblick:** Ort, ein Bild, warum er zu dir passt, 3 Kernfakten
-2. **Ebene 2 — Details:** Wetter, Kosten, Anreise, Highlights, Essen
-3. **Ebene 3 — Tiefer:** Viertel, Tagesabläufe, Stimmung, beste Zeit
-4. **Ebene 4 — Geheimtipps:** versteckte Ecken, lokale Insider
-5. **∞ „Zeig mir noch mehr":** greift immer einen neuen Blickwinkel auf
+### B · Coach-Charakter & Motivation
+Ein **Ton-Regler** von *ruhig-beratend* bis *anfeuernd-motivierend*, jederzeit verschiebbar (Voreinstellungen: „Sanft", „Kumpel", „Trainer"). Der Regler steuert **auch, wie oft** der Coach sich meldet.
 
-Blickwinkel, aus denen „mehr" immer schöpfen kann: Wetter & Klima · Kosten im Detail · Anreise-Wege · Viertel & Ecken · Essen & Cafés · Events & Saison · Sicherheit · Foto-Spots · Tagesplan · Community-Stimmen · Ähnliche Orte nebenan · Geschichte.
+**So gibt er Antrieb, ohne zu nerven:**
+- **Immer genau ein nächster Mini-Schritt** — nie eine To-do-Wand. „Heute nur: zu einem Ort Ja oder Nein." Ein Klick = Fortschritt.
+- **Sichtbarer „Weg zum Urlaub"** in kleinen Etappen (Vibe finden → 3 Kandidaten → 1 Favorit → vertiefen → grob planen).
+- **Anstupser sind Einladungen, keine Befehle** — immer mit konkretem Anknüpfungspunkt, nie Druck, nie zweimal derselbe.
+- **Wenn dir die Worte fehlen:** zwei Chips statt leerem Textfeld („eher *runterkommen* oder *was erleben*?"). Der Coach macht die erste Bewegung, du bestätigst nur.
 
-⇄ *Umschaltbar — Schalter „knapp ↔ ausführlich" regelt, wie viel sofort erscheint.*
+### C · Dein Profil & das Lernen
+Der Coach baut ein **Vorlieben-Profil aus Facetten** auf — jede mit einem Wert *und* einer Sicherheit (wie überzeugt er ist). Achsen u. a.: Aktiv ↔ Ruhe · Natur ↔ Stadt · durchgeplant ↔ spontan · allein ↔ Szene · Komfort ↔ Abenteuer · Klima · Kultur/Erholung/Sport/Kulinarik · Budget · Anreise-Aufwand.
 
-**Ort-Chat:** Zu jedem Ort öffnest du einen eigenen Chat und fragst *alles* — „Wie ist der November dort?", „Familienfreundlich?", „Wo esse ich am besten?", „Zeig mir das ruhigste Viertel." Der Coach kennt in diesem Chat den kompletten Kontext genau dieses Ortes und antwortet gezielt. So verbindet sich das „aktiv chatten" mit dem „alles wissen".
+**Wie er lernt:**
+- **Speichern** = stärkstes „mag ich", **👍** moderat, **👎/Nichts-für-mich** starkes „eher nicht", **Überspringen** bewusst neutral.
+- Bei 👎 optional ein Ein-Klick-Grund („zu voll / zu teuer / falsche Jahreszeit") — trifft die *Achse*, nicht nur den Ort.
+- **Stille Signale** (wie lange du hinschaust, was du aufklappst) fließen vorsichtig mit ein.
+- **Kaltstart** ohne Formular: 3–4 „diese-oder-die"-Stimmungsbilder am Anfang, dann breit gestreute Startvorschläge.
+- **Gegen die Blase:** jeder ~5. Vorschlag ist bewusst *neben* deinem Profil (angekündigt als Überraschung); alte Vorlieben werden mit der Zeit wieder unsicher und neu abgefragt.
+- **Deine Kontrolle:** Profil immer einsehbar, editierbar, Facetten wegwischbar, mit einem Klick zurücksetzbar (auch aus Datenschutz-Sicht sauber).
 
-### E · Echte Daten — woher das Wissen kommt
-**Vorschlag:** Eine Mischung. **Live-Daten** für Wetter und Attraktionen/Karten (offene Datendienste); **KI-Recherche** für Geheimtipps, Stimmung und die „warum passt das zu dir"-Texte. Jeder Fakt wird gekennzeichnet, damit du siehst, wie sicher er ist.
-- **Wetter:** aktuelle Werte & beste Reisezeit
-- **Attraktionen:** Orte, Sehenswürdigkeiten, Karten
-- **Geheimtipps & Community:** KI-recherchiert, klar als „Recherche" markiert
+### D · Vorschläge & Tiefe — „immer geht noch mehr"
+Jeder Vorschlag trägt einen **„Warum passt das zu dir"-Satz** aus deinem Profil.
 
-◐ *Offen:* Manche Live-Dienste kosten ab einer gewissen Nutzung Geld. Wir starten mit kostenlosen und entscheiden später über Aufpreise.
+**Detail-Ebenen (Progressive Disclosure):**
+1. **L1 Karte:** Bild, Ort, 1 Kennzahl, 1 Stimmungs-Satz
+2. **L2 Aufklappen:** thematische Blöcke (Klima · Preisgefühl · Vibe · Für wen)
+3. **L3 „Zeig mehr" pro Block:** hier wird *ein* Thema tief — nicht alles gleichzeitig
+4. **Ort-Chat:** die unendliche Ebene — frag *alles*
 
-### F · Das Dashboard — dein Zuhause & die gespeicherten Orte
-**Vorschlag:** Eine **modulare Startseite aus Kacheln**, die du an-/ausschalten und umsortieren kannst: Coach-Chat, Entdecken, Geheimtipps, Wetter, Reise-Wiki, Merkliste. Du baust dir dein Cockpit selbst.
-- **Merkliste:** gespeicherte Orte mit Status — *Wunsch · geplant · gewesen*
-- **Vergleich:** mehrere Orte nebeneinander
-- **Notizen & Tags:** eigene Gedanken zu jedem Ort
-- **Karte:** alle Favoriten als Pins auf der Weltkarte
+**Der „nie leer"-Motor:** „Zeig mir mehr" bringt nie dasselbe, sondern den **nächsten Blickwinkel** (Timing, Kulinarik, Geschichte, versteckte Ecke, wie-ein-Local, Nachbarort …), priorisiert nach dem, worauf du positiv reagierst. Regel: jeder Punkt muss ein **konkretes, überprüfbares Detail** nennen (Name, Ort, Zahl) — kein Blabla.
 
-**Sorgfältig sortiert & perfekt angezeigt** (dein Wunsch, Profi-Niveau): Alles ist geordnet und sofort auffindbar — sortieren und filtern nach Land, Region, Klima, Budget, Status, Datum, eigenen Tags. Jeder Ort wird als sauber gestaltete Karte dargestellt, mit Bild, Kernfakten und klarer Struktur — nichts wirkt zusammengewürfelt.
+**Vier Aktionen an jedem Ort:** 💾 Speichern · ⏭️ Überspringen (neutral ignorieren, landet in „Übersprungen", jederzeit wieder aufrufbar) · 🚫 Nichts für mich (ausgeblendet, rückgängig machbar) · 🧠 Mit zum Experten nehmen.
 
-⇄ *Umschaltbar — Kacheln je nach Laune tauschen und neu anordnen (dein Wunsch).*
+### E · Echte Daten & Geheimtipps
+**Ehrliche Trennung:** Fakten/Scores aus echten Daten · Begründungstexte klar als „KI-Einschätzung" markiert. Zeitkritisches (Preise, Öffnungszeiten) immer mit „bitte tagesaktuell prüfen".
 
-### G · Reise-Wiki & Community — wie ein Wikipedia für jeden Ort
-**Vorschlag:** Jeder recherchierte Ort bekommt eine **eigene, dauerhafte Seite**. So wächst das Wiki mit deiner Nutzung. Community-Funktionen (Bewertungen, andere Reisende) kommen als eigene, spätere Etappe — passt gut, weil ohnehin für mehrere Nutzer geplant.
+**Der kostenlose Start-Stack (Etappe 1, ohne teure APIs):**
+| Zweck | Quelle |
+|---|---|
+| Wetter & beste Reisezeit | Open-Meteo (Klima-Normalwerte), Meteostat |
+| Attraktionen/POIs | OpenStreetMap + Wikidata + Wikivoyage |
+| Länderfakten | REST Countries |
+| Beliebtheit / Trends | **Wikipedia-Seitenaufrufe** (offiziell, gratis) |
+| Bezahlbar | Lebenshaltungs-Index (stabil, statt volatiler Preise) |
+| Echte Flug-/Hotelpreise | **Partner-Links** („ab X ansehen") — keine veralteten Preise, bringt Provision |
 
-### H · Teilen — Zusammenfassungen als perfekte Bildansicht
-**Dein Wunsch:** Die Zusammenfassungen, die du später hast und vielleicht teilen willst, sollen als **perfekt gestaltete Bildkarte** aussehen — alles sauber abgebildet, auf Profi-Niveau.
+**Geheimtipp-Grad — messbar gemacht:** `hohe Qualität × niedrige Bekanntheit × regionaler Kontrast − Touri-Falle`. Ein Wasserfall mit 500 Aufrufen neben einem mit 50.000 = echter Geheimtipp. Sortier- und filterbar von 0–100.
 
-**Vorschlag:** Aus jedem gespeicherten Ort (oder einer ganzen Reise-Auswahl) erzeugst du mit einem Klick eine **schöne Bild-Zusammenfassung** — ein hochwertiges, fertig gestaltetes Bild mit Titelfoto, Ort, den wichtigsten Fakten (Wetter, beste Zeit, Highlights) und ansprechendem Layout. Das kannst du:
-- **ansehen** wie eine kleine Reise-Karte / Steckbrief,
-- **speichern** als Bilddatei,
-- **teilen** (z. B. mit Freunden oder in sozialen Medien) — überall gleich professionell.
+*Skalierung:* All das wird **nachts vorberechnet** und gecacht → schnell, limitfrei, wächst mühelos mit.
 
-Mehrere **Design-Vorlagen** zur Auswahl, damit die Karten zu dir passen. Optional auch als **PDF-Reise-Dossier**, wenn du mehrere Orte zu einer Reise bündelst.
+### F · Dashboard & Entdecken
+**Modulare Startseite aus Kacheln**, die du an-/ausschalten und umsortieren kannst.
 
-⇄ *Umschaltbar — Vorlage, Farben und welche Infos auf der Karte erscheinen, bestimmst du.*
+**Entdecken-Bereich mit Reitern** (alle mit derselben Sortier-/Filterleiste):
+🧭 Entdecken (Länder/Regionen stöbern, Kurz-Details, Start Europa) · 🔥 Beliebt · 💶 Schnäppchen (günstig→teuer) · 💎 Geheimtipps.
+
+**Sortieren/Filtern:** Preis ↑/↓ · Geheimtipp-Grad · Klima · beste Reisezeit · Entfernung · Land/Region · Budget · Sicherheit · A–Z — kombinierbar, Einstellungen bleiben gespeichert.
+*UX-Regel:* im Ruhig-Modus nur die aktiven Filter als Chips sichtbar („Geheimtipp hoch · Preis ↓ · ✕"), der Rest hinter *einem* „Filter"-Knopf. Alles offen erst im Profi-Modus.
+
+**Ordnung & Verwaltung:** Merkliste mit Status (Wunsch · geplant · gewesen) · Vergleich · Notizen & Tags · Weltkarte mit Pins. Jeder Ort als sauber gestaltete Karte.
+
+**Die Nebenansicht (PC):** Sucher links (~62 %), KI-Experte rechts (~38 %) — kein gleichberechtigtes Spaltenduell, einer führt. Klick auf „Mit zum Experten" reicht die Ort-Karte sichtbar in den Chat. Einklappbar. **Am Handy** als Slide-over mit Kontext-Chip („zu: Lissabon ✕"), Chat bleibt erhalten.
+
+### G · Reise-Wiki & Community *(spätere Etappe)*
+Jeder recherchierte Ort bekommt eine dauerhafte Seite; das Wiki wächst mit der Nutzung. Community (Bewertungen, andere Reisende) kommt bewusst später, damit sie den Kern nicht verwässert.
+
+### H · Teilen — Bild-Zusammenfassungen in Präsentationsqualität
+Aus jedem Ort (oder einer Auswahl) eine **perfekt gestaltete Bildkarte** zum Ansehen, Speichern, Teilen.
+- **Striktes Layout-System** mit festen Zonen (Titel · Hero-Bild · 3–4 Kennzahl-Chips · Signatur-Satz · dezente Wortmarke).
+- **3–4 Vorlagen** (Einzelort · Top-3-Vergleich · Shortlist · Route), Hell/Dunkel, **Akzentfarbe automatisch aus dem Foto** abgeleitet.
+- Sichere Ränder fürs Teilen, dezentes Branding statt Wasserzeichen. Geteilte Bilder wirken wie eine „Serie" → schönstes organisches Marketing.
+- Optional als **PDF-Reise-Dossier** für mehrere Orte.
 
 ---
 
 ## Der Weg dahin — 3 Etappen
 
-Wir bauen in Etappen, jede für sich schon nutzbar.
-
-**Etappe 1 · Das Fundament**
-Konten & Login, DE/EN-Umschaltung, Chat-Coach mit einstellbarem Ton (B), lernendes Vorlieben-Profil (C), Vorschläge mit Tiefen-Ebenen & „noch mehr" plus **Ort-Chat** (D), Speichern & perfekt sortiertes, modulares Dashboard (F).
+**Etappe 1 · Das Fundament** *(komplett mit kostenlosen Daten machbar)*
+Konten & Login, DE/EN, zwei Modi, Chat-Coach mit einstellbarem Ton (B), Facetten-Lernprofil (C), Vorschläge mit Tiefen-Ebenen + „nie leer"-Motor + Ort-Chat + vier Aktionen (D), kostenloser Daten-Stack inkl. Geheimtipp-Grad (E), modulares Dashboard + Entdecken + Nebenansicht (F), Grundzug des lebenden Plans.
 
 **Etappe 2 · Es wird echt**
-Live-Wetter, echte Attraktionen & Karten, KI-recherchierte Geheimtipps (E), sowie **teilbare Bild-Zusammenfassungen auf Profi-Niveau** (H).
+Live-Flug-/Hotelpreise via Partner-Links/Amadeus, mehr Trend-Signale, teilbare Bild-Zusammenfassungen (H), voll ausgebauter lebender Plan (Preis-/Wetter-Wächter).
 
 **Etappe 3 · Das große Ganze**
-Dauerhafte Länder-/Städteseiten, die mitwachsen (G), plus Community-Ebene mit Stimmen anderer Reisender.
+Reise-Wiki mit dauerhaften Länder-/Städteseiten (G), später Community.
+
+---
+
+## Skalierbarkeit — kurz erklärt
+
+- **Mehrnutzer & Konten** von Tag 1 → wächst von dir auf viele.
+- **Nächtliche Vorberechnung** der Daten in eigener Datenbank → schnell und limitfrei, egal wie viele Orte.
+- **Modularer Aufbau** → neue Funktionen andocken statt neu bauen.
+- Start mit **kostenlosen Quellen**, teure APIs erst, wenn Nutzung/Umsatz sie tragen.
 
 ---
 
 ## Noch offen — sag mir kurz Bescheid
 
-1. **Passt die grobe Richtung?** Alle 7 Bausteine so okay — oder willst du bei einem etwas ganz anders?
-2. **Dein Geschmack als Startpunkt:** Nenn mir 2–3 Orte, an denen du warst oder die dich reizen — dann startet der Coach nicht bei null.
-3. **Später:** Welche Live-Datendienste (Wetter, Karten) — entscheiden wir in Etappe 2.
+1. **Passt v0.4 so?** Bausteine A–H, die zwei Modi und die Roadmap — oder irgendwo noch anders?
+2. **Dein Geschmack als Startpunkt:** 2–3 Orte, an denen du warst oder die dich reizen — dann startet der Coach nicht bei null.
 
-*Reagier einfach lose auf diese Punkte, dann lege ich mit Etappe 1 los.*
+*Sobald das steht, lege ich mit Etappe 1 los.*
