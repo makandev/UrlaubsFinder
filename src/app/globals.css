@@ -36,6 +36,13 @@ html {
   font-family: var(--font-sans);
 }
 
+/* Sichtbarer Fokus für Tastatur-Navigation */
+:focus-visible {
+  outline: 2px solid rgb(var(--teal));
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
 body {
   background: rgb(var(--ground));
   color: rgb(var(--ink));

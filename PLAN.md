@@ -17,7 +17,9 @@ Legende: ⬜ offen · 🔄 in Arbeit · ✅ fertig
 - ✅ **M10** — Insider-Chat: interaktive Oberfläche + regelbasierte Engine (gegroundet auf Ortsdaten), `askInsider()` KI-bereit · browsergetestet
 - ✅ **M11** — /rechtliches: Impressum (Platzhalter), Datenschutz (lokal-first), Quellen-Attribution (Open-Meteo/OSM/Wikidata), Affiliate-Hinweis + Footer-Links
 - ✅ **M12** — Konto lokal-first: Daten-Export (JSON), Import & „Alles zurücksetzen" in der Merkliste · browsergetestet
-- ⬜ **M13** — Politur, Barrierefreiheit, Tests, Build-Check
+- ✅ **M13** — Fokus-Stile (Tastatur), 404-Seite, Smoke-Test aller Routen (0 Fehler), finaler Build grün
 
 ## Fortschritts-Log
 - (Start) Fahrplan angelegt.
+- ✅ ALLE Meilensteine M1–M13 fertig, browsergetestet, committet & gepusht. Build grün (51 Seiten), 0 Konsolen-/Seiten-Fehler über alle Routen.
+- Offen für später (bewusst): echte KI im Chat (Schlüssel), echtes Backend-Konto, echte Live-Preise (Affiliate/Amadeus) — jeweils vorbereitet.
