@@ -4,6 +4,8 @@ import { createContext, useContext, useEffect, useState, useCallback } from "rea
 import type { PlaceStatus } from "@/lib/types";
 import { defaultPrefs, type Prefs } from "@/lib/scoring";
 
+export type Mode = "ruhig" | "profi";
+
 interface SavedItem {
   id: string;
   status: PlaceStatus;
@@ -15,6 +17,8 @@ interface StoreValue {
   skipped: string[];
   hidden: string[];
   prefs: Prefs;
+  mode: Mode;
+  setMode: (m: Mode) => void;
   isSaved: (id: string) => boolean;
   isSkipped: (id: string) => boolean;
   isHidden: (id: string) => boolean;
@@ -38,6 +42,7 @@ interface Persisted {
   skipped: string[];
   hidden: string[];
   prefs: Prefs;
+  mode: Mode;
 }
 
 export function StoreProvider({ children }: { children: React.ReactNode }) {
@@ -45,6 +50,7 @@ export function StoreProvider({ children }: { children: React.ReactNode }) {
   const [skipped, setSkipped] = useState<string[]>([]);
   const [hidden, setHidden] = useState<string[]>([]);
   const [prefs, setPrefsState] = useState<Prefs>(defaultPrefs);
+  const [mode, setModeState] = useState<Mode>("ruhig");
   const [ready, setReady] = useState(false);
 
   useEffect(() => {
@@ -56,6 +62,7 @@ export function StoreProvider({ children }: { children: React.ReactNode }) {
         setSkipped(p.skipped ?? []);
         setHidden(p.hidden ?? []);
         setPrefsState({ ...defaultPrefs, ...(p.prefs ?? {}) });
+        if (p.mode === "ruhig" || p.mode === "profi") setModeState(p.mode);
       }
     } catch {
       /* ignore corrupt storage */
@@ -65,9 +72,9 @@ export function StoreProvider({ children }: { children: React.ReactNode }) {
 
   useEffect(() => {
     if (!ready) return;
-    const data: Persisted = { saved, skipped, hidden, prefs };
+    const data: Persisted = { saved, skipped, hidden, prefs, mode };
     window.localStorage.setItem(KEY, JSON.stringify(data));
-  }, [saved, skipped, hidden, prefs, ready]);
+  }, [saved, skipped, hidden, prefs, mode, ready]);
 
   const isSaved = useCallback((id: string) => saved.some((s) => s.id === id), [saved]);
   const isSkipped = useCallback((id: string) => skipped.includes(id), [skipped]);
@@ -112,11 +119,12 @@ export function StoreProvider({ children }: { children: React.ReactNode }) {
   }, []);
 
   const setPrefs = useCallback((p: Prefs) => setPrefsState(p), []);
+  const setMode = useCallback((m: Mode) => setModeState(m), []);
 
   return (
     <StoreContext.Provider
       value={{
-        saved, skipped, hidden, prefs,
+        saved, skipped, hidden, prefs, mode, setMode,
         isSaved, isSkipped, isHidden,
         save, skip, hide, unhide, unskip, remove, setStatus, setPrefs, ready,
       }}

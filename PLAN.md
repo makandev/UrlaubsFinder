@@ -5,9 +5,9 @@ Entscheidungen des Nutzers: Insider-Chat = Mock jetzt/KI-bereit · Konto = vorer
 
 Legende: ⬜ offen · 🔄 in Arbeit · ✅ fertig
 
-- ✅ **M1** — Datensatz ausbauen: 44 europäische Ziele (Geheimtipp-Fokus, alle Regionen)
+- ✅ **M1** — Datensatz ausbauen: 42 europäische Ziele (Geheimtipp-Fokus, alle Regionen)
 - ✅ **M2** — Live-Wetter (Open-Meteo, client-seitig, ohne Schlüssel) auf Ortsseiten, mit Fallback
-- ⬜ **M3** — Zwei Modi: Ruhig ↔ Profi-Cockpit (umschaltbar)
+- ✅ **M3** — Zwei Modi: Ruhig ↔ Profi (Score-Breakdown auf Karten), im Header umschaltbar · browsergetestet
 - ⬜ **M4** — Facetten-Lernen v2 (implizit aus Speichern/Skip/👎-Grund, Explore-Quote, editierbares Profil)
 - ⬜ **M5** — „Nie leer"-Motor: „Zeig mir mehr" mit Perspektiven-Engine
 - ⬜ **M6** — Vergleich mehrerer Orte + einfache Europa-Karte mit Pins

@@ -19,6 +19,7 @@ export function DestinationCard({
   const { t, locale } = useI18n();
   const store = useStore();
   const saved = store.isSaved(d.id);
+  const profi = store.mode === "profi";
 
   const monthNames = t("months").split(",");
   const best = d.bestMonths.map((m) => monthNames[m - 1]).join(" · ");
@@ -68,6 +69,14 @@ export function DestinationCard({
         <p className="text-xs text-inkfaint">
           <span className="font-semibold text-inksoft">{t("card.bestTime")}:</span> {best}
         </p>
+
+        {profi && (
+          <div className="flex flex-wrap gap-1.5 font-mono text-[11px] text-inkfaint">
+            <span className="rounded bg-surface2 px-1.5 py-0.5">{t("card.quality")} {d.quality}</span>
+            <span className="rounded bg-surface2 px-1.5 py-0.5">{t("card.pop")} {d.popularity}</span>
+            <span className="rounded bg-surface2 px-1.5 py-0.5">~{d.costIndex} €/T</span>
+          </div>
+        )}
 
         <div className="mt-auto flex items-center gap-1.5 pt-1">
           <button

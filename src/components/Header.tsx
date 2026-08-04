@@ -4,9 +4,11 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useI18n } from "@/i18n/I18nProvider";
 import { ThemeToggle } from "@/components/ThemeToggle";
+import { useStore } from "@/lib/store";
 
 export function Header() {
   const { t, locale, setLocale } = useI18n();
+  const { mode, setMode } = useStore();
   const pathname = usePathname();
   const isDash = pathname.startsWith("/dashboard");
 
@@ -38,6 +40,19 @@ export function Header() {
         </nav>
 
         <div className="ml-auto flex items-center gap-2">
+          <button
+            onClick={() => setMode(mode === "ruhig" ? "profi" : "ruhig")}
+            title={t("mode.hint")}
+            className={`hidden items-center gap-1 rounded-full border px-2.5 py-1 text-xs font-semibold transition-colors sm:flex ${
+              mode === "profi"
+                ? "border-teal bg-teal text-white"
+                : "border-line text-inksoft hover:text-ink"
+            }`}
+            aria-pressed={mode === "profi"}
+          >
+            <span aria-hidden>{mode === "profi" ? "🚀" : "🌙"}</span>
+            {mode === "profi" ? t("mode.profi") : t("mode.ruhig")}
+          </button>
           <div className="flex overflow-hidden rounded-full border border-line text-xs font-semibold">
             {(["de", "en"] as const).map((l) => (
               <button
