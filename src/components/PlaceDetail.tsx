@@ -7,6 +7,7 @@ import { computeSecretScore, computeMatch } from "@/lib/scoring";
 import { useI18n } from "@/i18n/I18nProvider";
 import { useStore } from "@/lib/store";
 import { SecretMeter } from "@/components/SecretMeter";
+import { WeatherWidget } from "@/components/WeatherWidget";
 import type { DictKey } from "@/i18n/dictionaries";
 
 export function PlaceDetail({ id }: { id: string }) {
@@ -144,6 +145,8 @@ export function PlaceDetail({ id }: { id: string }) {
               ✕
             </button>
           </div>
+
+          <WeatherWidget lat={d.lat} lng={d.lng} />
 
           <div className="rounded-2xl border border-line bg-surface p-4">
             <h2 className="flex items-center gap-2 font-bold">
