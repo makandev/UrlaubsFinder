@@ -13,7 +13,7 @@ Legende: ⬜ offen · 🔄 in Arbeit · ✅ fertig
 - ✅ **M6** — Europa-Karte (projizierte Pins, Größe = Geheimtipp-Grad) + Vergleichstabelle in der Merkliste · browsergetestet
 - ✅ **M7** — Teilbare Bildkarte (Canvas 1080×1350 → PNG-Download, Vorschau-Modal) · browsergetestet, Profi-Optik
 - ✅ **M8** — Onboarding (3 Fragen → Vorlieben) + Coach-Panel „Weg zum Urlaub" (Stepper + nächster Schritt) · browsergetestet
-- ⬜ **M9** — SEO-Ortsseiten (datenverankert) + Sitemap/Metadaten/robots
+- ✅ **M9** — SEO: sitemap.xml, robots.txt, Open-Graph + JSON-LD (TouristDestination), server-gerenderter Inhalt · verifiziert
 - ⬜ **M10** — Insider-Chat: UI + regelbasierte Engine, KI-bereit (Schlüssel per env)
 - ⬜ **M11** — Recht-Minimum: Impressum/Datenschutz/Attribution/Affiliate-Hinweis (Platzhalter)
 - ⬜ **M12** — Konto: lokal-first bleibt; Export/Import + saubere Abstraktion für späteres Backend

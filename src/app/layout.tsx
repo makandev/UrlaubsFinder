@@ -2,11 +2,17 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { Providers } from "./providers";
 import { Header } from "@/components/Header";
+import { SITE_URL } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "UrlaubsCoach — Geheimtipps für Europa",
+  metadataBase: new URL(SITE_URL),
+  title: {
+    default: "UrlaubsCoach — Geheimtipps für Europa",
+    template: "%s",
+  },
   description:
     "Dein persönlicher Reise-Coach: finde das Geheimste vom Besten in Europa, mit messbarem Geheimtipp-Grad, Wetter, Preisen und Merkliste.",
+  openGraph: { siteName: "UrlaubsCoach", type: "website" },
 };
 
 const themeInit = `
