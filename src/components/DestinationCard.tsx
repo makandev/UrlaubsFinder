@@ -19,6 +19,7 @@ export function DestinationCard({
   const { t, locale } = useI18n();
   const store = useStore();
   const saved = store.isSaved(d.id);
+  const profi = store.mode === "profi";
 
   const monthNames = t("months").split(",");
   const best = d.bestMonths.map((m) => monthNames[m - 1]).join(" · ");
@@ -69,9 +70,20 @@ export function DestinationCard({
           <span className="font-semibold text-inksoft">{t("card.bestTime")}:</span> {best}
         </p>
 
+        {profi && (
+          <div className="flex flex-wrap gap-1.5 font-mono text-[11px] text-inkfaint">
+            <span className="rounded bg-surface2 px-1.5 py-0.5">{t("card.quality")} {d.quality}</span>
+            <span className="rounded bg-surface2 px-1.5 py-0.5">{t("card.pop")} {d.popularity}</span>
+            <span className="rounded bg-surface2 px-1.5 py-0.5">~{d.costIndex} €/T</span>
+          </div>
+        )}
+
         <div className="mt-auto flex items-center gap-1.5 pt-1">
           <button
-            onClick={() => store.save(d.id)}
+            onClick={() => {
+              store.save(d.id);
+              if (!saved) store.learn(d, 1);
+            }}
             className={`flex-1 rounded-lg px-2 py-2 text-xs font-semibold transition-colors ${
               saved
                 ? "bg-teal text-white"
@@ -88,7 +100,10 @@ export function DestinationCard({
             ⏭
           </button>
           <button
-            onClick={() => store.hide(d.id)}
+            onClick={() => {
+              store.hide(d.id);
+              store.learn(d, -1);
+            }}
             title={t("card.hide")}
             className="rounded-lg border border-line px-2.5 py-2 text-xs text-inksoft transition-colors hover:bg-surface2"
           >

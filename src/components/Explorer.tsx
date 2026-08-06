@@ -1,6 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import { useRouter } from "next/navigation";
 import { destinations } from "@/data/destinations";
 import { computeSecretScore, computeMatch } from "@/lib/scoring";
 import type { Climate, RegionKey } from "@/lib/types";
@@ -8,6 +9,7 @@ import { useI18n } from "@/i18n/I18nProvider";
 import { useStore } from "@/lib/store";
 import { DestinationCard } from "@/components/DestinationCard";
 import { PrefsPanel } from "@/components/PrefsPanel";
+import { CoachPanel } from "@/components/CoachPanel";
 import type { DictKey } from "@/i18n/dictionaries";
 
 type Tab = "discover" | "popular" | "bargains" | "secret";
@@ -26,6 +28,7 @@ const CLIMATES: Climate[] = ["warm", "mild", "kuehl"];
 export function Explorer() {
   const { t } = useI18n();
   const store = useStore();
+  const router = useRouter();
 
   const [tab, setTab] = useState<Tab>("discover");
   const [sort, setSort] = useState<SortKey>("secret");
@@ -70,27 +73,19 @@ export function Explorer() {
     setSort(TABS.find((x) => x.key === nt)!.sort);
   };
 
-  const topPick = useMemo(
-    () => [...scored].sort((a, b) => b.secret - a.secret).find(({ d }) => !store.isHidden(d.id)),
-    [scored, store],
-  );
+  const surprise = () => {
+    const pool = destinations.filter((d) => !store.isHidden(d.id));
+    if (pool.length === 0) return;
+    const pick = pool[Math.floor(Math.random() * pool.length)];
+    router.push(`/place/${pick.id}`);
+  };
 
   return (
     <div className="flex flex-col gap-5">
-      {/* Coach banner — „ein nächster Schritt“ */}
-      {topPick && (
-        <div className="rise flex items-center gap-3 rounded-2xl border border-line bg-surface p-3 text-sm">
-          <span aria-hidden className="text-xl">🧭</span>
-          <p className="text-inksoft">
-            <span className="font-semibold text-ink">{topPick.d.name}</span> ({topPick.d.countryEmoji}{" "}
-            {topPick.d.country}) — {t("card.secret")}{" "}
-            <span className="font-semibold text-teal">{topPick.secret}</span>.
-          </p>
-        </div>
-      )}
+      <CoachPanel />
 
       {/* Tabs */}
-      <div className="flex flex-wrap gap-1.5">
+      <div className="flex flex-wrap items-center gap-1.5">
         {TABS.map((x) => (
           <button
             key={x.key}
@@ -104,6 +99,12 @@ export function Explorer() {
             {t(x.label)}
           </button>
         ))}
+        <button
+          onClick={surprise}
+          className="ml-auto rounded-full border border-dashed border-line px-4 py-2 text-sm font-semibold text-amber transition-colors hover:bg-surface2"
+        >
+          {t("explore.surprise")}
+        </button>
       </div>
 
       <PrefsPanel onApply={() => setSort("match")} />

@@ -4,11 +4,19 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useI18n } from "@/i18n/I18nProvider";
 import { ThemeToggle } from "@/components/ThemeToggle";
+import { useStore } from "@/lib/store";
 
 export function Header() {
   const { t, locale, setLocale } = useI18n();
+  const { mode, setMode } = useStore();
   const pathname = usePathname();
   const isDash = pathname.startsWith("/dashboard");
+  const isMap = pathname.startsWith("/karte");
+  const isDiscover = !isDash && !isMap;
+  const linkCls = (active: boolean) =>
+    `rounded-full px-3 py-1.5 transition-colors ${
+      active ? "bg-tealsoft text-teal font-semibold" : "text-inksoft hover:text-ink"
+    }`;
 
   return (
     <header className="sticky top-0 z-30 border-b border-line bg-ground/85 backdrop-blur">
@@ -19,25 +27,25 @@ export function Header() {
         </Link>
 
         <nav className="ml-4 flex items-center gap-1 text-sm">
-          <Link
-            href="/"
-            className={`rounded-full px-3 py-1.5 transition-colors ${
-              !isDash ? "bg-tealsoft text-teal font-semibold" : "text-inksoft hover:text-ink"
-            }`}
-          >
-            {t("nav.discover")}
-          </Link>
-          <Link
-            href="/dashboard"
-            className={`rounded-full px-3 py-1.5 transition-colors ${
-              isDash ? "bg-tealsoft text-teal font-semibold" : "text-inksoft hover:text-ink"
-            }`}
-          >
-            {t("nav.dashboard")}
-          </Link>
+          <Link href="/" className={linkCls(isDiscover)}>{t("nav.discover")}</Link>
+          <Link href="/karte" className={linkCls(isMap)}>{t("nav.map")}</Link>
+          <Link href="/dashboard" className={linkCls(isDash)}>{t("nav.dashboard")}</Link>
         </nav>
 
         <div className="ml-auto flex items-center gap-2">
+          <button
+            onClick={() => setMode(mode === "ruhig" ? "profi" : "ruhig")}
+            title={t("mode.hint")}
+            className={`hidden items-center gap-1 rounded-full border px-2.5 py-1 text-xs font-semibold transition-colors sm:flex ${
+              mode === "profi"
+                ? "border-teal bg-teal text-white"
+                : "border-line text-inksoft hover:text-ink"
+            }`}
+            aria-pressed={mode === "profi"}
+          >
+            <span aria-hidden>{mode === "profi" ? "🚀" : "🌙"}</span>
+            {mode === "profi" ? t("mode.profi") : t("mode.ruhig")}
+          </button>
           <div className="flex overflow-hidden rounded-full border border-line text-xs font-semibold">
             {(["de", "en"] as const).map((l) => (
               <button
