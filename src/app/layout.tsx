@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { Providers } from "./providers";
 import { Header } from "@/components/Header";
+import { BottomNav } from "@/components/BottomNav";
 import { SITE_URL } from "@/lib/site";
 
 export const metadata: Metadata = {
@@ -38,6 +39,7 @@ export default function RootLayout({
         <Providers>
           <Header />
           <main className="mx-auto max-w-6xl px-4 pb-24 pt-6">{children}</main>
+          <BottomNav />
         </Providers>
       </body>
     </html>

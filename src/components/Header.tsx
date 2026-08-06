@@ -21,12 +21,12 @@ export function Header() {
   return (
     <header className="sticky top-0 z-30 border-b border-line bg-ground/85 backdrop-blur">
       <div className="mx-auto flex max-w-6xl items-center gap-3 px-4 py-3">
-        <Link href="/" className="flex items-center gap-2 font-bold tracking-tight">
+        <Link href="/" className="flex shrink-0 items-center gap-2 whitespace-nowrap font-bold tracking-tight">
           <span aria-hidden className="text-lg">🧭</span>
           <span>{t("app.name")}</span>
         </Link>
 
-        <nav className="ml-4 flex items-center gap-1 text-sm">
+        <nav className="ml-4 hidden items-center gap-1 text-sm md:flex">
           <Link href="/" className={linkCls(isDiscover)}>{t("nav.discover")}</Link>
           <Link href="/karte" className={linkCls(isMap)}>{t("nav.map")}</Link>
           <Link href="/dashboard" className={linkCls(isDash)}>{t("nav.dashboard")}</Link>
@@ -36,7 +36,7 @@ export function Header() {
           <button
             onClick={() => setMode(mode === "ruhig" ? "profi" : "ruhig")}
             title={t("mode.hint")}
-            className={`hidden items-center gap-1 rounded-full border px-2.5 py-1 text-xs font-semibold transition-colors sm:flex ${
+            className={`flex items-center gap-1 rounded-full border px-2.5 py-1 text-xs font-semibold transition-colors ${
               mode === "profi"
                 ? "border-teal bg-teal text-white"
                 : "border-line text-inksoft hover:text-ink"
