@@ -11,10 +11,11 @@ permissions:
   pages: write
   id-token: write
 
-# Immer nur ein Deploy gleichzeitig
+# Immer nur ein Deploy gleichzeitig — laufende NICHT abbrechen
+# (GitHub-Empfehlung für Pages: sonst bleiben Deployments in der Queue hängen)
 concurrency:
   group: pages
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   build:
