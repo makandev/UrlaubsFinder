@@ -5,6 +5,7 @@ import type { Destination } from "@/lib/types";
 import { useI18n } from "@/i18n/I18nProvider";
 import { useStore } from "@/lib/store";
 import { SmartImage } from "@/components/SmartImage";
+import { heroPhoto } from "@/lib/photos";
 import type { DictKey } from "@/i18n/dictionaries";
 
 export function DestinationCard({
@@ -27,7 +28,7 @@ export function DestinationCard({
       <Link href={`/place/${d.id}`} className="block">
         <div className="relative">
           <SmartImage
-            photo={d.photos?.[0]}
+            photo={heroPhoto(d.id)}
             gradient={d.gradient}
             alt={d.name}
             sizes="(max-width: 640px) 50vw, 33vw"

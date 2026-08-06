@@ -1,0 +1,42 @@
+name: Daten aktualisieren (Fotos)
+
+# Entkoppelt vom Deploy: holt echte Bilder aus Wikimedia (offenes Netz in Actions)
+# und committet src/data/photos.json zurück. Manuell oder monatlich.
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 4 1 * *" # 1. des Monats, 04:00 UTC
+
+permissions:
+  contents: write
+
+concurrency:
+  group: data-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh-photos:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Fetch photos (Wikimedia)
+        run: node scripts/fetch-photos.mjs
+
+      - name: Commit updated photos.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add src/data/photos.json
+          if git diff --staged --quiet; then
+            echo "Keine Änderungen an photos.json."
+          else
+            git commit -m "data: refresh photos.json [skip ci]"
+            git push
+          fi
