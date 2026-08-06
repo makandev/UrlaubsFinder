@@ -2,7 +2,7 @@ import type { Locale } from "@/lib/types";
 
 export const dict = {
   de: {
-    "app.name": "UrlaubsCoach",
+    "app.name": "Fernweh Atlas",
     "nav.discover": "Entdecken",
     "nav.dashboard": "Merkliste",
     "nav.map": "Karte",
@@ -114,7 +114,7 @@ export const dict = {
     "coach.next3": "Schau dir das Wetter & die Details deines geplanten Orts an.",
   },
   en: {
-    "app.name": "UrlaubsCoach",
+    "app.name": "Fernweh Atlas",
     "nav.discover": "Discover",
     "nav.dashboard": "Saved",
     "nav.map": "Map",

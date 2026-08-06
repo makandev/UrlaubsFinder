@@ -15,7 +15,7 @@ export function DataControls() {
     const url = URL.createObjectURL(blob);
     const a = document.createElement("a");
     a.href = url;
-    a.download = "urlaubscoach-daten.json";
+    a.download = "fernweh-atlas-daten.json";
     a.click();
     URL.revokeObjectURL(url);
   };

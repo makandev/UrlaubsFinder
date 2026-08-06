@@ -18,7 +18,7 @@ export function ShareCardButton({ d, secret }: { d: Destination; secret: number 
     if (!preview) return;
     const a = document.createElement("a");
     a.href = preview;
-    a.download = `urlaubscoach-${d.id}.png`;
+    a.download = `fernweh-atlas-${d.id}.png`;
     a.click();
   };
 

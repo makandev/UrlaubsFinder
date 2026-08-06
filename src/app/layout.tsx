@@ -7,12 +7,12 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "UrlaubsCoach — Geheimtipps für Europa",
+    default: "Fernweh Atlas — Geheimtipps für Europa",
     template: "%s",
   },
   description:
-    "Dein persönlicher Reise-Coach: finde das Geheimste vom Besten in Europa, mit messbarem Geheimtipp-Grad, Wetter, Preisen und Merkliste.",
-  openGraph: { siteName: "UrlaubsCoach", type: "website" },
+    "Fernweh Atlas: finde das Geheimste vom Besten in Europa, mit messbarem Geheimtipp-Grad, Wetter, Preisen und Merkliste.",
+  openGraph: { siteName: "Fernweh Atlas", type: "website" },
 };
 
 const themeInit = `

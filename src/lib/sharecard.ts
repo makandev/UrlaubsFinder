@@ -52,7 +52,7 @@ export function drawShareCard(
   // Wortmarke oben
   ctx.font = "600 30px system-ui, sans-serif";
   ctx.textAlign = "left";
-  ctx.fillText("🧭  URLAUBSCOACH", M, 90);
+  ctx.fillText("🧭  FERNWEH ATLAS", M, 90);
 
   // Geheimtipp-Grad Badge oben rechts
   ctx.textAlign = "center";
