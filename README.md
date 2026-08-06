@@ -11,6 +11,30 @@ teilbaren Bildkarten. Deutsch & Englisch, Hell-/Dunkelmodus, Profi-Design.
 - **Markt-Strategie:** [`STRATEGIE.md`](./STRATEGIE.md) — Keil, MVP, Geld-Modell, Recht
 - **Bau-Fahrplan:** [`PLAN.md`](./PLAN.md) — die 13 Meilensteine (alle ✅)
 
+## Vorschau
+
+**Entdecken** — hell & dunkel, mit Coach-Panel, Reitern und Geheimtipp-Grad:
+
+<p>
+  <img src="docs/screenshots/discover.png" alt="Entdecken (hell)" width="49%" />
+  <img src="docs/screenshots/discover-dark.png" alt="Entdecken (dunkel)" width="49%" />
+</p>
+
+**Ortsdetail** — Fakten, „warum das zu dir passt", Perspektiven-Motor, Bildkarte & Insider-Chat:
+
+<img src="docs/screenshots/place.png" alt="Ortsdetailseite mit Insider-Chat" width="100%" />
+
+**Merkliste mit Vergleich** & **Europa-Karte** (Pin-Größe = Geheimtipp-Grad):
+
+<p>
+  <img src="docs/screenshots/dashboard.png" alt="Merkliste mit Vergleich" width="49%" />
+  <img src="docs/screenshots/map.png" alt="Europa-Karte mit Pins" width="49%" />
+</p>
+
+**Teilbare Bildkarte** (Canvas → PNG, Präsentationsqualität):
+
+<img src="docs/screenshots/sharecard.png" alt="Teilbare Bildkarte" width="320" />
+
 ## Features
 
 - 🧭 **Entdecken** von 42 europäischen Zielen mit Reitern: **Entdecken · Beliebt · Schnäppchen · Geheimtipps**
