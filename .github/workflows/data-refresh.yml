@@ -37,6 +37,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "Keine Änderungen an photos.json."
           else
-            git commit -m "data: refresh photos.json [skip ci]"
+            git commit -m "data: refresh photos.json"
             git push
           fi
