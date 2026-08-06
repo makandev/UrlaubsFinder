@@ -1,4 +1,4 @@
-# UrlaubsCoach 🧭
+# UrlaubsCoach🧭 (noch nicht endgültig fertig)
 
 Dein persönlicher Reise-Coach als Web-App: finde **das Geheimste vom Besten in Europa** —
 mit messbarem Geheimtipp-Grad, lernenden Vorlieben, Insider-Chat, Merkliste, Karte und
