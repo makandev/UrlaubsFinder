@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import { destinations } from "@/data/destinations";
 import { computeSecretScore, computeMatch } from "@/lib/scoring";
@@ -11,7 +11,10 @@ import { DestinationCard } from "@/components/DestinationCard";
 import { PrefsPanel } from "@/components/PrefsPanel";
 import { CoachPanel } from "@/components/CoachPanel";
 import { FilterSheet, emptyFilters, activeFilterCount, type Filters } from "@/components/FilterSheet";
+import { Collections } from "@/components/Collections";
 import type { DictKey } from "@/i18n/dictionaries";
+
+const PAGE = 12;
 
 type Tab = "discover" | "popular" | "bargains" | "secret";
 type SortKey = "secret" | "match" | "price" | "popularity" | "az";
@@ -34,6 +37,8 @@ export function Explorer() {
   const [sort, setSort] = useState<SortKey>("secret");
   const [filters, setFilters] = useState<Filters>(emptyFilters);
   const [sheetOpen, setSheetOpen] = useState(false);
+  const [page, setPage] = useState(1);
+  const sentinelRef = useRef<HTMLDivElement | null>(null);
 
   const scored = useMemo(
     () =>
@@ -88,6 +93,30 @@ export function Explorer() {
     }));
 
   const activeCount = activeFilterCount(filters);
+
+  const visible = list.slice(0, page * PAGE);
+  const hasMore = visible.length < list.length;
+  const showRails = tab === "discover" && activeCount === 0;
+
+  // Seitenzahl zurücksetzen, wenn sich die Liste ändert
+  useEffect(() => {
+    setPage(1);
+  }, [filters, tab, sort, store.prefs]);
+
+  // Infinite Scroll
+  useEffect(() => {
+    if (!hasMore) return;
+    const el = sentinelRef.current;
+    if (!el) return;
+    const io = new IntersectionObserver(
+      (entries) => {
+        if (entries[0].isIntersecting) setPage((p) => p + 1);
+      },
+      { rootMargin: "600px" },
+    );
+    io.observe(el);
+    return () => io.disconnect();
+  }, [hasMore, list.length]);
 
   return (
     <div className="flex flex-col gap-5">
@@ -172,17 +201,27 @@ export function Explorer() {
         <span className="ml-auto font-mono text-xs text-inkfaint">{list.length}</span>
       </div>
 
+      {/* Kollektions-Rails (nur Entdecken, ohne aktive Filter) */}
+      {showRails && <Collections />}
+
       {/* Grid */}
       {list.length === 0 ? (
         <p className="rounded-2xl border border-line bg-surface p-8 text-center text-inksoft">
           {t("empty.discover")}
         </p>
       ) : (
-        <div className="grid grid-cols-2 gap-3 sm:gap-4 lg:grid-cols-3">
-          {list.map(({ d, secret, match }) => (
-            <DestinationCard key={d.id} d={d} secret={secret} match={sort === "match" ? match : undefined} />
-          ))}
-        </div>
+        <>
+          <div className="grid grid-cols-2 gap-3 sm:gap-4 lg:grid-cols-3">
+            {visible.map(({ d, secret, match }) => (
+              <DestinationCard key={d.id} d={d} secret={secret} match={sort === "match" ? match : undefined} />
+            ))}
+            {hasMore &&
+              Array.from({ length: 3 }).map((_, i) => (
+                <div key={`sk-${i}`} className="aspect-[4/5] animate-pulse rounded-2xl border border-line bg-surface2" />
+              ))}
+          </div>
+          {hasMore && <div ref={sentinelRef} className="h-4" />}
+        </>
       )}
 
       <FilterSheet
