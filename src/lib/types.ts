@@ -20,6 +20,17 @@ export type RegionKey =
   | "nord"
   | "balkan";
 
+export interface Photo {
+  src: string;
+  srcset?: string;
+  /** Low-Quality-Platzhalter als Data-URI für Blur-up */
+  lqip?: string;
+  alt?: string;
+  credit?: string;
+  license?: string;
+  sourceUrl?: string;
+}
+
 export interface Destination {
   id: string;
   name: string;
@@ -42,6 +53,8 @@ export interface Destination {
   climate: Climate;
   tags: TagKey[];
   desc: { de: string; en: string };
+  /** Echte Fotos (Build-Pipeline). Leer → Farbverlauf-Fallback. */
+  photos?: Photo[];
 }
 
 export type PlaceStatus = "wunsch" | "geplant" | "gewesen";
