@@ -4,6 +4,11 @@ on:
   push:
     branches: [ main ]
   workflow_dispatch:
+  # Nach jedem Foto-Refresh neu deployen: der Bot-Commit (GITHUB_TOKEN) löst
+  # selbst kein push-Deploy aus, workflow_run schon.
+  workflow_run:
+    workflows: ["Daten aktualisieren (Fotos)"]
+    types: [completed]
 
 # Branch-basierter Deploy: die fertige Seite wird in den gh-pages-Branch
 # geschrieben (umgeht die hängende Actions-Pages-Deployment-Pipeline).
