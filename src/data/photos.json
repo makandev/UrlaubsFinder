@@ -1,20 +1,13 @@
 {
   "piran": {
     "hero": {
-      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Wappen_piran.svg/langde-500px-Wappen_piran.svg.png?utm_source=de.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "alt": "Piran — Piran",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Piran_old_town.jpg/1024px-Piran_old_town.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+      "alt": "Piran — Datei:Piran_old_town",
       "sourceUrl": "https://de.wikipedia.org/wiki/Piran",
-      "credit": "Wikimedia Commons",
-      "license": ""
+      "credit": "Isiwal",
+      "license": "CC BY-SA 4.0"
     },
     "gallery": [
-      {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Piran_old_town.jpg/1024px-Piran_old_town.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-        "alt": "Piran — Datei:Piran_old_town",
-        "sourceUrl": "https://de.wikipedia.org/wiki/Piran",
-        "credit": "Isiwal",
-        "license": "CC BY-SA 4.0"
-      },
       {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Piran_kamienica_Wenecjanka.jpg/1024px-Piran_kamienica_Wenecjanka.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
         "alt": "Piran — Datei:Piran_kamienica_Wenecjanka",
@@ -35,25 +28,25 @@
         "sourceUrl": "https://de.wikipedia.org/wiki/Piran",
         "credit": "Isiwal",
         "license": "CC BY-SA 4.0"
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Piran_city_walls_SW.jpg/1024px-Piran_city_walls_SW.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+        "alt": "Piran — Datei:Piran_city_walls_SW",
+        "sourceUrl": "https://de.wikipedia.org/wiki/Piran",
+        "credit": "Isiwal",
+        "license": "CC BY-SA 4.0"
       }
     ]
   },
   "kotor": {
     "hero": {
-      "src": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Coat_of_Arms_of_Kotor.png?utm_source=de.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-      "alt": "Kotor — Kotor",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/KotorBuchtImDunst2014.JPG/1024px-KotorBuchtImDunst2014.JPG?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+      "alt": "Kotor — Datei:KotorBuchtImDunst2014",
       "sourceUrl": "https://de.wikipedia.org/wiki/Kotor",
-      "credit": "Wikimedia Commons",
-      "license": ""
+      "credit": "Joergsam",
+      "license": "CC BY-SA 4.0"
     },
     "gallery": [
-      {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/KotorBuchtImDunst2014.JPG/1024px-KotorBuchtImDunst2014.JPG?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-        "alt": "Kotor — Datei:KotorBuchtImDunst2014",
-        "sourceUrl": "https://de.wikipedia.org/wiki/Kotor",
-        "credit": "Joergsam",
-        "license": "CC BY-SA 4.0"
-      },
       {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/20090719_Crkva_Gospa_od_Zdravlja_Kotor_Bay_Montenegro.jpg/1024px-20090719_Crkva_Gospa_od_Zdravlja_Kotor_Bay_Montenegro.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
         "alt": "Kotor — Datei:20090719_Crkva_Gospa_od_Zdravlja_Kotor_Bay_Montenegro",
@@ -74,25 +67,25 @@
         "sourceUrl": "https://de.wikipedia.org/wiki/Kotor",
         "credit": "Pudelek (Marcin Szala)",
         "license": "CC BY-SA 3.0"
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Marktplatz_Kotor_2014.jpg/1024px-Marktplatz_Kotor_2014.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+        "alt": "Kotor — Datei:Marktplatz_Kotor_2014",
+        "sourceUrl": "https://de.wikipedia.org/wiki/Kotor",
+        "credit": "JøMa",
+        "license": "CC BY-SA 4.0"
       }
     ]
   },
   "matera": {
     "hero": {
-      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/%221993_wurden_die_Sassi_di_Matera_als_einzigartiges_Zeugnis_der_Grottenkultur_von_der_UNESCO_zum_Weltkulturerbe_erkl%C3%A4rt%22._20.jpg/1024px-%221993_wurden_die_Sassi_di_Matera_als_einzigartiges_Zeugnis_der_Grottenkultur_von_der_UNESCO_zum_Weltkulturerbe_erkl%C3%A4rt%22._20.jpg?utm_source=de.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "alt": "Matera — Matera",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/%221993_wurden_die_Sassi_di_Matera_als_einzigartiges_Zeugnis_der_Grottenkultur_von_der_UNESCO_zum_Weltkulturerbe_erkl%C3%A4rt%22._20.jpg/1024px-%221993_wurden_die_Sassi_di_Matera_als_einzigartiges_Zeugnis_der_Grottenkultur_von_der_UNESCO_zum_Weltkulturerbe_erkl%C3%A4rt%22._20.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+      "alt": "Matera — Datei:\"1993_wurden_die_Sassi_di_Matera_als_einzigartiges_Zeugnis_der_Grottenkultur_von_der_UNESCO_zum_Weltkulturerbe_erklärt\"._20",
       "sourceUrl": "https://de.wikipedia.org/wiki/Matera",
       "credit": "Holger Uwe Schmitt",
       "license": "CC BY-SA 4.0"
     },
     "gallery": [
-      {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/%221993_wurden_die_Sassi_di_Matera_als_einzigartiges_Zeugnis_der_Grottenkultur_von_der_UNESCO_zum_Weltkulturerbe_erkl%C3%A4rt%22._20.jpg/1024px-%221993_wurden_die_Sassi_di_Matera_als_einzigartiges_Zeugnis_der_Grottenkultur_von_der_UNESCO_zum_Weltkulturerbe_erkl%C3%A4rt%22._20.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-        "alt": "Matera — Datei:\"1993_wurden_die_Sassi_di_Matera_als_einzigartiges_Zeugnis_der_Grottenkultur_von_der_UNESCO_zum_Weltkulturerbe_erklärt\"._20",
-        "sourceUrl": "https://de.wikipedia.org/wiki/Matera",
-        "credit": "Holger Uwe Schmitt",
-        "license": "CC BY-SA 4.0"
-      },
       {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/%221993_wurden_die_Sassi_di_Matera_als_einzigartiges_Zeugnis_der_Grottenkultur_zum_Weltkulturerbe_erkl%C3%A4rt%22_10.jpg/1024px-%221993_wurden_die_Sassi_di_Matera_als_einzigartiges_Zeugnis_der_Grottenkultur_zum_Weltkulturerbe_erkl%C3%A4rt%22_10.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
         "alt": "Matera — Datei:\"1993_wurden_die_Sassi_di_Matera_als_einzigartiges_Zeugnis_der_Grottenkultur_zum_Weltkulturerbe_erklärt\"_10",
@@ -113,25 +106,25 @@
         "sourceUrl": "https://de.wikipedia.org/wiki/Matera",
         "credit": "Holger Uwe Schmitt",
         "license": "CC BY-SA 4.0"
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/%2B_1270_wurde_die_Kathedrale_von_Matera_fertiggestellt._01.jpg/1024px-%2B_1270_wurde_die_Kathedrale_von_Matera_fertiggestellt._01.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+        "alt": "Matera — Datei:+_1270_wurde_die_Kathedrale_von_Matera_fertiggestellt._01",
+        "sourceUrl": "https://de.wikipedia.org/wiki/Matera",
+        "credit": "Holger Uwe Schmitt",
+        "license": "CC BY-SA 4.0"
       }
     ]
   },
   "sintra": {
     "hero": {
-      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Bras%C3%A3o_de_Armas_de_Sintra.svg/langde-1280px-Bras%C3%A3o_de_Armas_de_Sintra.svg.png?utm_source=de.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "alt": "Sintra — Sintra",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Pt-snt1.png/1024px-Pt-snt1.png?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+      "alt": "Sintra — Datei:Pt-snt1",
       "sourceUrl": "https://de.wikipedia.org/wiki/Sintra",
       "credit": "Wikimedia Commons",
-      "license": ""
+      "license": "CC BY-SA 3.0"
     },
     "gallery": [
-      {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Pt-snt1.png/1024px-Pt-snt1.png?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-        "alt": "Sintra — Datei:Pt-snt1",
-        "sourceUrl": "https://de.wikipedia.org/wiki/Sintra",
-        "credit": "Wikimedia Commons",
-        "license": "CC BY-SA 3.0"
-      },
       {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Sintra_Portugal_Pal%C3%A1cio_da_Pena-01.jpg/1024px-Sintra_Portugal_Pal%C3%A1cio_da_Pena-01.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
         "alt": "Sintra — Datei:Sintra_Portugal_Palácio_da_Pena-01",
@@ -152,25 +145,25 @@
         "sourceUrl": "https://de.wikipedia.org/wiki/Sintra",
         "credit": "MartinPutz",
         "license": "CC BY-SA 3.0"
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Pena_National_Palace.JPG/1024px-Pena_National_Palace.JPG?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+        "alt": "Sintra — Datei:Pena_National_Palace",
+        "sourceUrl": "https://de.wikipedia.org/wiki/Sintra",
+        "credit": "Guillaume70",
+        "license": "CC BY-SA 3.0"
       }
     ]
   },
   "girona": {
     "hero": {
-      "src": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Girona_des_de_l_aire_edited.jpg?utm_source=de.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-      "alt": "Girona — Girona",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Girona_des_de_l_aire_edited.jpg/1024px-Girona_des_de_l_aire_edited.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+      "alt": "Girona — Datei:Girona_des_de_l_aire_edited",
       "sourceUrl": "https://de.wikipedia.org/wiki/Girona",
-      "credit": "Wikimedia Commons",
-      "license": ""
+      "credit": "Patronat de Turisme Costa Brava Pirineu de Girona",
+      "license": "CC BY-SA 3.0"
     },
     "gallery": [
-      {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Girona_des_de_l_aire_edited.jpg/1024px-Girona_des_de_l_aire_edited.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-        "alt": "Girona — Datei:Girona_des_de_l_aire_edited",
-        "sourceUrl": "https://de.wikipedia.org/wiki/Girona",
-        "credit": "Patronat de Turisme Costa Brava Pirineu de Girona",
-        "license": "CC BY-SA 3.0"
-      },
       {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Spain.Girona.Banys.Arabs.Frigidarium.JPG/1024px-Spain.Girona.Banys.Arabs.Frigidarium.JPG?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
         "alt": "Girona — Datei:Spain.Girona.Banys.Arabs.Frigidarium",
@@ -191,31 +184,38 @@
         "sourceUrl": "https://de.wikipedia.org/wiki/Girona",
         "credit": "Vilallonga",
         "license": "CC BY-SA 2.5"
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Farinera_Teixidor.jpg/1024px-Farinera_Teixidor.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+        "alt": "Girona — Datei:Farinera_Teixidor",
+        "sourceUrl": "https://de.wikipedia.org/wiki/Girona",
+        "credit": "Josep Renalias",
+        "license": "CC BY-SA 2.5"
       }
     ]
   },
   "bled": {
     "hero": {
-      "src": "https://upload.wikimedia.org/wikipedia/commons/0/05/Coat_of_arms_of_Bled.png",
-      "alt": "Bled — Bled",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Ob%C4%8Dina_Bled.jpg/1024px-Ob%C4%8Dina_Bled.jpg",
+      "alt": "Bled — Datei:Občina_Bled",
       "sourceUrl": "https://de.wikipedia.org/wiki/Bled",
-      "credit": "Wikimedia Commons",
-      "license": ""
+      "credit": "Arne Müseler",
+      "license": "CC BY-SA 3.0 de"
     },
     "gallery": [
-      {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Ob%C4%8Dina_Bled.jpg/1024px-Ob%C4%8Dina_Bled.jpg",
-        "alt": "Bled — Datei:Občina_Bled",
-        "sourceUrl": "https://de.wikipedia.org/wiki/Bled",
-        "credit": "Arne Müseler",
-        "license": "CC BY-SA 3.0 de"
-      },
       {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Bled_Gmajna_Zasip_01092008_66.jpg/1024px-Bled_Gmajna_Zasip_01092008_66.jpg",
         "alt": "Bled — Datei:Bled_Gmajna_Zasip_01092008_66",
         "sourceUrl": "https://de.wikipedia.org/wiki/Bled",
         "credit": "Johann Jaritz",
         "license": "CC BY-SA 3.0"
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Bled_%28SLO%29_-_Insel_im_Bleder_See_mit_Marienkirche_%28tone-mapping%29.jpg/1024px-Bled_%28SLO%29_-_Insel_im_Bleder_See_mit_Marienkirche_%28tone-mapping%29.jpg",
+        "alt": "Bled — Datei:Bled_(SLO)_-_Insel_im_Bleder_See_mit_Marienkirche_(tone-mapping)",
+        "sourceUrl": "https://de.wikipedia.org/wiki/Bled",
+        "credit": "Guido Radig",
+        "license": "CC BY 3.0"
       },
       {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/BlejskiOtok1.JPG/1024px-BlejskiOtok1.JPG",
@@ -235,59 +235,52 @@
   },
   "cesky-krumlov": {
     "hero": {
-      "src": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Cesky_Krumlov_CK_CZ.png?utm_source=de.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-      "alt": "Český Krumlov — Český Krumlov",
-      "sourceUrl": "https://de.wikipedia.org/wiki/%C4%8Cesk%C3%BD_Krumlov",
-      "credit": "Wikimedia Commons",
-      "license": ""
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Cesky_Krumlov_CK_CZ.png/1024px-Cesky_Krumlov_CK_CZ.png?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+      "alt": "Český Krumlov — Datei:Cesky_Krumlov_CK_CZ",
+      "sourceUrl": "https://de.wikipedia.org/wiki/%C4%8Cesk%C3%BD%20Krumlov",
+      "credit": "Doc-phiLz",
+      "license": "CC BY-SA 4.0"
     },
     "gallery": [
       {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Cesky_Krumlov_CK_CZ.png/1024px-Cesky_Krumlov_CK_CZ.png?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-        "alt": "Český Krumlov — Datei:Cesky_Krumlov_CK_CZ",
-        "sourceUrl": "https://de.wikipedia.org/wiki/%C4%8Cesk%C3%BD_Krumlov",
-        "credit": "Doc-phiLz",
-        "license": "CC BY-SA 4.0"
-      },
-      {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Blick_auf_das_Stadtzentrum_von_Krumau_%282026%29.jpg/1024px-Blick_auf_das_Stadtzentrum_von_Krumau_%282026%29.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
         "alt": "Český Krumlov — Datei:Blick_auf_das_Stadtzentrum_von_Krumau_(2026)",
-        "sourceUrl": "https://de.wikipedia.org/wiki/%C4%8Cesk%C3%BD_Krumlov",
+        "sourceUrl": "https://de.wikipedia.org/wiki/%C4%8Cesk%C3%BD%20Krumlov",
         "credit": "DominikCK1999",
         "license": "CC BY 4.0"
       },
       {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Houses_in_%C4%8Cesk%C3%BD_Krumlov.jpg/1024px-Houses_in_%C4%8Cesk%C3%BD_Krumlov.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
         "alt": "Český Krumlov — Datei:Houses_in_Český_Krumlov",
-        "sourceUrl": "https://de.wikipedia.org/wiki/%C4%8Cesk%C3%BD_Krumlov",
+        "sourceUrl": "https://de.wikipedia.org/wiki/%C4%8Cesk%C3%BD%20Krumlov",
         "credit": "Martin Vorel",
         "license": "CC BY-SA 4.0"
       },
       {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Wilhelm_von_Rosenberg1.jpg/1024px-Wilhelm_von_Rosenberg1.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
         "alt": "Český Krumlov — Datei:Wilhelm_von_Rosenberg1",
-        "sourceUrl": "https://de.wikipedia.org/wiki/%C4%8Cesk%C3%BD_Krumlov",
+        "sourceUrl": "https://de.wikipedia.org/wiki/%C4%8Cesk%C3%BD%20Krumlov",
         "credit": "Charles Louis Philippot",
         "license": "Public domain"
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/%C4%8Cesk%C3%BD_Krumlov_%28Krummau%29_-_panorama_-_old_city.JPG/1024px-%C4%8Cesk%C3%BD_Krumlov_%28Krummau%29_-_panorama_-_old_city.JPG?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+        "alt": "Český Krumlov — Datei:Český_Krumlov_(Krummau)_-_panorama_-_old_city",
+        "sourceUrl": "https://de.wikipedia.org/wiki/%C4%8Cesk%C3%BD%20Krumlov",
+        "credit": "Pudelek (Marcin Szala)",
+        "license": "CC BY-SA 3.0"
       }
     ]
   },
   "ronda": {
     "hero": {
-      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Ronda_aerial.jpg/1024px-Ronda_aerial.jpg?utm_source=de.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "alt": "Ronda — Ronda",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Ronda_aerial.jpg/1024px-Ronda_aerial.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+      "alt": "Ronda — Datei:Ronda_aerial",
       "sourceUrl": "https://de.wikipedia.org/wiki/Ronda",
       "credit": "kallerna",
       "license": "CC BY-SA 4.0"
     },
     "gallery": [
-      {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Ronda_aerial.jpg/1024px-Ronda_aerial.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-        "alt": "Ronda — Datei:Ronda_aerial",
-        "sourceUrl": "https://de.wikipedia.org/wiki/Ronda",
-        "credit": "kallerna",
-        "license": "CC BY-SA 4.0"
-      },
       {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Ronda_Arab.Br%C3%BCcke.JPG/1024px-Ronda_Arab.Br%C3%BCcke.JPG?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
         "alt": "Ronda — Datei:Ronda_Arab.Brücke",
@@ -308,25 +301,25 @@
         "sourceUrl": "https://de.wikipedia.org/wiki/Ronda",
         "credit": "Olaf Tausch",
         "license": "CC BY 3.0"
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Arena_Ronda.JPG/1024px-Arena_Ronda.JPG?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+        "alt": "Ronda — Datei:Arena_Ronda",
+        "sourceUrl": "https://de.wikipedia.org/wiki/Ronda",
+        "credit": "Adrian Michael",
+        "license": "CC BY-SA 3.0"
       }
     ]
   },
   "colmar": {
     "hero": {
-      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Rue_des_Marchands_at_Grand_Rue_Colmar_France_copr_2022_by_Tim_Adams_CC_by_3.jpg/1024px-Rue_des_Marchands_at_Grand_Rue_Colmar_France_copr_2022_by_Tim_Adams_CC_by_3.jpg?utm_source=de.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "alt": "Colmar — Colmar",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Rue_des_Marchands_at_Grand_Rue_Colmar_France_copr_2022_by_Tim_Adams_CC_by_3.jpg/1024px-Rue_des_Marchands_at_Grand_Rue_Colmar_France_copr_2022_by_Tim_Adams_CC_by_3.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+      "alt": "Colmar — Datei:Rue_des_Marchands_at_Grand_Rue_Colmar_France_copr_2022_by_Tim_Adams_CC_by_3",
       "sourceUrl": "https://de.wikipedia.org/wiki/Colmar",
       "credit": "Tim Adams",
       "license": "CC BY 3.0"
     },
     "gallery": [
-      {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Rue_des_Marchands_at_Grand_Rue_Colmar_France_copr_2022_by_Tim_Adams_CC_by_3.jpg/1024px-Rue_des_Marchands_at_Grand_Rue_Colmar_France_copr_2022_by_Tim_Adams_CC_by_3.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-        "alt": "Colmar — Datei:Rue_des_Marchands_at_Grand_Rue_Colmar_France_copr_2022_by_Tim_Adams_CC_by_3",
-        "sourceUrl": "https://de.wikipedia.org/wiki/Colmar",
-        "credit": "Tim Adams",
-        "license": "CC BY 3.0"
-      },
       {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Colmar%2C_Klein_Venedig.jpg/1024px-Colmar%2C_Klein_Venedig.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
         "alt": "Colmar — Datei:Colmar,_Klein_Venedig",
@@ -347,25 +340,25 @@
         "sourceUrl": "https://de.wikipedia.org/wiki/Colmar",
         "credit": "Brücke-Osteuropa",
         "license": "Public domain"
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Colmar%2C_Dicken_von_1499%2C_Motiv_der_Bettlertaler%2C_Vorderseite%2C_M%C3%BCnzkabinett_Berlin.PNG/1024px-Colmar%2C_Dicken_von_1499%2C_Motiv_der_Bettlertaler%2C_Vorderseite%2C_M%C3%BCnzkabinett_Berlin.PNG?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+        "alt": "Colmar — Datei:Colmar,_Dicken_von_1499,_Motiv_der_Bettlertaler,_Vorderseite,_Münzkabinett_Berlin",
+        "sourceUrl": "https://de.wikipedia.org/wiki/Colmar",
+        "credit": "Aufnahme durch Lutz-Jürgen Lübke (Lübke und Wiedemann), Münzkabinett Berlin",
+        "license": "Copyrighted free use"
       }
     ]
   },
   "nafplio": {
     "hero": {
-      "src": "https://upload.wikimedia.org/wikipedia/commons/f/f3/NafplionViewFromAkronauplia.jpg?utm_source=de.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-      "alt": "Nafplio — Nafplio",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/NafplionViewFromAkronauplia.jpg/1024px-NafplionViewFromAkronauplia.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+      "alt": "Nafplio — Datei:NafplionViewFromAkronauplia",
       "sourceUrl": "https://de.wikipedia.org/wiki/Nafplio",
-      "credit": "Wikimedia Commons",
-      "license": ""
+      "credit": "Andreas Tille\n\nThis image is the original work of Andreas Tille.  More images can be found at his image gallery, with this image being hosted at http://people.debian.org/~tille/nafplion/02_nafplion/castles/p4180061.html.",
+      "license": "CC BY-SA 3.0"
     },
     "gallery": [
-      {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/NafplionViewFromAkronauplia.jpg/1024px-NafplionViewFromAkronauplia.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-        "alt": "Nafplio — Datei:NafplionViewFromAkronauplia",
-        "sourceUrl": "https://de.wikipedia.org/wiki/Nafplio",
-        "credit": "Andreas Tille\n\nThis image is the original work of Andreas Tille.  More images can be found at his image gallery, with this image being hosted at http://people.debian.org/~tille/nafplion/02_nafplion/castles/p4180061.html.",
-        "license": "CC BY-SA 3.0"
-      },
       {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/%2B_1829_bis_1834_war_Nauplia_provisorische_Hauptstadt_Griechenlands._12.jpg/1024px-%2B_1829_bis_1834_war_Nauplia_provisorische_Hauptstadt_Griechenlands._12.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
         "alt": "Nafplio — Datei:+_1829_bis_1834_war_Nauplia_provisorische_Hauptstadt_Griechenlands._12",
@@ -386,25 +379,25 @@
         "sourceUrl": "https://de.wikipedia.org/wiki/Nafplio",
         "credit": "Wikimedia Commons",
         "license": "Public domain"
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/GR_Nauplia_Festung.JPG/1024px-GR_Nauplia_Festung.JPG?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+        "alt": "Nafplio — Datei:GR_Nauplia_Festung",
+        "sourceUrl": "https://de.wikipedia.org/wiki/Nafplio",
+        "credit": "Angela Monika Arnold, Berlin",
+        "license": "CC BY 3.0"
       }
     ]
   },
   "ghent": {
     "hero": {
-      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Vlag_van_Gent.svg/langde-960px-Vlag_van_Gent.svg.png?utm_source=de.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "alt": "Gent — Gent",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Gent_vanuit_Meestentoren1.JPG/1024px-Gent_vanuit_Meestentoren1.JPG?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+      "alt": "Gent — Datei:Gent_vanuit_Meestentoren1",
       "sourceUrl": "https://de.wikipedia.org/wiki/Gent",
-      "credit": "Wikimedia Commons",
-      "license": ""
+      "credit": "Torsade de Pointes",
+      "license": "Public domain"
     },
     "gallery": [
-      {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Gent_vanuit_Meestentoren1.JPG/1024px-Gent_vanuit_Meestentoren1.JPG?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-        "alt": "Gent — Datei:Gent_vanuit_Meestentoren1",
-        "sourceUrl": "https://de.wikipedia.org/wiki/Gent",
-        "credit": "Torsade de Pointes",
-        "license": "Public domain"
-      },
       {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gent_Altstadt_Weihnachten_2019.jpg/1024px-Gent_Altstadt_Weihnachten_2019.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
         "alt": "Gent — Datei:Gent_Altstadt_Weihnachten_2019",
@@ -420,6 +413,13 @@
         "license": "CC BY-SA 3.0"
       },
       {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Ghent%2C_map_1534.jpg/1024px-Ghent%2C_map_1534.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+        "alt": "Gent — Datei:Ghent,_map_1534",
+        "sourceUrl": "https://de.wikipedia.org/wiki/Gent",
+        "credit": "Unknown authorUnknown author",
+        "license": "Public domain"
+      },
+      {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Belfort_van_Gent_2.jpg/1024px-Belfort_van_Gent_2.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
         "alt": "Gent — Datei:Belfort_van_Gent_2",
         "sourceUrl": "https://de.wikipedia.org/wiki/Gent",
@@ -430,20 +430,13 @@
   },
   "porto": {
     "hero": {
-      "src": "https://upload.wikimedia.org/wikipedia/commons/9/9d/PRT.png?utm_source=de.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-      "alt": "Porto — Porto",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/PRT.png/1024px-PRT.png?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+      "alt": "Porto — Datei:PRT",
       "sourceUrl": "https://de.wikipedia.org/wiki/Porto",
-      "credit": "Wikimedia Commons",
-      "license": ""
+      "credit": "Brian Boru",
+      "license": "CC BY-SA 3.0"
     },
     "gallery": [
-      {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/PRT.png/1024px-PRT.png?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-        "alt": "Porto — Datei:PRT",
-        "sourceUrl": "https://de.wikipedia.org/wiki/Porto",
-        "credit": "Brian Boru",
-        "license": "CC BY-SA 3.0"
-      },
       {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Pt-prt1.png/1024px-Pt-prt1.png?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
         "alt": "Porto — Datei:Pt-prt1",
@@ -464,25 +457,25 @@
         "sourceUrl": "https://de.wikipedia.org/wiki/Porto",
         "credit": "No machine-readable author provided. Nuno Tavares assumed (based on copyright claims).",
         "license": "CC BY-SA 2.5"
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Meyers_Universum_Band_02_42.jpg/1024px-Meyers_Universum_Band_02_42.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+        "alt": "Porto — Datei:Meyers_Universum_Band_02_42",
+        "sourceUrl": "https://de.wikipedia.org/wiki/Porto",
+        "credit": "Meyer’s Universum, oder Abbildung und Beschreibung des Sehenswerthesten und Merkwürdigsten der Natur und Kunst auf der ganzen Erde. 2. BandBibliographisches Institut, HildburghausenStecher: Johann Georg Martini",
+        "license": "Public domain"
       }
     ]
   },
   "tallinn": {
     "hero": {
-      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Flag_of_Tallinn.svg/langde-1280px-Flag_of_Tallinn.svg.png?utm_source=de.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "alt": "Tallinn — Tallinn",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Tallinna_linnaosad.png/1024px-Tallinna_linnaosad.png?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+      "alt": "Tallinn — Datei:Tallinna_linnaosad",
       "sourceUrl": "https://de.wikipedia.org/wiki/Tallinn",
-      "credit": "Wikimedia Commons",
-      "license": ""
+      "credit": "Mmh",
+      "license": "CC BY-SA 3.0"
     },
     "gallery": [
-      {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Tallinna_linnaosad.png/1024px-Tallinna_linnaosad.png?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-        "alt": "Tallinn — Datei:Tallinna_linnaosad",
-        "sourceUrl": "https://de.wikipedia.org/wiki/Tallinn",
-        "credit": "Mmh",
-        "license": "CC BY-SA 3.0"
-      },
       {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Tallinn%2C_June_18%2C_2006.jpg/1024px-Tallinn%2C_June_18%2C_2006.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
         "alt": "Tallinn — Datei:Tallinn,_June_18,_2006",
@@ -503,25 +496,25 @@
         "sourceUrl": "https://de.wikipedia.org/wiki/Tallinn",
         "credit": "Diego Delso",
         "license": "CC BY-SA 3.0"
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Reval_im_Jahre_1630.png/1024px-Reval_im_Jahre_1630.png?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+        "alt": "Tallinn — Datei:Reval_im_Jahre_1630",
+        "sourceUrl": "https://de.wikipedia.org/wiki/Tallinn",
+        "credit": "Wikimedia Commons",
+        "license": "Public domain"
       }
     ]
   },
   "mostar": {
     "hero": {
-      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Mostar_in_BiH.svg/langde-1920px-Mostar_in_BiH.svg.png?utm_source=de.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "alt": "Mostar — Mostar",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Mostar_from_the_air.jpg/1024px-Mostar_from_the_air.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+      "alt": "Mostar — Datei:Mostar_from_the_air",
       "sourceUrl": "https://de.wikipedia.org/wiki/Mostar",
-      "credit": "Wikimedia Commons",
-      "license": ""
+      "credit": "MoserB at German Wikipedia",
+      "license": "Public domain"
     },
     "gallery": [
-      {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Mostar_from_the_air.jpg/1024px-Mostar_from_the_air.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-        "alt": "Mostar — Datei:Mostar_from_the_air",
-        "sourceUrl": "https://de.wikipedia.org/wiki/Mostar",
-        "credit": "MoserB at German Wikipedia",
-        "license": "Public domain"
-      },
       {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Stari_Most%2C_Mostar.jpg/1024px-Stari_Most%2C_Mostar.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
         "alt": "Mostar — Datei:Stari_Most,_Mostar",
@@ -542,71 +535,64 @@
         "sourceUrl": "https://de.wikipedia.org/wiki/Mostar",
         "credit": "JøMa",
         "license": "CC BY-SA 4.0"
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/View_of_Mostar_02.jpg/1024px-View_of_Mostar_02.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+        "alt": "Mostar — Datei:View_of_Mostar_02",
+        "sourceUrl": "https://de.wikipedia.org/wiki/Mostar",
+        "credit": "Bernard Gagnon",
+        "license": "CC BY-SA 4.0"
       }
     ]
   },
   "sibiu": {
     "hero": {
-      "src": "https://upload.wikimedia.org/wikipedia/commons/f/fe/ROU_SB_Sibiu_CoA.png",
-      "alt": "Sibiu — Sibiu",
-      "sourceUrl": "https://de.wikipedia.org/wiki/Hermannstadt",
-      "credit": "Wikimedia Commons",
-      "license": ""
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/ROU_SB_Sibiu_CoA.png/1024px-ROU_SB_Sibiu_CoA.png?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+      "alt": "Sibiu — Datei:ROU_SB_Sibiu_CoA",
+      "sourceUrl": "https://de.wikipedia.org/wiki/Sibiu",
+      "credit": "Romanian Government",
+      "license": "Public domain"
     },
     "gallery": [
       {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/ROU_SB_Sibiu_CoA.png/1024px-ROU_SB_Sibiu_CoA.png?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-        "alt": "Sibiu — Datei:ROU_SB_Sibiu_CoA",
-        "sourceUrl": "https://de.wikipedia.org/wiki/Hermannstadt",
-        "credit": "Romanian Government",
-        "license": "Public domain"
-      },
-      {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Sibiu_Romania_CIA2006.png/1024px-Sibiu_Romania_CIA2006.png?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
         "alt": "Sibiu — Datei:Sibiu_Romania_CIA2006",
-        "sourceUrl": "https://de.wikipedia.org/wiki/Hermannstadt",
+        "sourceUrl": "https://de.wikipedia.org/wiki/Sibiu",
         "credit": "Uploaded by RosarioVanTulpe.",
         "license": "Public domain"
       },
       {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Sibiu.jpg/1024px-Sibiu.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
         "alt": "Sibiu — Datei:Sibiu",
-        "sourceUrl": "https://de.wikipedia.org/wiki/Hermannstadt",
+        "sourceUrl": "https://de.wikipedia.org/wiki/Sibiu",
         "credit": "Wikimedia Commons",
         "license": "CC BY-SA 3.0"
       },
       {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Sibiu_200811_800px.jpg/1024px-Sibiu_200811_800px.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
         "alt": "Sibiu — Datei:Sibiu_200811_800px",
-        "sourceUrl": "https://de.wikipedia.org/wiki/Hermannstadt",
+        "sourceUrl": "https://de.wikipedia.org/wiki/Sibiu",
         "credit": "Mätes II.",
         "license": "CC BY-SA 3.0"
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Sibiu_region.png/1024px-Sibiu_region.png?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+        "alt": "Sibiu — Datei:Sibiu_region",
+        "sourceUrl": "https://de.wikipedia.org/wiki/Sibiu",
+        "credit": "ArdadN",
+        "license": "Public domain"
       }
     ]
   },
   "rovinj": {
     "hero": {
-      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/HRV_Rovinj_flag.svg/langde-1280px-HRV_Rovinj_flag.svg.png?utm_source=de.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "alt": "Rovinj — Rovinj",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Rovinj-drone-2022.jpg/1024px-Rovinj-drone-2022.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+      "alt": "Rovinj — Datei:Rovinj-drone-2022",
       "sourceUrl": "https://de.wikipedia.org/wiki/Rovinj",
-      "credit": "Wikimedia Commons",
-      "license": ""
+      "credit": "Tom Salmon",
+      "license": "CC BY-SA 4.0"
     },
     "gallery": [
-      {
-        "src": "https://upload.wikimedia.org/wikipedia/de/thumb/0/05/Rovinj.grb.png/1024px-Rovinj.grb.png?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-        "alt": "Rovinj — Datei:Rovinj.grb",
-        "sourceUrl": "https://de.wikipedia.org/wiki/Rovinj",
-        "credit": "Wikimedia Commons",
-        "license": ""
-      },
-      {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Rovinj-drone-2022.jpg/1024px-Rovinj-drone-2022.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-        "alt": "Rovinj — Datei:Rovinj-drone-2022",
-        "sourceUrl": "https://de.wikipedia.org/wiki/Rovinj",
-        "credit": "Tom Salmon",
-        "license": "CC BY-SA 4.0"
-      },
       {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Stone_sarcophagus_of_Saint_Euphemia.jpg/1024px-Stone_sarcophagus_of_Saint_Euphemia.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
         "alt": "Rovinj — Datei:Stone_sarcophagus_of_Saint_Euphemia",
@@ -620,25 +606,32 @@
         "sourceUrl": "https://de.wikipedia.org/wiki/Rovinj",
         "credit": "Maesi64",
         "license": "CC0"
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Radweg_Bahntrasse_Rovinj.jpg/1024px-Radweg_Bahntrasse_Rovinj.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+        "alt": "Rovinj — Datei:Radweg_Bahntrasse_Rovinj",
+        "sourceUrl": "https://de.wikipedia.org/wiki/Rovinj",
+        "credit": "DeMuet",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Rovinj%2C_Croatia.jpg/1024px-Rovinj%2C_Croatia.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+        "alt": "Rovinj — Datei:Rovinj,_Croatia",
+        "sourceUrl": "https://de.wikipedia.org/wiki/Rovinj",
+        "credit": "Florian Hirzinger - http://www.fh-ap.com",
+        "license": "CC BY-SA 4.0"
       }
     ]
   },
   "ohrid": {
     "hero": {
-      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/%D0%A1%D1%82%D0%B0%D1%80%D0%B8%D0%BE%D1%82_%D0%B4%D0%B5%D0%BB_%D0%BD%D0%B0_%D0%9E%D1%85%D1%80%D0%B8%D0%B4.jpg/1024px-%D0%A1%D1%82%D0%B0%D1%80%D0%B8%D0%BE%D1%82_%D0%B4%D0%B5%D0%BB_%D0%BD%D0%B0_%D0%9E%D1%85%D1%80%D0%B8%D0%B4.jpg?utm_source=de.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "alt": "Ohrid — Ohrid",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/%D0%A1%D1%82%D0%B0%D1%80%D0%B8%D0%BE%D1%82_%D0%B4%D0%B5%D0%BB_%D0%BD%D0%B0_%D0%9E%D1%85%D1%80%D0%B8%D0%B4.jpg/1024px-%D0%A1%D1%82%D0%B0%D1%80%D0%B8%D0%BE%D1%82_%D0%B4%D0%B5%D0%BB_%D0%BD%D0%B0_%D0%9E%D1%85%D1%80%D0%B8%D0%B4.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+      "alt": "Ohrid — Datei:Стариот_дел_на_Охрид",
       "sourceUrl": "https://de.wikipedia.org/wiki/Ohrid",
       "credit": "Silfiriel",
       "license": "CC BY-SA 3.0"
     },
     "gallery": [
-      {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/%D0%A1%D1%82%D0%B0%D1%80%D0%B8%D0%BE%D1%82_%D0%B4%D0%B5%D0%BB_%D0%BD%D0%B0_%D0%9E%D1%85%D1%80%D0%B8%D0%B4.jpg/1024px-%D0%A1%D1%82%D0%B0%D1%80%D0%B8%D0%BE%D1%82_%D0%B4%D0%B5%D0%BB_%D0%BD%D0%B0_%D0%9E%D1%85%D1%80%D0%B8%D0%B4.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-        "alt": "Ohrid — Datei:Стариот_дел_на_Охрид",
-        "sourceUrl": "https://de.wikipedia.org/wiki/Ohrid",
-        "credit": "Silfiriel",
-        "license": "CC BY-SA 3.0"
-      },
       {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Ohrid_panoramska.JPG/1024px-Ohrid_panoramska.JPG?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
         "alt": "Ohrid — Datei:Ohrid_panoramska",
@@ -659,25 +652,25 @@
         "sourceUrl": "https://de.wikipedia.org/wiki/Ohrid",
         "credit": "kallerna",
         "license": "CC BY-SA 4.0"
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Amphitheater%2C_Ohrid.jpg/1024px-Amphitheater%2C_Ohrid.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+        "alt": "Ohrid — Datei:Amphitheater,_Ohrid",
+        "sourceUrl": "https://de.wikipedia.org/wiki/Ohrid",
+        "credit": "Tony Bowden",
+        "license": "CC BY-SA 2.0"
       }
     ]
   },
   "berat": {
     "hero": {
-      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Berat_UNESCO_2016_Albania.jpg/1024px-Berat_UNESCO_2016_Albania.jpg?utm_source=de.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "alt": "Berat — Berat",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Berat_UNESCO_2016_Albania.jpg/1024px-Berat_UNESCO_2016_Albania.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+      "alt": "Berat — Datei:Berat_UNESCO_2016_Albania",
       "sourceUrl": "https://de.wikipedia.org/wiki/Berat",
       "credit": "Foto: my_cottage",
       "license": "CC BY-SA 2.0"
     },
     "gallery": [
-      {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Berat_UNESCO_2016_Albania.jpg/1024px-Berat_UNESCO_2016_Albania.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-        "alt": "Berat — Datei:Berat_UNESCO_2016_Albania",
-        "sourceUrl": "https://de.wikipedia.org/wiki/Berat",
-        "credit": "Foto: my_cottage",
-        "license": "CC BY-SA 2.0"
-      },
       {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Kingdom_of_Albania.png/1024px-Kingdom_of_Albania.png?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
         "alt": "Berat — Datei:Kingdom_of_Albania",
@@ -698,25 +691,25 @@
         "sourceUrl": "https://de.wikipedia.org/wiki/Berat",
         "credit": "Pudelek",
         "license": "CC BY-SA 4.0"
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Berat_-_1_%281%29.jpg/1024px-Berat_-_1_%281%29.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+        "alt": "Berat — Datei:Berat_-_1_(1)",
+        "sourceUrl": "https://de.wikipedia.org/wiki/Berat",
+        "credit": "Gitikolasi",
+        "license": "CC BY-SA 4.0"
       }
     ]
   },
   "annecy": {
     "hero": {
-      "src": "https://upload.wikimedia.org/wikipedia/commons/5/56/Annecy_vue_du_mont_Veyrier.jpg?utm_source=de.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-      "alt": "Annecy — Annecy",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Annecy_vue_du_mont_Veyrier.jpg/1024px-Annecy_vue_du_mont_Veyrier.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+      "alt": "Annecy — Datei:Annecy_vue_du_mont_Veyrier",
       "sourceUrl": "https://de.wikipedia.org/wiki/Annecy",
-      "credit": "Wikimedia Commons",
-      "license": ""
+      "credit": "Myrabella",
+      "license": "CC BY-SA 3.0"
     },
     "gallery": [
-      {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Annecy_vue_du_mont_Veyrier.jpg/1024px-Annecy_vue_du_mont_Veyrier.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-        "alt": "Annecy — Datei:Annecy_vue_du_mont_Veyrier",
-        "sourceUrl": "https://de.wikipedia.org/wiki/Annecy",
-        "credit": "Myrabella",
-        "license": "CC BY-SA 3.0"
-      },
       {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/AutumnIsland.jpg/1024px-AutumnIsland.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
         "alt": "Annecy — Datei:AutumnIsland",
@@ -737,25 +730,25 @@
         "sourceUrl": "https://de.wikipedia.org/wiki/Annecy",
         "credit": "Chabe01",
         "license": "CC BY-SA 4.0"
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/AnnecyThiou.jpg/1024px-AnnecyThiou.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+        "alt": "Annecy — Datei:AnnecyThiou",
+        "sourceUrl": "https://de.wikipedia.org/wiki/Annecy",
+        "credit": "Pareloup",
+        "license": "CC BY-SA 3.0"
       }
     ]
   },
   "gimmelwald": {
     "hero": {
-      "src": "https://upload.wikimedia.org/wikipedia/commons/a/af/Gimmelwald-Gr%C3%BCtschalp_29.07.2009_14-13-24.JPG?utm_source=de.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-      "alt": "Gimmelwald — Gimmelwald",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Gimmelwald-Gr%C3%BCtschalp_29.07.2009_14-13-24.JPG/1024px-Gimmelwald-Gr%C3%BCtschalp_29.07.2009_14-13-24.JPG?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+      "alt": "Gimmelwald — Datei:Gimmelwald-Grütschalp_29.07.2009_14-13-24",
       "sourceUrl": "https://de.wikipedia.org/wiki/Gimmelwald",
-      "credit": "Wikimedia Commons",
-      "license": ""
+      "credit": "Hansueli Krapf",
+      "license": "CC BY-SA 3.0"
     },
     "gallery": [
-      {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Gimmelwald-Gr%C3%BCtschalp_29.07.2009_14-13-24.JPG/1024px-Gimmelwald-Gr%C3%BCtschalp_29.07.2009_14-13-24.JPG?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-        "alt": "Gimmelwald — Datei:Gimmelwald-Grütschalp_29.07.2009_14-13-24",
-        "sourceUrl": "https://de.wikipedia.org/wiki/Gimmelwald",
-        "credit": "Hansueli Krapf",
-        "license": "CC BY-SA 3.0"
-      },
       {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Jungfrau_seen_from_gimmelwald.JPG/1024px-Jungfrau_seen_from_gimmelwald.JPG?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
         "alt": "Gimmelwald — Datei:Jungfrau_seen_from_gimmelwald",
@@ -776,25 +769,25 @@
         "sourceUrl": "https://de.wikipedia.org/wiki/Gimmelwald",
         "credit": "edwin.11",
         "license": "CC BY 2.0"
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Gimmelwald_Schule.jpg/1024px-Gimmelwald_Schule.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+        "alt": "Gimmelwald — Datei:Gimmelwald_Schule",
+        "sourceUrl": "https://de.wikipedia.org/wiki/Gimmelwald",
+        "credit": "Marcel Zimmer",
+        "license": "CC BY-SA 3.0"
       }
     ]
   },
   "vilnius": {
     "hero": {
-      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vilnius.svg/langde-960px-Flag_of_Vilnius.svg.png?utm_source=de.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "alt": "Vilnius — Vilnius",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Vilnius_SPOT_1025.jpg/1024px-Vilnius_SPOT_1025.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+      "alt": "Vilnius — Datei:Vilnius_SPOT_1025",
       "sourceUrl": "https://de.wikipedia.org/wiki/Vilnius",
-      "credit": "Wikimedia Commons",
-      "license": ""
+      "credit": "Cnes - Spot Image",
+      "license": "CC BY-SA 3.0"
     },
     "gallery": [
-      {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Vilnius_SPOT_1025.jpg/1024px-Vilnius_SPOT_1025.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-        "alt": "Vilnius — Datei:Vilnius_SPOT_1025",
-        "sourceUrl": "https://de.wikipedia.org/wiki/Vilnius",
-        "credit": "Cnes - Spot Image",
-        "license": "CC BY-SA 3.0"
-      },
       {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Vilnius_old_town_August_2015_%284%29.JPG/1024px-Vilnius_old_town_August_2015_%284%29.JPG?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
         "alt": "Vilnius — Datei:Vilnius_old_town_August_2015_(4)",
@@ -815,25 +808,25 @@
         "sourceUrl": "https://de.wikipedia.org/wiki/Vilnius",
         "credit": "Lestat (Jan Mehlich)",
         "license": "CC BY-SA 3.0"
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Kathedrale%2BGediminas-Turm.jpg/1024px-Kathedrale%2BGediminas-Turm.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+        "alt": "Vilnius — Datei:Kathedrale+Gediminas-Turm",
+        "sourceUrl": "https://de.wikipedia.org/wiki/Vilnius",
+        "credit": "Barnos",
+        "license": "CC BY-SA 4.0"
       }
     ]
   },
   "gdansk": {
     "hero": {
-      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/POL_Gda%C5%84sk_COA_%28grand%29.svg/langde-1280px-POL_Gda%C5%84sk_COA_%28grand%29.svg.png?utm_source=de.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "alt": "Danzig — Danzig",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Collage_of_views_of_Gdansk.jpg/1024px-Collage_of_views_of_Gdansk.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+      "alt": "Danzig — Datei:Collage_of_views_of_Gdansk",
       "sourceUrl": "https://de.wikipedia.org/wiki/Danzig",
-      "credit": "Wikimedia Commons",
-      "license": ""
+      "credit": "Michał Słupczewski",
+      "license": "Attribution"
     },
     "gallery": [
-      {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Collage_of_views_of_Gdansk.jpg/1024px-Collage_of_views_of_Gdansk.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-        "alt": "Danzig — Datei:Collage_of_views_of_Gdansk",
-        "sourceUrl": "https://de.wikipedia.org/wiki/Danzig",
-        "credit": "Michał Słupczewski",
-        "license": "Attribution"
-      },
       {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/COA_Danzig_%28alt%29_%28im_alten_Rathaus_in_Danzig%29.jpg/1024px-COA_Danzig_%28alt%29_%28im_alten_Rathaus_in_Danzig%29.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
         "alt": "Danzig — Datei:COA_Danzig_(alt)_(im_alten_Rathaus_in_Danzig)",
@@ -854,32 +847,25 @@
         "sourceUrl": "https://de.wikipedia.org/wiki/Danzig",
         "credit": "Wikimedia Commons",
         "license": "Public domain"
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Hala_Targowa_w_Gda%C5%84sku_podziemia.jpg/1024px-Hala_Targowa_w_Gda%C5%84sku_podziemia.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+        "alt": "Danzig — Datei:Hala_Targowa_w_Gdańsku_podziemia",
+        "sourceUrl": "https://de.wikipedia.org/wiki/Danzig",
+        "credit": "Artur Andrzej",
+        "license": "CC0"
       }
     ]
   },
   "torshavn": {
     "hero": {
-      "src": "https://upload.wikimedia.org/wikipedia/commons/3/31/Position-torshavn.png?utm_source=de.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-      "alt": "Tórshavn — Tórshavn",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Torshavn.png/1024px-Torshavn.png?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+      "alt": "Tórshavn — Datei:Torshavn",
       "sourceUrl": "https://de.wikipedia.org/wiki/T%C3%B3rshavn",
-      "credit": "Wikimedia Commons",
-      "license": ""
+      "credit": "Anker Eli Petersen",
+      "license": "Public domain"
     },
     "gallery": [
-      {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Position-torshavn.png/1024px-Position-torshavn.png?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-        "alt": "Tórshavn — Datei:Position-torshavn",
-        "sourceUrl": "https://de.wikipedia.org/wiki/T%C3%B3rshavn",
-        "credit": "Arne List",
-        "license": "CC BY-SA 3.0"
-      },
-      {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Torshavn.png/1024px-Torshavn.png?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-        "alt": "Tórshavn — Datei:Torshavn",
-        "sourceUrl": "https://de.wikipedia.org/wiki/T%C3%B3rshavn",
-        "credit": "Anker Eli Petersen",
-        "license": "Public domain"
-      },
       {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Faroe_stamps_133-135_hafnia_-_torshavn_1782.jpg/1024px-Faroe_stamps_133-135_hafnia_-_torshavn_1782.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
         "alt": "Tórshavn — Datei:Faroe_stamps_133-135_hafnia_-_torshavn_1782",
@@ -893,64 +879,71 @@
         "sourceUrl": "https://de.wikipedia.org/wiki/T%C3%B3rshavn",
         "credit": "Barthélemy Lauvergne",
         "license": "Public domain"
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/T%C3%B3rshavn_-_Bringsnag%C3%B8ta.jpg/1024px-T%C3%B3rshavn_-_Bringsnag%C3%B8ta.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+        "alt": "Tórshavn — Datei:Tórshavn_-_Bringsnagøta",
+        "sourceUrl": "https://de.wikipedia.org/wiki/T%C3%B3rshavn",
+        "credit": "Generalstabens topografiske Afdeling (Danish General Staff, topographic department)",
+        "license": "Public domain"
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Norr%C3%B6na.02.jpg/1024px-Norr%C3%B6na.02.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+        "alt": "Tórshavn — Datei:Norröna.02",
+        "sourceUrl": "https://de.wikipedia.org/wiki/T%C3%B3rshavn",
+        "credit": "Erik Christensen",
+        "license": "CC BY-SA 3.0"
       }
     ]
   },
   "ortigia": {
     "hero": {
-      "src": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Ortigia_dall%27alto.jpg",
-      "alt": "Ortigia (Syrakus) — Ortigia",
-      "sourceUrl": "https://de.wikipedia.org/wiki/Ortygia_(Syrakus)",
-      "credit": "Wikimedia Commons",
-      "license": ""
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Ortigia_dall%27alto.jpg/1024px-Ortigia_dall%27alto.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+      "alt": "Ortigia (Syrakus) — Datei:Ortigia_dall'alto",
+      "sourceUrl": "https://de.wikipedia.org/wiki/Ortigia",
+      "credit": "Agostino Artnoir Sella",
+      "license": "CC BY-SA 2.0"
     },
     "gallery": [
       {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Ortigia_dall%27alto.jpg/1024px-Ortigia_dall%27alto.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-        "alt": "Ortigia (Syrakus) — Datei:Ortigia_dall'alto",
-        "sourceUrl": "https://de.wikipedia.org/wiki/Ortygia_(Syrakus)",
-        "credit": "Agostino Artnoir Sella",
-        "license": "CC BY-SA 2.0"
-      },
-      {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Syrakus.jpg/1024px-Syrakus.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
         "alt": "Ortigia (Syrakus) — Datei:Syrakus",
-        "sourceUrl": "https://de.wikipedia.org/wiki/Ortygia_(Syrakus)",
+        "sourceUrl": "https://de.wikipedia.org/wiki/Ortigia",
         "credit": "Karl Spruner von Merz (1803-1892)",
         "license": "Public domain"
       },
       {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Hafen_von_Ortygis_%28Syracus%29_1.jpg/1024px-Hafen_von_Ortygis_%28Syracus%29_1.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
         "alt": "Ortigia (Syrakus) — Datei:Hafen_von_Ortygis_(Syracus)_1",
-        "sourceUrl": "https://de.wikipedia.org/wiki/Ortygia_(Syrakus)",
+        "sourceUrl": "https://de.wikipedia.org/wiki/Ortigia",
         "credit": "Anna Maria Fries",
         "license": "Public domain"
       },
       {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Panorama_Castello_Maniace_an_der_S%C3%BCdspitze_der_Isola_d%27Ortigia_bei_Syrakus_Sizilien_Italien._Foto_Wolfgang_Pehlemann_DSC08077.jpg/1024px-Panorama_Castello_Maniace_an_der_S%C3%BCdspitze_der_Isola_d%27Ortigia_bei_Syrakus_Sizilien_Italien._Foto_Wolfgang_Pehlemann_DSC08077.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
         "alt": "Ortigia (Syrakus) — Datei:Panorama_Castello_Maniace_an_der_Südspitze_der_Isola_d'Ortigia_bei_Syrakus_Sizilien_Italien._Foto_Wolfgang_Pehlemann_DSC08077",
-        "sourceUrl": "https://de.wikipedia.org/wiki/Ortygia_(Syrakus)",
+        "sourceUrl": "https://de.wikipedia.org/wiki/Ortigia",
         "credit": "Wolfgang Pehlemann",
         "license": "CC BY-SA 3.0 de"
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Syrakus_2017-04-23zk.jpg/1024px-Syrakus_2017-04-23zk.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+        "alt": "Ortigia (Syrakus) — Datei:Syrakus_2017-04-23zk",
+        "sourceUrl": "https://de.wikipedia.org/wiki/Ortigia",
+        "credit": "Rabe!",
+        "license": "CC BY-SA 4.0"
       }
     ]
   },
   "valletta": {
     "hero": {
-      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Valletta_in_Malta.svg/langde-960px-Valletta_in_Malta.svg.png?utm_source=de.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "alt": "Valletta — Valletta",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Panorama_of_Valletta.jpg/1024px-Panorama_of_Valletta.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+      "alt": "Valletta — Datei:Panorama_of_Valletta",
       "sourceUrl": "https://de.wikipedia.org/wiki/Valletta",
-      "credit": "Wikimedia Commons",
-      "license": ""
+      "credit": "Olga Prystai",
+      "license": "CC BY-SA 4.0"
     },
     "gallery": [
-      {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Panorama_of_Valletta.jpg/1024px-Panorama_of_Valletta.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-        "alt": "Valletta — Datei:Panorama_of_Valletta",
-        "sourceUrl": "https://de.wikipedia.org/wiki/Valletta",
-        "credit": "Olga Prystai",
-        "license": "CC BY-SA 4.0"
-      },
       {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Strassenschlucht_in_Valetta.JPG/1024px-Strassenschlucht_in_Valetta.JPG?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
         "alt": "Valletta — Datei:Strassenschlucht_in_Valetta",
@@ -971,25 +964,25 @@
         "sourceUrl": "https://de.wikipedia.org/wiki/Valletta",
         "credit": "Afr66",
         "license": "CC0"
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Malta_-_Valletta_-_Valletta_Ditch_%2B_St._John%27s_Bastion_%28City_Gate_bridge%29_01_ies.jpg/1024px-Malta_-_Valletta_-_Valletta_Ditch_%2B_St._John%27s_Bastion_%28City_Gate_bridge%29_01_ies.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+        "alt": "Valletta — Datei:Malta_-_Valletta_-_Valletta_Ditch_+_St._John's_Bastion_(City_Gate_bridge)_01_ies",
+        "sourceUrl": "https://de.wikipedia.org/wiki/Valletta",
+        "credit": "Frank Vincentz",
+        "license": "CC BY-SA 3.0"
       }
     ]
   },
   "lucca": {
     "hero": {
-      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Italy_-_Lucca_-_2.jpg/1024px-Italy_-_Lucca_-_2.jpg?utm_source=de.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "alt": "Lucca — Lucca",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Italy_-_Lucca_-_2.jpg/1024px-Italy_-_Lucca_-_2.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+      "alt": "Lucca — Datei:Italy_-_Lucca_-_2",
       "sourceUrl": "https://de.wikipedia.org/wiki/Lucca",
       "credit": "Arne Müseler",
       "license": "CC BY-SA 3.0 de"
     },
     "gallery": [
-      {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Italy_-_Lucca_-_2.jpg/1024px-Italy_-_Lucca_-_2.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-        "alt": "Lucca — Datei:Italy_-_Lucca_-_2",
-        "sourceUrl": "https://de.wikipedia.org/wiki/Lucca",
-        "credit": "Arne Müseler",
-        "license": "CC BY-SA 3.0 de"
-      },
       {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/LuccaAnsicht1.jpg/1024px-LuccaAnsicht1.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
         "alt": "Lucca — Datei:LuccaAnsicht1",
@@ -1010,25 +1003,25 @@
         "sourceUrl": "https://de.wikipedia.org/wiki/Lucca",
         "credit": "Unidentified medallist",
         "license": "Public domain"
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Dome_Lucques_Duomo_San_Martino_Lucca.jpg/1024px-Dome_Lucques_Duomo_San_Martino_Lucca.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+        "alt": "Lucca — Datei:Dome_Lucques_Duomo_San_Martino_Lucca",
+        "sourceUrl": "https://de.wikipedia.org/wiki/Lucca",
+        "credit": "Myrabella",
+        "license": "CC BY-SA 3.0"
       }
     ]
   },
   "ljubljana": {
     "hero": {
-      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Blason_ville_si_Ljubljana_%28Slov%C3%A9nie%29.svg/langde-960px-Blason_ville_si_Ljubljana_%28Slov%C3%A9nie%29.svg.png?utm_source=de.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "alt": "Ljubljana — Ljubljana",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Ljubljana_2.jpg/1024px-Ljubljana_2.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+      "alt": "Ljubljana — Datei:Ljubljana_2",
       "sourceUrl": "https://de.wikipedia.org/wiki/Ljubljana",
-      "credit": "Wikimedia Commons",
-      "license": ""
+      "credit": "Tiia Monto",
+      "license": "CC BY-SA 3.0"
     },
     "gallery": [
-      {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Ljubljana_2.jpg/1024px-Ljubljana_2.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-        "alt": "Ljubljana — Datei:Ljubljana_2",
-        "sourceUrl": "https://de.wikipedia.org/wiki/Ljubljana",
-        "credit": "Tiia Monto",
-        "license": "CC BY-SA 3.0"
-      },
       {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Ljubljanica_01.jpg/1024px-Ljubljanica_01.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
         "alt": "Ljubljana — Datei:Ljubljanica_01",
@@ -1049,25 +1042,25 @@
         "sourceUrl": "https://de.wikipedia.org/wiki/Ljubljana",
         "credit": "J.maierhofer",
         "license": "CC BY-SA 4.0"
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/de/thumb/3/30/Die_wohll%C3%B6bl_landesf%C3%BCrstl_Hauptstadt_Laibach_Plan_im_Jahr_1745.jpg/1024px-Die_wohll%C3%B6bl_landesf%C3%BCrstl_Hauptstadt_Laibach_Plan_im_Jahr_1745.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+        "alt": "Ljubljana — Datei:Die_wohllöbl_landesfürstl_Hauptstadt_Laibach_Plan_im_Jahr_1745",
+        "sourceUrl": "https://de.wikipedia.org/wiki/Ljubljana",
+        "credit": "Wikimedia Commons",
+        "license": ""
       }
     ]
   },
   "wroclaw": {
     "hero": {
-      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Herb_wroclaw.svg/langde-960px-Herb_wroclaw.svg.png?utm_source=de.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "alt": "Breslau — Breslau",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Schlesien_Region_Breslau_inkl_Lkr.png/1024px-Schlesien_Region_Breslau_inkl_Lkr.png?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+      "alt": "Breslau — Datei:Schlesien_Region_Breslau_inkl_Lkr",
       "sourceUrl": "https://de.wikipedia.org/wiki/Breslau",
-      "credit": "Wikimedia Commons",
-      "license": ""
+      "credit": "Michael König (User:Magadan) → Message.",
+      "license": "Public domain"
     },
     "gallery": [
-      {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Schlesien_Region_Breslau_inkl_Lkr.png/1024px-Schlesien_Region_Breslau_inkl_Lkr.png?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-        "alt": "Breslau — Datei:Schlesien_Region_Breslau_inkl_Lkr",
-        "sourceUrl": "https://de.wikipedia.org/wiki/Breslau",
-        "credit": "Michael König (User:Magadan) → Message.",
-        "license": "Public domain"
-      },
       {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Wroclaw_city_districts.png/1024px-Wroclaw_city_districts.png?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
         "alt": "Breslau — Datei:Wroclaw_city_districts",
@@ -1088,25 +1081,25 @@
         "sourceUrl": "https://de.wikipedia.org/wiki/Breslau",
         "credit": "Kriskros",
         "license": "CC BY-SA 3.0 pl"
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Gr%C3%BCndungsurkundeMMG.jpg/1024px-Gr%C3%BCndungsurkundeMMG.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+        "alt": "Breslau — Datei:GründungsurkundeMMG",
+        "sourceUrl": "https://de.wikipedia.org/wiki/Breslau",
+        "credit": "Wikimedia Commons",
+        "license": "Public domain"
       }
     ]
   },
   "kefalonia": {
     "hero": {
-      "src": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Kephalonia.png?utm_source=de.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-      "alt": "Kefalonia — Kefalonia",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Kephalonia.png/1024px-Kephalonia.png?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+      "alt": "Kefalonia — Datei:Kephalonia",
       "sourceUrl": "https://de.wikipedia.org/wiki/Kefalonia",
       "credit": "Wikimedia Commons",
-      "license": ""
+      "license": "Public domain"
     },
     "gallery": [
-      {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Kephalonia.png/1024px-Kephalonia.png?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-        "alt": "Kefalonia — Datei:Kephalonia",
-        "sourceUrl": "https://de.wikipedia.org/wiki/Kefalonia",
-        "credit": "Wikimedia Commons",
-        "license": "Public domain"
-      },
       {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Pale-bronze-coins.jpg/1024px-Pale-bronze-coins.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
         "alt": "Kefalonia — Datei:Pale-bronze-coins",
@@ -1127,25 +1120,25 @@
         "sourceUrl": "https://de.wikipedia.org/wiki/Kefalonia",
         "credit": "Unknown authorUnknown author",
         "license": "Public domain"
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Geopark-Kefalonia-Ithaka-Geosite-04.jpg/1024px-Geopark-Kefalonia-Ithaka-Geosite-04.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+        "alt": "Kefalonia — Datei:Geopark-Kefalonia-Ithaka-Geosite-04",
+        "sourceUrl": "https://de.wikipedia.org/wiki/Kefalonia",
+        "credit": "ChristosV",
+        "license": "CC BY-SA 4.0"
       }
     ]
   },
   "riga": {
     "hero": {
-      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Rigaer_Altstadt_und_D%C3%BCna.jpg/1024px-Rigaer_Altstadt_und_D%C3%BCna.jpg?utm_source=de.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "alt": "Riga — Riga",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Rigaer_Altstadt_und_D%C3%BCna.jpg/1024px-Rigaer_Altstadt_und_D%C3%BCna.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+      "alt": "Riga — Datei:Rigaer_Altstadt_und_Düna",
       "sourceUrl": "https://de.wikipedia.org/wiki/Riga",
       "credit": "Barnos",
       "license": "CC BY-SA 4.0"
     },
     "gallery": [
-      {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Rigaer_Altstadt_und_D%C3%BCna.jpg/1024px-Rigaer_Altstadt_und_D%C3%BCna.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-        "alt": "Riga — Datei:Rigaer_Altstadt_und_Düna",
-        "sourceUrl": "https://de.wikipedia.org/wiki/Riga",
-        "credit": "Barnos",
-        "license": "CC BY-SA 4.0"
-      },
       {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Rigaer_Jugendstil-Weltkulturerbe.jpg/1024px-Rigaer_Jugendstil-Weltkulturerbe.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
         "alt": "Riga — Datei:Rigaer_Jugendstil-Weltkulturerbe",
@@ -1166,25 +1159,25 @@
         "sourceUrl": "https://de.wikipedia.org/wiki/Riga",
         "credit": "lv:user:kikos",
         "license": "CC BY-SA 3.0"
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Riga_um_1400_B.jpg/1024px-Riga_um_1400_B.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+        "alt": "Riga — Datei:Riga_um_1400_B",
+        "sourceUrl": "https://de.wikipedia.org/wiki/Riga",
+        "credit": "Unknown authorUnknown author",
+        "license": "Public domain"
       }
     ]
   },
   "bologna": {
     "hero": {
-      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Map_of_comune_of_Bologna_%28province_of_Bologna%2C_region_Emilia-Romagna%2C_Italy%29.svg/langde-3840px-Map_of_comune_of_Bologna_%28province_of_Bologna%2C_region_Emilia-Romagna%2C_Italy%29.svg.png?utm_source=de.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "alt": "Bologna — Bologna",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Bologna_montage_HD.jpg/1024px-Bologna_montage_HD.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+      "alt": "Bologna — Datei:Bologna_montage_HD",
       "sourceUrl": "https://de.wikipedia.org/wiki/Bologna",
-      "credit": "Wikimedia Commons",
-      "license": ""
+      "credit": "Conte di Cavour",
+      "license": "CC BY-SA 4.0"
     },
     "gallery": [
-      {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Bologna_montage_HD.jpg/1024px-Bologna_montage_HD.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-        "alt": "Bologna — Datei:Bologna_montage_HD",
-        "sourceUrl": "https://de.wikipedia.org/wiki/Bologna",
-        "credit": "Conte di Cavour",
-        "license": "CC BY-SA 4.0"
-      },
       {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Medieval_Bologna.jpg/1024px-Medieval_Bologna.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
         "alt": "Bologna — Datei:Medieval_Bologna",
@@ -1205,25 +1198,25 @@
         "sourceUrl": "https://de.wikipedia.org/wiki/Bologna",
         "credit": "Fabio Duma",
         "license": "CC BY-SA 3.0"
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Bologna-San_Pietro_visto_dalla_Torre_degli_Asinelli.jpg/1024px-Bologna-San_Pietro_visto_dalla_Torre_degli_Asinelli.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+        "alt": "Bologna — Datei:Bologna-San_Pietro_visto_dalla_Torre_degli_Asinelli",
+        "sourceUrl": "https://de.wikipedia.org/wiki/Bologna",
+        "credit": "Steffen Brinkmann, claimed to be Szs here\n\nHue and distortion fixed by Wikipeder.",
+        "license": "CC BY-SA 3.0"
       }
     ]
   },
   "dubrovnik": {
     "hero": {
-      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/St._Blaise_-_National_Flag_of_the_Ragusan_Republic.png/1024px-St._Blaise_-_National_Flag_of_the_Ragusan_Republic.png?utm_source=de.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "alt": "Dubrovnik — Dubrovnik",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Casco_viejo_de_Dubrovnik%2C_Croacia%2C_2014-04-14%2C_DD_11.JPG/1024px-Casco_viejo_de_Dubrovnik%2C_Croacia%2C_2014-04-14%2C_DD_11.JPG?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+      "alt": "Dubrovnik — Datei:Casco_viejo_de_Dubrovnik,_Croacia,_2014-04-14,_DD_11",
       "sourceUrl": "https://de.wikipedia.org/wiki/Dubrovnik",
-      "credit": "Berto456",
-      "license": "CC BY-SA 4.0"
+      "credit": "Diego Delso",
+      "license": "CC BY-SA 3.0"
     },
     "gallery": [
-      {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Casco_viejo_de_Dubrovnik%2C_Croacia%2C_2014-04-14%2C_DD_11.JPG/1024px-Casco_viejo_de_Dubrovnik%2C_Croacia%2C_2014-04-14%2C_DD_11.JPG?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-        "alt": "Dubrovnik — Datei:Casco_viejo_de_Dubrovnik,_Croacia,_2014-04-14,_DD_11",
-        "sourceUrl": "https://de.wikipedia.org/wiki/Dubrovnik",
-        "credit": "Diego Delso",
-        "license": "CC BY-SA 3.0"
-      },
       {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Dubrovnik_Municipality.jpg/1024px-Dubrovnik_Municipality.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
         "alt": "Dubrovnik — Datei:Dubrovnik_Municipality",
@@ -1244,25 +1237,25 @@
         "sourceUrl": "https://de.wikipedia.org/wiki/Dubrovnik",
         "credit": "Georg Kowalczyk; Fotografie, Scan and postprocessing by Hubertl",
         "license": "Public domain"
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Dubrovnik%2C_Information-Panel_retouched.jpg/1024px-Dubrovnik%2C_Information-Panel_retouched.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+        "alt": "Dubrovnik — Datei:Dubrovnik,_Information-Panel_retouched",
+        "sourceUrl": "https://de.wikipedia.org/wiki/Dubrovnik",
+        "credit": "Modzzak",
+        "license": "CC BY-SA 3.0"
       }
     ]
   },
   "lisbon": {
     "hero": {
-      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Coat_of_Arms_of_Lisbon.svg/langde-960px-Coat_of_Arms_of_Lisbon.svg.png?utm_source=de.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "alt": "Lissabon — Lissabon",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Bandeira_municipal_de_Lisboa.png/1024px-Bandeira_municipal_de_Lisboa.png?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+      "alt": "Lissabon — Datei:Lisboa",
       "sourceUrl": "https://de.wikipedia.org/wiki/Lissabon",
-      "credit": "Wikimedia Commons",
-      "license": ""
+      "credit": "Sérgio Horta, a partir de orginal de Ornellas e outros",
+      "license": "Public domain"
     },
     "gallery": [
-      {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Bandeira_municipal_de_Lisboa.png/1024px-Bandeira_municipal_de_Lisboa.png?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-        "alt": "Lissabon — Datei:Lisboa",
-        "sourceUrl": "https://de.wikipedia.org/wiki/Lissabon",
-        "credit": "Sérgio Horta, a partir de orginal de Ornellas e outros",
-        "license": "Public domain"
-      },
       {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Panorama_Lisbonne_08-12-2007.jpg/1024px-Panorama_Lisbonne_08-12-2007.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
         "alt": "Lissabon — Datei:Panorama_Lisbonne_08-12-2007",
@@ -1283,25 +1276,25 @@
         "sourceUrl": "https://de.wikipedia.org/wiki/Lissabon",
         "credit": "Tschubby",
         "license": "CC BY-SA 3.0"
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Lisboa-lisbon-_panorama.jpg/1024px-Lisboa-lisbon-_panorama.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+        "alt": "Lissabon — Datei:Lisboa-lisbon-_panorama",
+        "sourceUrl": "https://de.wikipedia.org/wiki/Lissabon",
+        "credit": "Galak76",
+        "license": "CC BY-SA 3.0"
       }
     ]
   },
   "hallstatt": {
     "hero": {
-      "src": "https://upload.wikimedia.org/wikipedia/commons/7/76/Hallstatt_im_Bezirk_GM.png?utm_source=de.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-      "alt": "Hallstatt — Hallstatt",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Hallstatt_im_Bezirk_GM.png/1024px-Hallstatt_im_Bezirk_GM.png?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+      "alt": "Hallstatt — Datei:Hallstatt_im_Bezirk_GM",
       "sourceUrl": "https://de.wikipedia.org/wiki/Hallstatt",
-      "credit": "Wikimedia Commons",
-      "license": ""
+      "credit": "Joschi Täubler",
+      "license": "CC BY-SA 3.0"
     },
     "gallery": [
-      {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Hallstatt_im_Bezirk_GM.png/1024px-Hallstatt_im_Bezirk_GM.png?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-        "alt": "Hallstatt — Datei:Hallstatt_im_Bezirk_GM",
-        "sourceUrl": "https://de.wikipedia.org/wiki/Hallstatt",
-        "credit": "Joschi Täubler",
-        "license": "CC BY-SA 3.0"
-      },
       {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Hallstatt_-_Zentrum_.JPG/1024px-Hallstatt_-_Zentrum_.JPG?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
         "alt": "Hallstatt — Datei:Hallstatt_-_Zentrum_",
@@ -1322,25 +1315,25 @@
         "sourceUrl": "https://de.wikipedia.org/wiki/Hallstatt",
         "credit": "TheTokl",
         "license": "CC BY-SA 4.0"
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Hallstatt_bird_view.jpg/1024px-Hallstatt_bird_view.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+        "alt": "Hallstatt — Datei:Hallstatt_bird_view",
+        "sourceUrl": "https://de.wikipedia.org/wiki/Hallstatt",
+        "credit": "Janusz Recław",
+        "license": "CC BY 4.0"
       }
     ]
   },
   "tromso": {
     "hero": {
-      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Troms%C3%B8_komm.svg/langde-500px-Troms%C3%B8_komm.svg.png?utm_source=de.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "alt": "Tromsø — Tromsø",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Fjellheisen_Aussicht_Bruecke_Kirche.jpg/1024px-Fjellheisen_Aussicht_Bruecke_Kirche.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+      "alt": "Tromsø — Datei:Fjellheisen_Aussicht_Bruecke_Kirche",
       "sourceUrl": "https://de.wikipedia.org/wiki/Troms%C3%B8",
-      "credit": "Wikimedia Commons",
-      "license": ""
+      "credit": "Fjellheisen at German Wikipedia",
+      "license": "CC BY-SA 2.0 de"
     },
     "gallery": [
-      {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Fjellheisen_Aussicht_Bruecke_Kirche.jpg/1024px-Fjellheisen_Aussicht_Bruecke_Kirche.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-        "alt": "Tromsø — Datei:Fjellheisen_Aussicht_Bruecke_Kirche",
-        "sourceUrl": "https://de.wikipedia.org/wiki/Troms%C3%B8",
-        "credit": "Fjellheisen at German Wikipedia",
-        "license": "CC BY-SA 2.0 de"
-      },
       {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Tettsted_8011_Troms%C3%B8_2022.png/1024px-Tettsted_8011_Troms%C3%B8_2022.png?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
         "alt": "Tromsø — Datei:Tettsted_8011_Tromsø_2022",
@@ -1361,25 +1354,25 @@
         "sourceUrl": "https://de.wikipedia.org/wiki/Troms%C3%B8",
         "credit": "Karl Ragnar Gjertsen Krg\n\n\n\n\n\nThis photo was taken by Karl Ragnar Gjertsen.\nPlease credit this photo Karl Ragnar Gjertsen in the immediate vicinity of the image.",
         "license": "CC BY-SA 3.0"
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Tromso_Dom.jpg/1024px-Tromso_Dom.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+        "alt": "Tromsø — Datei:Tromso_Dom",
+        "sourceUrl": "https://de.wikipedia.org/wiki/Troms%C3%B8",
+        "credit": "Clemensfranz",
+        "license": "CC BY-SA 3.0"
       }
     ]
   },
   "eze": {
     "hero": {
-      "src": "https://upload.wikimedia.org/wikipedia/commons/c/c3/%C3%88ze-sur-Mer%2C_PACA%2C_France.jpg?utm_source=de.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-      "alt": "Èze — Èze",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/%C3%88ze-sur-Mer%2C_PACA%2C_France.jpg/1024px-%C3%88ze-sur-Mer%2C_PACA%2C_France.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+      "alt": "Èze — Datei:Èze-sur-Mer,_PACA,_France",
       "sourceUrl": "https://de.wikipedia.org/wiki/%C3%88ze",
-      "credit": "Wikimedia Commons",
-      "license": ""
+      "credit": "Tangopaso",
+      "license": "CC BY-SA 4.0"
     },
     "gallery": [
-      {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/%C3%88ze-sur-Mer%2C_PACA%2C_France.jpg/1024px-%C3%88ze-sur-Mer%2C_PACA%2C_France.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-        "alt": "Èze — Datei:Èze-sur-Mer,_PACA,_France",
-        "sourceUrl": "https://de.wikipedia.org/wiki/%C3%88ze",
-        "credit": "Tangopaso",
-        "license": "CC BY-SA 4.0"
-      },
       {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Image-eze_vue_du_jardin_botanique.jpg/1024px-Image-eze_vue_du_jardin_botanique.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
         "alt": "Èze — Datei:Image-eze_vue_du_jardin_botanique",
@@ -1400,103 +1393,103 @@
         "sourceUrl": "https://de.wikipedia.org/wiki/%C3%88ze",
         "credit": "Berthold Werner",
         "license": "CC BY-SA 3.0"
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Eze_Street.JPG/1024px-Eze_Street.JPG?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+        "alt": "Èze — Datei:Eze_Street",
+        "sourceUrl": "https://de.wikipedia.org/wiki/%C3%88ze",
+        "credit": "Berthold Werner",
+        "license": "Public domain"
       }
     ]
   },
   "cesky-raj": {
     "hero": {
-      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/%C4%8Cesk%C3%BD_r%C3%A1j_%28Foto_Hilarmont%29.jpg/1024px-%C4%8Cesk%C3%BD_r%C3%A1j_%28Foto_Hilarmont%29.jpg?utm_source=de.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "alt": "Böhmisches Paradies — Böhmisches Paradies",
-      "sourceUrl": "https://de.wikipedia.org/wiki/%C4%8Cesk%C3%BD_r%C3%A1j",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/%C4%8Cesk%C3%BD_r%C3%A1j_%28Foto_Hilarmont%29.jpg/1024px-%C4%8Cesk%C3%BD_r%C3%A1j_%28Foto_Hilarmont%29.jpg",
+      "alt": "Böhmisches Paradies — Datei:Český_ráj_(Foto_Hilarmont)",
+      "sourceUrl": "https://de.wikipedia.org/wiki/B%C3%B6hmisches%20Paradies",
       "credit": "Hilarmont",
       "license": "CC BY-SA 3.0 de"
     },
     "gallery": [
       {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/%C4%8Cesk%C3%BD_r%C3%A1j_%28Foto_Hilarmont%29.jpg/1024px-%C4%8Cesk%C3%BD_r%C3%A1j_%28Foto_Hilarmont%29.jpg",
-        "alt": "Böhmisches Paradies — Datei:Český_ráj_(Foto_Hilarmont)",
-        "sourceUrl": "https://de.wikipedia.org/wiki/%C4%8Cesk%C3%BD_r%C3%A1j",
-        "credit": "Hilarmont",
-        "license": "CC BY-SA 3.0 de"
-      },
-      {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cesky_raj_001.jpg/1024px-Cesky_raj_001.jpg",
         "alt": "Böhmisches Paradies — Datei:Cesky_raj_001",
-        "sourceUrl": "https://de.wikipedia.org/wiki/%C4%8Cesk%C3%BD_r%C3%A1j",
+        "sourceUrl": "https://de.wikipedia.org/wiki/B%C3%B6hmisches%20Paradies",
         "credit": "User:Olaf1541",
         "license": "CC BY-SA 3.0"
       },
       {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/%28298-365%29_Rock_castle_%286099553877%29.jpg/1024px-%28298-365%29_Rock_castle_%286099553877%29.jpg",
         "alt": "Böhmisches Paradies — Datei:(298-365)_Rock_castle_(6099553877)",
-        "sourceUrl": "https://de.wikipedia.org/wiki/%C4%8Cesk%C3%BD_r%C3%A1j",
+        "sourceUrl": "https://de.wikipedia.org/wiki/B%C3%B6hmisches%20Paradies",
         "credit": "Sander van der Wel from Netherlands",
         "license": "CC BY-SA 2.0"
       },
       {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Vranov05.jpg/1024px-Vranov05.jpg",
         "alt": "Böhmisches Paradies — Datei:Vranov05",
-        "sourceUrl": "https://de.wikipedia.org/wiki/%C4%8Cesk%C3%BD_r%C3%A1j",
+        "sourceUrl": "https://de.wikipedia.org/wiki/B%C3%B6hmisches%20Paradies",
         "credit": "No machine-readable author provided. Olaf1541 assumed (based on copyright claims).",
         "license": "CC BY-SA 3.0"
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Kost.jpg/1024px-Kost.jpg",
+        "alt": "Böhmisches Paradies — Datei:Kost",
+        "sourceUrl": "https://de.wikipedia.org/wiki/B%C3%B6hmisches%20Paradies",
+        "credit": "user:Hejkal",
+        "license": "CC BY-SA 2.5"
       }
     ]
   },
   "plovdiv": {
     "hero": {
-      "src": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Plovdiv_location_in_Bulgaria.png",
-      "alt": "Plovdiv — Plovdiv",
-      "sourceUrl": "https://de.wikipedia.org/wiki/Plowdiw",
-      "credit": "Wikimedia Commons",
-      "license": ""
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Roman_Trimontium%28Phillipopolis%29.JPG/1024px-Roman_Trimontium%28Phillipopolis%29.JPG?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+      "alt": "Plovdiv — Datei:Roman_Trimontium(Phillipopolis)",
+      "sourceUrl": "https://de.wikipedia.org/wiki/Plovdiv",
+      "credit": "Avidius",
+      "license": "CC BY-SA 3.0"
     },
     "gallery": [
       {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Roman_Trimontium%28Phillipopolis%29.JPG/1024px-Roman_Trimontium%28Phillipopolis%29.JPG?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-        "alt": "Plovdiv — Datei:Roman_Trimontium(Phillipopolis)",
-        "sourceUrl": "https://de.wikipedia.org/wiki/Plowdiw",
-        "credit": "Avidius",
-        "license": "CC BY-SA 3.0"
-      },
-      {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Plowdiw_%2822%29.jpg/1024px-Plowdiw_%2822%29.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
         "alt": "Plovdiv — Datei:Plowdiw_(22)",
-        "sourceUrl": "https://de.wikipedia.org/wiki/Plowdiw",
+        "sourceUrl": "https://de.wikipedia.org/wiki/Plovdiv",
         "credit": "Vammpi",
         "license": "CC BY-SA 3.0"
       },
       {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Syedinena_Bylgaria_-_Litografia_na_N.Pavlovich.JPG/1024px-Syedinena_Bylgaria_-_Litografia_na_N.Pavlovich.JPG?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
         "alt": "Plovdiv — Datei:Syedinena_Bylgaria_-_Litografia_na_N.Pavlovich",
-        "sourceUrl": "https://de.wikipedia.org/wiki/Plowdiw",
+        "sourceUrl": "https://de.wikipedia.org/wiki/Plovdiv",
         "credit": "bg:Николай Павлович (художник) (1835-1894)",
         "license": "Public domain"
       },
       {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Zdravko_Dimitrov.jpg/1024px-Zdravko_Dimitrov.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
         "alt": "Plovdiv — Datei:Zdravko_Dimitrov",
-        "sourceUrl": "https://de.wikipedia.org/wiki/Plowdiw",
+        "sourceUrl": "https://de.wikipedia.org/wiki/Plovdiv",
         "credit": "Belibg",
         "license": "CC BY-SA 3.0"
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Bahnhof_von_Plowdiw.jpg/1024px-Bahnhof_von_Plowdiw.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+        "alt": "Plovdiv — Datei:Bahnhof_von_Plowdiw",
+        "sourceUrl": "https://de.wikipedia.org/wiki/Plovdiv",
+        "credit": "Unknown authorUnknown author",
+        "license": "Public domain"
       }
     ]
   },
   "saarema": {
     "hero": {
-      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Saaremaa.jpg/1024px-Saaremaa.jpg?utm_source=de.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "alt": "Saaremaa — Saaremaa",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Saaremaa.jpg/1024px-Saaremaa.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+      "alt": "Saaremaa — Datei:Saaremaa",
       "sourceUrl": "https://de.wikipedia.org/wiki/Saaremaa",
       "credit": "Verfasser: varp",
       "license": "CC BY-SA 3.0"
     },
     "gallery": [
-      {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Saaremaa.jpg/1024px-Saaremaa.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-        "alt": "Saaremaa — Datei:Saaremaa",
-        "sourceUrl": "https://de.wikipedia.org/wiki/Saaremaa",
-        "credit": "Verfasser: varp",
-        "license": "CC BY-SA 3.0"
-      },
       {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Dam_over_V%C3%A4ike_V%C3%A4in_Straits1.jpg/1024px-Dam_over_V%C3%A4ike_V%C3%A4in_Straits1.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
         "alt": "Saaremaa — Datei:Dam_over_Väike_Väin_Straits1",
@@ -1516,6 +1509,13 @@
         "alt": "Saaremaa — Datei:Ohessaare_2005",
         "sourceUrl": "https://de.wikipedia.org/wiki/Saaremaa",
         "credit": "Wikimedia Commons",
+        "license": "CC BY-SA 3.0"
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Klimadiagr_Vilsandi.jpg/1024px-Klimadiagr_Vilsandi.jpg?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+        "alt": "Saaremaa — Datei:Klimadiagr_Vilsandi",
+        "sourceUrl": "https://de.wikipedia.org/wiki/Saaremaa",
+        "credit": "varp",
         "license": "CC BY-SA 3.0"
       }
     ]
