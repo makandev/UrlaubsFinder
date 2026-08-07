@@ -68,6 +68,7 @@ async function commonsCredit(fileTitle) {
 
 // Baut aus einem beliebigen Wikimedia-Thumb-URL ein Foto-Objekt inkl. Credit.
 async function photoFromThumb(rawUrl, alt, sourceUrl) {
+  rawUrl = rawUrl.split("?")[0]; // Tracking-Query (utm_*) entfernen
   const src = biggerThumb(rawUrl);
   const fileTitle = fileTitleFromThumb(rawUrl);
   let credit = { author: "Wikimedia Commons", license: "" };
