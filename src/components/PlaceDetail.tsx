@@ -8,6 +8,8 @@ import { getPerspectives } from "@/lib/perspectives";
 import { useI18n } from "@/i18n/I18nProvider";
 import { useStore } from "@/lib/store";
 import { SecretMeter } from "@/components/SecretMeter";
+import { SmartImage } from "@/components/SmartImage";
+import { heroPhoto, galleryPhotos } from "@/lib/photos";
 import { WeatherWidget } from "@/components/WeatherWidget";
 import { ShareCardButton } from "@/components/ShareCardButton";
 import { ChatPanel } from "@/components/ChatPanel";
@@ -47,15 +49,37 @@ export function PlaceDetail({ id }: { id: string }) {
         ← {t("detail.back")}
       </Link>
 
-      <div
-        className="flex h-48 items-end rounded-3xl p-5"
-        style={{ backgroundImage: `linear-gradient(135deg, ${d.gradient[0]}, ${d.gradient[1]})` }}
-      >
-        <div>
+      {/* Immersiver Vollbild-Header */}
+      <div className="relative overflow-hidden rounded-3xl">
+        <SmartImage
+          photo={heroPhoto(d.id)}
+          gradient={d.gradient}
+          alt={d.name}
+          priority
+          className="aspect-[16/10] sm:aspect-[21/9]"
+        />
+        <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/75 via-black/10 to-black/20" />
+        <div className="absolute inset-x-0 bottom-0 p-5">
           <p className="text-sm font-medium text-white/85">{d.countryEmoji} {d.country}</p>
-          <h1 className="text-3xl font-extrabold tracking-tight text-white">{d.name}</h1>
+          <h1 className="text-3xl font-extrabold tracking-tight text-white drop-shadow sm:text-4xl">
+            {d.name}
+          </h1>
+          <span className="mt-2 inline-block rounded-full bg-teal px-2.5 py-0.5 text-xs font-bold text-white">
+            💎 {t("card.secret")} {secret}
+          </span>
         </div>
       </div>
+
+      {/* Snap-Galerie (sobald echte Fotos vorhanden) */}
+      {galleryPhotos(d.id).length > 1 && (
+        <div className="-mx-4 flex gap-2 overflow-x-auto px-4 pb-1 snap-x">
+          {galleryPhotos(d.id).slice(1).map((p, i) => (
+            <div key={i} className="w-56 flex-none snap-start">
+              <SmartImage photo={p} gradient={d.gradient} alt={`${d.name} ${i + 2}`} className="aspect-[4/3] rounded-xl" />
+            </div>
+          ))}
+        </div>
+      )}
 
       <div className="grid gap-6 lg:grid-cols-3">
         <div className="flex flex-col gap-5 lg:col-span-2">
