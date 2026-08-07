@@ -1,12 +1,14 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import { Providers } from "./providers";
 import { Header } from "@/components/Header";
 import { BottomNav } from "@/components/BottomNav";
-import { SITE_URL } from "@/lib/site";
+import { ServiceWorker } from "@/components/ServiceWorker";
+import { SITE_URL, BASE_PATH } from "@/lib/site";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
+  applicationName: "Fernweh Atlas",
   title: {
     default: "Fernweh Atlas — Geheimtipps für Europa",
     template: "%s",
@@ -14,6 +16,18 @@ export const metadata: Metadata = {
   description:
     "Fernweh Atlas: finde das Geheimste vom Besten in Europa, mit messbarem Geheimtipp-Grad, Wetter, Preisen und Merkliste.",
   openGraph: { siteName: "Fernweh Atlas", type: "website" },
+  appleWebApp: {
+    capable: true,
+    title: "Fernweh Atlas",
+    statusBarStyle: "black-translucent",
+  },
+};
+
+export const viewport: Viewport = {
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#f7f5f0" },
+    { media: "(prefers-color-scheme: dark)", color: "#1d3a34" },
+  ],
 };
 
 const themeInit = `
@@ -33,6 +47,10 @@ export default function RootLayout({
   return (
     <html lang="de" suppressHydrationWarning>
       <head>
+        {/* basePath-bewusste PWA-Links (Next präfixt Metadaten-Links nicht) */}
+        <link rel="manifest" href={`${BASE_PATH}/manifest.webmanifest`} />
+        <link rel="icon" type="image/png" sizes="32x32" href={`${BASE_PATH}/favicon-32.png`} />
+        <link rel="apple-touch-icon" href={`${BASE_PATH}/apple-touch-icon.png`} />
         <script dangerouslySetInnerHTML={{ __html: themeInit }} />
       </head>
       <body>
@@ -40,6 +58,7 @@ export default function RootLayout({
           <Header />
           <main className="mx-auto max-w-6xl px-4 pb-24 pt-6">{children}</main>
           <BottomNav />
+          <ServiceWorker base={BASE_PATH} />
         </Providers>
       </body>
     </html>
