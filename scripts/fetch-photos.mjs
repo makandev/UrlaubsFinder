@@ -34,6 +34,10 @@ function fileTitleFromThumb(url) {
 
 const stripHtml = (s) => (s || "").replace(/<[^>]+>/g, "").trim();
 
+const GALLERY_MAX = 4; // zusätzliche Bilder pro Ort (neben dem Hero)
+// Icons/Karten/Wappen etc. aus der Galerie heraushalten
+const SKIP_FILE = /(\.svg$)|flag|wappen|coat[_ ]of[_ ]arms|locator|location|map|karte|logo|icon|symbol/i;
+
 async function getJson(url) {
   const res = await fetch(url, { headers: { "User-Agent": UA, "Api-User-Agent": UA } });
   if (!res.ok) throw new Error(`HTTP ${res.status} for ${url}`);
@@ -58,28 +62,55 @@ async function commonsCredit(fileTitle) {
   }
 }
 
+// Baut aus einem beliebigen Wikimedia-Thumb-URL ein Foto-Objekt inkl. Credit.
+async function photoFromThumb(rawUrl, alt, sourceUrl) {
+  const src = biggerThumb(rawUrl);
+  const fileTitle = fileTitleFromThumb(rawUrl);
+  let credit = { author: "Wikimedia Commons", license: "" };
+  if (fileTitle) credit = await commonsCredit(fileTitle);
+  return { src, alt, sourceUrl, credit: credit.author, license: credit.license, fileTitle };
+}
+
 async function fetchHero(place) {
   const title = cleanName(place.name);
   const url = `https://de.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(title)}`;
   const s = await getJson(url);
   const raw = s?.originalimage?.source || s?.thumbnail?.source;
+  const sourceUrl = s?.content_urls?.desktop?.page || `https://de.wikipedia.org/wiki/${encodeURIComponent(title)}`;
   if (!raw) return null;
 
   const isThumb = /\/thumb\//.test(raw) && /\/\d+px-[^/]+$/.test(raw);
-  const src = isThumb ? biggerThumb(raw) : raw;
-  const sourceUrl = s?.content_urls?.desktop?.page || `https://de.wikipedia.org/wiki/${encodeURIComponent(title)}`;
+  if (!isThumb) {
+    return { hero: { src: raw, alt: `${place.name} — ${title}`, sourceUrl, credit: "Wikimedia Commons", license: "" }, title, sourceUrl, heroFile: null };
+  }
+  const photo = await photoFromThumb(raw, `${place.name} — ${title}`, sourceUrl);
+  return { hero: { src: photo.src, alt: photo.alt, sourceUrl, credit: photo.credit, license: photo.license }, title, sourceUrl, heroFile: photo.fileTitle };
+}
 
-  let credit = { author: "Wikimedia Commons", license: "" };
-  const fileTitle = isThumb ? fileTitleFromThumb(raw) : null;
-  if (fileTitle) credit = await commonsCredit(fileTitle);
-
-  return {
-    src,
-    alt: `${place.name} — ${title}`,
-    sourceUrl,
-    credit: credit.author,
-    license: credit.license,
-  };
+// Ein paar weitere Fotos aus demselben Artikel (Media-Liste), gefiltert.
+async function fetchGallery(place, title, sourceUrl, heroFile) {
+  try {
+    const url = `https://de.wikipedia.org/api/rest_v1/page/media-list/${encodeURIComponent(title)}`;
+    const data = await getJson(url);
+    const items = (data?.items || []).filter((it) => it.type === "image" && Array.isArray(it.srcset) && it.srcset[0]?.src);
+    const out = [];
+    const seen = new Set(heroFile ? [heroFile] : []);
+    for (const it of items) {
+      if (out.length >= GALLERY_MAX) break;
+      const fileName = (it.title || "").replace(/^File:/i, "");
+      if (SKIP_FILE.test(fileName) || seen.has(fileName)) continue;
+      seen.add(fileName);
+      let thumb = it.srcset[0].src;
+      if (thumb.startsWith("//")) thumb = "https:" + thumb;
+      if (!/\/thumb\//.test(thumb) || !/\/\d+px-[^/]+$/.test(thumb)) continue;
+      const photo = await photoFromThumb(thumb, `${place.name} — ${fileName.replace(/\.[a-z]+$/i, "")}`, sourceUrl);
+      out.push({ src: photo.src, alt: photo.alt, sourceUrl, credit: photo.credit, license: photo.license });
+      await sleep(200);
+    }
+    return out;
+  } catch {
+    return [];
+  }
 }
 
 async function main() {
@@ -91,11 +122,12 @@ async function main() {
 
   for (const p of places) {
     try {
-      const hero = await fetchHero(p);
-      if (hero) {
-        result[p.id] = { hero };
+      const h = await fetchHero(p);
+      if (h?.hero) {
+        const gallery = await fetchGallery(p, h.title, h.sourceUrl, h.heroFile);
+        result[p.id] = gallery.length ? { hero: h.hero, gallery } : { hero: h.hero };
         ok++;
-        console.log(`✓ ${p.id}: ${hero.src.slice(0, 70)}`);
+        console.log(`✓ ${p.id}: hero + ${gallery.length} Galerie`);
       } else {
         fail++;
         console.log(`– ${p.id}: kein Bild`);
