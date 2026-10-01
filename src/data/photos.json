@@ -40,7 +40,7 @@
   },
   "kotor": {
     "hero": {
-      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/KotorBuchtImDunst2014.JPG/1024px-KotorBuchtImDunst2014.JPG",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/KotorBuchtImDunst2014.JPG/1024px-KotorBuchtImDunst2014.JPG",
       "alt": "Kotor — Datei:KotorBuchtImDunst2014",
       "sourceUrl": "https://de.wikipedia.org/wiki/Kotor",
       "credit": "Joergsam",
@@ -48,28 +48,28 @@
     },
     "gallery": [
       {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/20090719_Crkva_Gospa_od_Zdravlja_Kotor_Bay_Montenegro.jpg/1024px-20090719_Crkva_Gospa_od_Zdravlja_Kotor_Bay_Montenegro.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/20090719_Crkva_Gospa_od_Zdravlja_Kotor_Bay_Montenegro.jpg/1024px-20090719_Crkva_Gospa_od_Zdravlja_Kotor_Bay_Montenegro.jpg",
         "alt": "Kotor — Datei:20090719_Crkva_Gospa_od_Zdravlja_Kotor_Bay_Montenegro",
         "sourceUrl": "https://de.wikipedia.org/wiki/Kotor",
         "credit": "User:Ggia",
         "license": "CC BY-SA 3.0"
       },
       {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Kotor0803.JPG/1024px-Kotor0803.JPG",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Kotor0803.JPG/1024px-Kotor0803.JPG",
         "alt": "Kotor — Datei:Kotor0803",
         "sourceUrl": "https://de.wikipedia.org/wiki/Kotor",
         "credit": "Einer flog zu Weit",
         "license": "CC BY-SA 3.0"
       },
       {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Kotor_-_Serbian_Orthodox_Church.JPG/1024px-Kotor_-_Serbian_Orthodox_Church.JPG",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Kotor_-_Serbian_Orthodox_Church.JPG/1024px-Kotor_-_Serbian_Orthodox_Church.JPG",
         "alt": "Kotor — Datei:Kotor_-_Serbian_Orthodox_Church",
         "sourceUrl": "https://de.wikipedia.org/wiki/Kotor",
         "credit": "Pudelek (Marcin Szala)",
         "license": "CC BY-SA 3.0"
       },
       {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Marktplatz_Kotor_2014.jpg/1024px-Marktplatz_Kotor_2014.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Marktplatz_Kotor_2014.jpg/1024px-Marktplatz_Kotor_2014.jpg",
         "alt": "Kotor — Datei:Marktplatz_Kotor_2014",
         "sourceUrl": "https://de.wikipedia.org/wiki/Kotor",
         "credit": "JøMa",
@@ -157,7 +157,7 @@
   },
   "girona": {
     "hero": {
-      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Girona_des_de_l_aire_edited.jpg/1024px-Girona_des_de_l_aire_edited.jpg",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Girona_des_de_l_aire_edited.jpg/1024px-Girona_des_de_l_aire_edited.jpg",
       "alt": "Girona — Datei:Girona_des_de_l_aire_edited",
       "sourceUrl": "https://de.wikipedia.org/wiki/Girona",
       "credit": "Patronat de Turisme Costa Brava Pirineu de Girona",
@@ -165,28 +165,28 @@
     },
     "gallery": [
       {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Spain.Girona.Banys.Arabs.Frigidarium.JPG/1024px-Spain.Girona.Banys.Arabs.Frigidarium.JPG",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Spain.Girona.Banys.Arabs.Frigidarium.JPG/1024px-Spain.Girona.Banys.Arabs.Frigidarium.JPG",
         "alt": "Girona — Datei:Spain.Girona.Banys.Arabs.Frigidarium",
         "sourceUrl": "https://de.wikipedia.org/wiki/Girona",
         "credit": "No machine-readable author provided. Yearofthedragon assumed (based on copyright claims).",
         "license": "CC BY-SA 3.0"
       },
       {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Torre_de_Carlomagno_%28s._XI%29.jpg/1024px-Torre_de_Carlomagno_%28s._XI%29.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Torre_de_Carlomagno_%28s._XI%29.jpg/1024px-Torre_de_Carlomagno_%28s._XI%29.jpg",
         "alt": "Girona — Datei:Torre_de_Carlomagno_(s._XI)",
         "sourceUrl": "https://de.wikipedia.org/wiki/Girona",
         "credit": "José Luis Filpo Cabana",
         "license": "CC BY 3.0"
       },
       {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Girona.onyar.vista.tipica.jpg/1024px-Girona.onyar.vista.tipica.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Girona.onyar.vista.tipica.jpg/1024px-Girona.onyar.vista.tipica.jpg",
         "alt": "Girona — Datei:Girona.onyar.vista.tipica",
         "sourceUrl": "https://de.wikipedia.org/wiki/Girona",
         "credit": "Vilallonga",
         "license": "CC BY-SA 2.5"
       },
       {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Farinera_Teixidor.jpg/1024px-Farinera_Teixidor.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Farinera_Teixidor.jpg/1024px-Farinera_Teixidor.jpg",
         "alt": "Girona — Datei:Farinera_Teixidor",
         "sourceUrl": "https://de.wikipedia.org/wiki/Girona",
         "credit": "Josep Renalias",
@@ -274,7 +274,7 @@
   },
   "ronda": {
     "hero": {
-      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Ronda_aerial.jpg/1024px-Ronda_aerial.jpg",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Ronda_aerial.jpg/1024px-Ronda_aerial.jpg",
       "alt": "Ronda — Datei:Ronda_aerial",
       "sourceUrl": "https://de.wikipedia.org/wiki/Ronda",
       "credit": "kallerna",
@@ -282,28 +282,28 @@
     },
     "gallery": [
       {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Ronda_Arab.Br%C3%BCcke.JPG/1024px-Ronda_Arab.Br%C3%BCcke.JPG",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Ronda_Arab.Br%C3%BCcke.JPG/1024px-Ronda_Arab.Br%C3%BCcke.JPG",
         "alt": "Ronda — Datei:Ronda_Arab.Brücke",
         "sourceUrl": "https://de.wikipedia.org/wiki/Ronda",
         "credit": "Dmicha",
         "license": "CC BY-SA 3.0 de"
       },
       {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Ronda_Gasse2004.jpg/1024px-Ronda_Gasse2004.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Ronda_Gasse2004.jpg/1024px-Ronda_Gasse2004.jpg",
         "alt": "Ronda — Datei:Ronda_Gasse2004",
         "sourceUrl": "https://de.wikipedia.org/wiki/Ronda",
         "credit": "Wikimedia Commons",
         "license": "CC BY-SA 3.0"
       },
       {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Ronda_San_Sebasti%C3%A1n_01.jpg/1024px-Ronda_San_Sebasti%C3%A1n_01.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Ronda_San_Sebasti%C3%A1n_01.jpg/1024px-Ronda_San_Sebasti%C3%A1n_01.jpg",
         "alt": "Ronda — Datei:Ronda_San_Sebastián_01",
         "sourceUrl": "https://de.wikipedia.org/wiki/Ronda",
         "credit": "Olaf Tausch",
         "license": "CC BY 3.0"
       },
       {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Arena_Ronda.JPG/1024px-Arena_Ronda.JPG",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Arena_Ronda.JPG/1024px-Arena_Ronda.JPG",
         "alt": "Ronda — Datei:Arena_Ronda",
         "sourceUrl": "https://de.wikipedia.org/wiki/Ronda",
         "credit": "Adrian Michael",
@@ -430,7 +430,7 @@
   },
   "porto": {
     "hero": {
-      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/PRT.png/1024px-PRT.png",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/PRT.png/1024px-PRT.png",
       "alt": "Porto — Datei:PRT",
       "sourceUrl": "https://de.wikipedia.org/wiki/Porto",
       "credit": "Brian Boru",
@@ -438,28 +438,28 @@
     },
     "gallery": [
       {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Pt-prt1.png/1024px-Pt-prt1.png",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Pt-prt1.png/1024px-Pt-prt1.png",
         "alt": "Porto — Datei:Pt-prt1",
         "sourceUrl": "https://de.wikipedia.org/wiki/Porto",
         "credit": "Brian Boru",
         "license": "CC BY-SA 3.0"
       },
       {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/PortoDouroImAbendlicht.jpg/1024px-PortoDouroImAbendlicht.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/PortoDouroImAbendlicht.jpg/1024px-PortoDouroImAbendlicht.jpg",
         "alt": "Porto — Datei:PortoDouroImAbendlicht",
         "sourceUrl": "https://de.wikipedia.org/wiki/Porto",
         "credit": "Joergsam",
         "license": "CC BY-SA 3.0"
       },
       {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Nt-se_do_porto1.jpg/1024px-Nt-se_do_porto1.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Nt-se_do_porto1.jpg/1024px-Nt-se_do_porto1.jpg",
         "alt": "Porto — Datei:Nt-se_do_porto1",
         "sourceUrl": "https://de.wikipedia.org/wiki/Porto",
         "credit": "No machine-readable author provided. Nuno Tavares assumed (based on copyright claims).",
         "license": "CC BY-SA 2.5"
       },
       {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Meyers_Universum_Band_02_42.jpg/1024px-Meyers_Universum_Band_02_42.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Meyers_Universum_Band_02_42.jpg/1024px-Meyers_Universum_Band_02_42.jpg",
         "alt": "Porto — Datei:Meyers_Universum_Band_02_42",
         "sourceUrl": "https://de.wikipedia.org/wiki/Porto",
         "credit": "Meyer’s Universum, oder Abbildung und Beschreibung des Sehenswerthesten und Merkwürdigsten der Natur und Kunst auf der ganzen Erde. 2. BandBibliographisches Institut, HildburghausenStecher: Johann Georg Martini",
@@ -469,7 +469,7 @@
   },
   "tallinn": {
     "hero": {
-      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Tallinna_linnaosad.png/1024px-Tallinna_linnaosad.png",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Tallinna_linnaosad.png/1024px-Tallinna_linnaosad.png",
       "alt": "Tallinn — Datei:Tallinna_linnaosad",
       "sourceUrl": "https://de.wikipedia.org/wiki/Tallinn",
       "credit": "Mmh",
@@ -477,28 +477,28 @@
     },
     "gallery": [
       {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Tallinn%2C_June_18%2C_2006.jpg/1024px-Tallinn%2C_June_18%2C_2006.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Tallinn%2C_June_18%2C_2006.jpg/1024px-Tallinn%2C_June_18%2C_2006.jpg",
         "alt": "Tallinn — Datei:Tallinn,_June_18,_2006",
         "sourceUrl": "https://de.wikipedia.org/wiki/Tallinn",
         "credit": "NASA/GSFC/METI/ERSDAC/JAROS,\n\nand U.S./Japan ASTER Science Team",
         "license": "Public domain"
       },
       {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Vistas_panor%C3%A1micas_desde_la_iglesia_de_San_Olaf%2C_Tallinn%2C_Estonia%2C_2012-08-05%2C_DD_21-22_PAN.JPG/1024px-Vistas_panor%C3%A1micas_desde_la_iglesia_de_San_Olaf%2C_Tallinn%2C_Estonia%2C_2012-08-05%2C_DD_21-22_PAN.JPG",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Vistas_panor%C3%A1micas_desde_la_iglesia_de_San_Olaf%2C_Tallinn%2C_Estonia%2C_2012-08-05%2C_DD_21-22_PAN.JPG/1024px-Vistas_panor%C3%A1micas_desde_la_iglesia_de_San_Olaf%2C_Tallinn%2C_Estonia%2C_2012-08-05%2C_DD_21-22_PAN.JPG",
         "alt": "Tallinn — Datei:Vistas_panorámicas_desde_la_iglesia_de_San_Olaf,_Tallinn,_Estonia,_2012-08-05,_DD_21-22_PAN",
         "sourceUrl": "https://de.wikipedia.org/wiki/Tallinn",
         "credit": "Diego Delso",
         "license": "CC BY-SA 3.0"
       },
       {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Vistas_panor%C3%A1micas_desde_la_iglesia_de_San_Olaf%2C_Tallinn%2C_Estonia%2C_2012-08-05%2C_DD_29.JPG/1024px-Vistas_panor%C3%A1micas_desde_la_iglesia_de_San_Olaf%2C_Tallinn%2C_Estonia%2C_2012-08-05%2C_DD_29.JPG",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Vistas_panor%C3%A1micas_desde_la_iglesia_de_San_Olaf%2C_Tallinn%2C_Estonia%2C_2012-08-05%2C_DD_29.JPG/1024px-Vistas_panor%C3%A1micas_desde_la_iglesia_de_San_Olaf%2C_Tallinn%2C_Estonia%2C_2012-08-05%2C_DD_29.JPG",
         "alt": "Tallinn — Datei:Vistas_panorámicas_desde_la_iglesia_de_San_Olaf,_Tallinn,_Estonia,_2012-08-05,_DD_29",
         "sourceUrl": "https://de.wikipedia.org/wiki/Tallinn",
         "credit": "Diego Delso",
         "license": "CC BY-SA 3.0"
       },
       {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Reval_im_Jahre_1630.png/1024px-Reval_im_Jahre_1630.png",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Reval_im_Jahre_1630.png/1024px-Reval_im_Jahre_1630.png",
         "alt": "Tallinn — Datei:Reval_im_Jahre_1630",
         "sourceUrl": "https://de.wikipedia.org/wiki/Tallinn",
         "credit": "Wikimedia Commons",
@@ -859,7 +859,7 @@
   },
   "torshavn": {
     "hero": {
-      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Torshavn.png/1024px-Torshavn.png",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Torshavn.png/1024px-Torshavn.png",
       "alt": "Tórshavn — Datei:Torshavn",
       "sourceUrl": "https://de.wikipedia.org/wiki/T%C3%B3rshavn",
       "credit": "Anker Eli Petersen",
@@ -867,28 +867,28 @@
     },
     "gallery": [
       {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Faroe_stamps_133-135_hafnia_-_torshavn_1782.jpg/1024px-Faroe_stamps_133-135_hafnia_-_torshavn_1782.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Faroe_stamps_133-135_hafnia_-_torshavn_1782.jpg/1024px-Faroe_stamps_133-135_hafnia_-_torshavn_1782.jpg",
         "alt": "Tórshavn — Datei:Faroe_stamps_133-135_hafnia_-_torshavn_1782",
         "sourceUrl": "https://de.wikipedia.org/wiki/T%C3%B3rshavn",
         "credit": "Wikimedia Commons",
         "license": "Public domain"
       },
       {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Recherche_Expedition_1839_T%C3%B3rshavn.jpg/1024px-Recherche_Expedition_1839_T%C3%B3rshavn.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Recherche_Expedition_1839_T%C3%B3rshavn.jpg/1024px-Recherche_Expedition_1839_T%C3%B3rshavn.jpg",
         "alt": "Tórshavn — Datei:Recherche_Expedition_1839_Tórshavn",
         "sourceUrl": "https://de.wikipedia.org/wiki/T%C3%B3rshavn",
         "credit": "Barthélemy Lauvergne",
         "license": "Public domain"
       },
       {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/T%C3%B3rshavn_-_Bringsnag%C3%B8ta.jpg/1024px-T%C3%B3rshavn_-_Bringsnag%C3%B8ta.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/T%C3%B3rshavn_-_Bringsnag%C3%B8ta.jpg/1024px-T%C3%B3rshavn_-_Bringsnag%C3%B8ta.jpg",
         "alt": "Tórshavn — Datei:Tórshavn_-_Bringsnagøta",
         "sourceUrl": "https://de.wikipedia.org/wiki/T%C3%B3rshavn",
         "credit": "Generalstabens topografiske Afdeling (Danish General Staff, topographic department)",
         "license": "Public domain"
       },
       {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Norr%C3%B6na.02.jpg/1024px-Norr%C3%B6na.02.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Norr%C3%B6na.02.jpg/1024px-Norr%C3%B6na.02.jpg",
         "alt": "Tórshavn — Datei:Norröna.02",
         "sourceUrl": "https://de.wikipedia.org/wiki/T%C3%B3rshavn",
         "credit": "Erik Christensen",
@@ -1210,7 +1210,7 @@
   },
   "dubrovnik": {
     "hero": {
-      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Casco_viejo_de_Dubrovnik%2C_Croacia%2C_2014-04-14%2C_DD_11.JPG/1024px-Casco_viejo_de_Dubrovnik%2C_Croacia%2C_2014-04-14%2C_DD_11.JPG",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Casco_viejo_de_Dubrovnik%2C_Croacia%2C_2014-04-14%2C_DD_11.JPG/1024px-Casco_viejo_de_Dubrovnik%2C_Croacia%2C_2014-04-14%2C_DD_11.JPG",
       "alt": "Dubrovnik — Datei:Casco_viejo_de_Dubrovnik,_Croacia,_2014-04-14,_DD_11",
       "sourceUrl": "https://de.wikipedia.org/wiki/Dubrovnik",
       "credit": "Diego Delso",
@@ -1218,28 +1218,28 @@
     },
     "gallery": [
       {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Dubrovnik_Municipality.jpg/1024px-Dubrovnik_Municipality.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Dubrovnik_Municipality.jpg/1024px-Dubrovnik_Municipality.jpg",
         "alt": "Dubrovnik — Datei:Dubrovnik_Municipality",
         "sourceUrl": "https://de.wikipedia.org/wiki/Dubrovnik",
         "credit": "Villarreal9",
         "license": "CC BY-SA 4.0"
       },
       {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Z3818_Kulturno-povijesna_urbanisti%C4%8Dka_cjelina_Dubrovnika_%286%29.jpg/1024px-Z3818_Kulturno-povijesna_urbanisti%C4%8Dka_cjelina_Dubrovnika_%286%29.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Z3818_Kulturno-povijesna_urbanisti%C4%8Dka_cjelina_Dubrovnika_%286%29.jpg/1024px-Z3818_Kulturno-povijesna_urbanisti%C4%8Dka_cjelina_Dubrovnika_%286%29.jpg",
         "alt": "Dubrovnik — Datei:Z3818_Kulturno-povijesna_urbanistička_cjelina_Dubrovnika_(6)",
         "sourceUrl": "https://de.wikipedia.org/wiki/Dubrovnik",
         "credit": "Miroslav.vajdic",
         "license": "CC BY-SA 4.0"
       },
       {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Tafel_115a_Ragusa-Dubrovnik_-_vor_dem_Erdbeben_1667_-_Heliografie_Kowalczyk_1909.jpg/1024px-Tafel_115a_Ragusa-Dubrovnik_-_vor_dem_Erdbeben_1667_-_Heliografie_Kowalczyk_1909.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Tafel_115a_Ragusa-Dubrovnik_-_vor_dem_Erdbeben_1667_-_Heliografie_Kowalczyk_1909.jpg/1024px-Tafel_115a_Ragusa-Dubrovnik_-_vor_dem_Erdbeben_1667_-_Heliografie_Kowalczyk_1909.jpg",
         "alt": "Dubrovnik — Datei:Tafel_115a_Ragusa-Dubrovnik_-_vor_dem_Erdbeben_1667_-_Heliografie_Kowalczyk_1909",
         "sourceUrl": "https://de.wikipedia.org/wiki/Dubrovnik",
         "credit": "Georg Kowalczyk; Fotografie, Scan and postprocessing by Hubertl",
         "license": "Public domain"
       },
       {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Dubrovnik%2C_Information-Panel_retouched.jpg/1024px-Dubrovnik%2C_Information-Panel_retouched.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Dubrovnik%2C_Information-Panel_retouched.jpg/1024px-Dubrovnik%2C_Information-Panel_retouched.jpg",
         "alt": "Dubrovnik — Datei:Dubrovnik,_Information-Panel_retouched",
         "sourceUrl": "https://de.wikipedia.org/wiki/Dubrovnik",
         "credit": "Modzzak",
@@ -1366,7 +1366,7 @@
   },
   "eze": {
     "hero": {
-      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/%C3%88ze-sur-Mer%2C_PACA%2C_France.jpg/1024px-%C3%88ze-sur-Mer%2C_PACA%2C_France.jpg",
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/%C3%88ze-sur-Mer%2C_PACA%2C_France.jpg/1024px-%C3%88ze-sur-Mer%2C_PACA%2C_France.jpg",
       "alt": "Èze — Datei:Èze-sur-Mer,_PACA,_France",
       "sourceUrl": "https://de.wikipedia.org/wiki/%C3%88ze",
       "credit": "Tangopaso",
@@ -1374,28 +1374,28 @@
     },
     "gallery": [
       {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Image-eze_vue_du_jardin_botanique.jpg/1024px-Image-eze_vue_du_jardin_botanique.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Image-eze_vue_du_jardin_botanique.jpg/1024px-Image-eze_vue_du_jardin_botanique.jpg",
         "alt": "Èze — Datei:Image-eze_vue_du_jardin_botanique",
         "sourceUrl": "https://de.wikipedia.org/wiki/%C3%88ze",
         "credit": "Patrick Giraud",
         "license": "CC BY-SA 2.0"
       },
       {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Eze_jardin_exotique.JPG/1024px-Eze_jardin_exotique.JPG",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Eze_jardin_exotique.JPG/1024px-Eze_jardin_exotique.JPG",
         "alt": "Èze — Datei:Eze_jardin_exotique",
         "sourceUrl": "https://de.wikipedia.org/wiki/%C3%88ze",
         "credit": "Berthold Werner",
         "license": "Public domain"
       },
       {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Nolina_Eze.JPG/1024px-Nolina_Eze.JPG",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Nolina_Eze.JPG/1024px-Nolina_Eze.JPG",
         "alt": "Èze — Datei:Nolina_Eze",
         "sourceUrl": "https://de.wikipedia.org/wiki/%C3%88ze",
         "credit": "Berthold Werner",
         "license": "CC BY-SA 3.0"
       },
       {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Eze_Street.JPG/1024px-Eze_Street.JPG",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Eze_Street.JPG/1024px-Eze_Street.JPG",
         "alt": "Èze — Datei:Eze_Street",
         "sourceUrl": "https://de.wikipedia.org/wiki/%C3%88ze",
         "credit": "Berthold Werner",
